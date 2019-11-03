@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="National Guard Suite" annotations="JDK" >
+         
+  <test name="GetStarted">
+	 <classes>
+	   <class name="com.nationalguard.MavenDataDrivenNationalGuard.NationalGuardGetStarted"/>
+	 </classes>
+   </test>
+   
+ <test name="FiltnessCalculator">
+	 <classes>
+	   <class name="com.nationalguard.MavenDataDrivenNationalGuard.FitnessCal"/>
+	 </classes>
+   </test>
+   
+   <test name="GuardPay">
+	 <classes>
+	   <class name="com.nationalguard.MavenDataDrivenNationalGuard.GuardPayTest"/>
+	 </classes>
+   </test>
+   
+   <test name="WeightCalculator">
+	 <classes>
+	   <class name="com.nationalguard.MavenDataDrivenNationalGuard.WeightCalculatorTest"/>
+	 </classes>
+   </test> 
+</suite>
