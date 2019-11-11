@@ -1,17 +1,21 @@
 package com.nationalguard.MavenDataDrivenNationalGuard;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.nationalguard.MavenDataDrivenNationalGuard.ExcelUtility.Xls_Reader;
 import com.nationalguard.base.BaseTest;
+import com.nationalguard.utility.Helper;
 
 public class NationalGuardGetStarted extends BaseTest {
 
 	@Test
-	public void getStartedForm() {
+	public void getStartedForm() throws IOException {
 		
 		test = extent.createTest("Get Started Form");
 		test.log(Status.INFO, "Get Started Form");
@@ -113,6 +117,8 @@ public class NationalGuardGetStarted extends BaseTest {
 			}
 			System.out.println("The Recruiter appointed to the " + zipcode + " is " + recruiter);
 			test.log(Status.INFO, "The Recruiter appointed to the " + zipcode + " is " + recruiter);
+			test.pass("Test Passed", MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshot(driver)).build());
+			
 			// check Recruiter
 			// write the data in the cell
 			// xls.setCellData("RegTestData", "Status", rowNum, "Pass");
