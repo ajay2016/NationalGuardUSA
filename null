@@ -1,4 +1,4 @@
-[1572763279.789][INFO]: COMMAND InitSession {
+[1573437534.706][INFO]: COMMAND InitSession {
    "capabilities": {
       "desiredCapabilities": {
          "browserName": "chrome",
@@ -23,7 +23,7 @@
       }
    }
 }
-[1572763279.795][INFO]: Populating Preferences file: {
+[1573437534.709][INFO]: Populating Preferences file: {
    "alternate_error_pages": {
       "enabled": false
    },
@@ -76,7 +76,7 @@
       "enabled": false
    }
 }
-[1572763279.798][INFO]: Populating Local State file: {
+[1573437534.710][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -86,9 +86,9 @@
       }
    }
 }
-[1572763279.810][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\ajay\AppData\Local\Temp\scoped_dir18832_20576\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\ajay\AppData\Local\Temp\scoped_dir18832_30775" data:,
-[1572763280.899][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1572763281.937][INFO]: RESPONSE InitSession {
+[1573437534.716][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\ajay\AppData\Local\Temp\scoped_dir14484_11658\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\ajay\AppData\Local\Temp\scoped_dir14484_14908" data:,
+[1573437535.725][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1573437536.748][INFO]: RESPONSE InitSession {
    "acceptInsecureCerts": false,
    "acceptSslCerts": false,
    "applicationCacheEnabled": false,
@@ -96,7 +96,7 @@
    "browserName": "chrome",
    "chrome": {
       "chromedriverVersion": "2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9)",
-      "userDataDir": "C:\\Users\\ajay\\AppData\\Local\\Temp\\scoped_dir18832_30775"
+      "userDataDir": "C:\\Users\\ajay\\AppData\\Local\\Temp\\scoped_dir14484_14908"
    },
    "cssSelectorsEnabled": true,
    "databaseEnabled": false,
@@ -113,3 +113,4091 @@
    "setWindowRect": true,
    "~~~": "..."
 }
+[1573437536.794][INFO]: COMMAND MaximizeWindow {
+   "handle": "current",
+   "windowHandle": "current"
+}
+[1573437536.795][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1573437537.925][INFO]: RESPONSE MaximizeWindow
+[1573437537.936][INFO]: COMMAND SetTimeout {
+   "ms": 30000,
+   "type": "page load"
+}
+[1573437537.936][INFO]: RESPONSE SetTimeout
+[1573437537.940][INFO]: COMMAND SetTimeout {
+   "ms": 30000,
+   "type": "script"
+}
+[1573437537.941][INFO]: RESPONSE SetTimeout
+[1573437537.948][INFO]: COMMAND SetTimeout {
+   "ms": 30000,
+   "type": "implicit"
+}
+[1573437537.948][INFO]: RESPONSE SetTimeout
+[1573437537.952][INFO]: COMMAND Navigate {
+   "url": "https://www.nationalguard.com/"
+}
+[1573437537.952][INFO]: Waiting for pending navigations...
+[1573437537.968][INFO]: Done waiting for pending navigations. Status: ok
+[1573437539.013][INFO]: Waiting for pending navigations...
+[1573437555.724][INFO]: Done waiting for pending navigations. Status: ok
+[1573437555.724][INFO]: RESPONSE Navigate
+[1573437555.770][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "button"
+}
+[1573437555.770][INFO]: Waiting for pending navigations...
+[1573437555.771][INFO]: Done waiting for pending navigations. Status: ok
+[1573437555.783][INFO]: Waiting for pending navigations...
+[1573437555.784][INFO]: Done waiting for pending navigations. Status: ok
+[1573437555.784][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-1"
+}
+[1573437555.789][INFO]: COMMAND ClickElement {
+   "id": "0.8535545871577679-1"
+}
+[1573437555.790][INFO]: Waiting for pending navigations...
+[1573437555.790][INFO]: Done waiting for pending navigations. Status: ok
+[1573437556.284][INFO]: Waiting for pending navigations...
+[1573437556.450][INFO]: Done waiting for pending navigations. Status: ok
+[1573437556.450][INFO]: RESPONSE ClickElement
+[1573437557.643][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_first_name"
+}
+[1573437557.673][INFO]: Waiting for pending navigations...
+[1573437558.473][INFO]: Done waiting for pending navigations. Status: ok
+[1573437558.484][INFO]: Waiting for pending navigations...
+[1573437558.486][INFO]: Done waiting for pending navigations. Status: ok
+[1573437558.486][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-2"
+}
+[1573437558.494][INFO]: COMMAND ClearElement {
+   "id": "0.8535545871577679-2"
+}
+[1573437558.494][INFO]: Waiting for pending navigations...
+[1573437558.498][INFO]: Done waiting for pending navigations. Status: ok
+[1573437558.565][INFO]: Waiting for pending navigations...
+[1573437558.568][INFO]: Done waiting for pending navigations. Status: ok
+[1573437558.568][INFO]: RESPONSE ClearElement
+[1573437558.582][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_first_name"
+}
+[1573437558.582][INFO]: Waiting for pending navigations...
+[1573437558.583][INFO]: Done waiting for pending navigations. Status: ok
+[1573437558.589][INFO]: Waiting for pending navigations...
+[1573437558.590][INFO]: Done waiting for pending navigations. Status: ok
+[1573437558.590][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-2"
+}
+[1573437558.606][INFO]: COMMAND TypeElement {
+   "id": "0.8535545871577679-2",
+   "value": [ "Tom" ]
+}
+[1573437558.606][INFO]: Waiting for pending navigations...
+[1573437558.607][INFO]: Done waiting for pending navigations. Status: ok
+[1573437558.714][INFO]: Waiting for pending navigations...
+[1573437558.716][INFO]: Done waiting for pending navigations. Status: ok
+[1573437558.716][INFO]: RESPONSE TypeElement
+[1573437558.724][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_last_name"
+}
+[1573437558.724][INFO]: Waiting for pending navigations...
+[1573437558.725][INFO]: Done waiting for pending navigations. Status: ok
+[1573437558.744][INFO]: Waiting for pending navigations...
+[1573437558.747][INFO]: Done waiting for pending navigations. Status: ok
+[1573437558.747][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-3"
+}
+[1573437558.754][INFO]: COMMAND ClearElement {
+   "id": "0.8535545871577679-3"
+}
+[1573437558.754][INFO]: Waiting for pending navigations...
+[1573437558.755][INFO]: Done waiting for pending navigations. Status: ok
+[1573437558.783][INFO]: Waiting for pending navigations...
+[1573437558.784][INFO]: Done waiting for pending navigations. Status: ok
+[1573437558.784][INFO]: RESPONSE ClearElement
+[1573437558.792][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_last_name"
+}
+[1573437558.802][INFO]: Waiting for pending navigations...
+[1573437558.803][INFO]: Done waiting for pending navigations. Status: ok
+[1573437558.808][INFO]: Waiting for pending navigations...
+[1573437558.809][INFO]: Done waiting for pending navigations. Status: ok
+[1573437558.809][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-3"
+}
+[1573437558.816][INFO]: COMMAND TypeElement {
+   "id": "0.8535545871577679-3",
+   "value": [ "Smith" ]
+}
+[1573437558.816][INFO]: Waiting for pending navigations...
+[1573437558.818][INFO]: Done waiting for pending navigations. Status: ok
+[1573437558.891][INFO]: Waiting for pending navigations...
+[1573437558.892][INFO]: Done waiting for pending navigations. Status: ok
+[1573437558.892][INFO]: RESPONSE TypeElement
+[1573437558.930][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_email"
+}
+[1573437558.930][INFO]: Waiting for pending navigations...
+[1573437558.933][INFO]: Done waiting for pending navigations. Status: ok
+[1573437558.945][INFO]: Waiting for pending navigations...
+[1573437558.946][INFO]: Done waiting for pending navigations. Status: ok
+[1573437558.946][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-4"
+}
+[1573437558.951][INFO]: COMMAND ClearElement {
+   "id": "0.8535545871577679-4"
+}
+[1573437558.952][INFO]: Waiting for pending navigations...
+[1573437558.952][INFO]: Done waiting for pending navigations. Status: ok
+[1573437558.971][INFO]: Waiting for pending navigations...
+[1573437558.972][INFO]: Done waiting for pending navigations. Status: ok
+[1573437558.972][INFO]: RESPONSE ClearElement
+[1573437558.977][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_email"
+}
+[1573437558.977][INFO]: Waiting for pending navigations...
+[1573437558.981][INFO]: Done waiting for pending navigations. Status: ok
+[1573437558.988][INFO]: Waiting for pending navigations...
+[1573437558.994][INFO]: Done waiting for pending navigations. Status: ok
+[1573437558.994][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-4"
+}
+[1573437558.999][INFO]: COMMAND TypeElement {
+   "id": "0.8535545871577679-4",
+   "value": [ "tom@ggg.com" ]
+}
+[1573437558.999][INFO]: Waiting for pending navigations...
+[1573437559.001][INFO]: Done waiting for pending navigations. Status: ok
+[1573437559.318][INFO]: Waiting for pending navigations...
+[1573437559.322][INFO]: Done waiting for pending navigations. Status: ok
+[1573437559.322][INFO]: RESPONSE TypeElement
+[1573437559.334][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_phone"
+}
+[1573437559.334][INFO]: Waiting for pending navigations...
+[1573437559.336][INFO]: Done waiting for pending navigations. Status: ok
+[1573437559.348][INFO]: Waiting for pending navigations...
+[1573437559.356][INFO]: Done waiting for pending navigations. Status: ok
+[1573437559.356][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-5"
+}
+[1573437559.361][INFO]: COMMAND ClearElement {
+   "id": "0.8535545871577679-5"
+}
+[1573437559.361][INFO]: Waiting for pending navigations...
+[1573437559.363][INFO]: Done waiting for pending navigations. Status: ok
+[1573437559.403][INFO]: Waiting for pending navigations...
+[1573437559.405][INFO]: Done waiting for pending navigations. Status: ok
+[1573437559.405][INFO]: RESPONSE ClearElement
+[1573437559.412][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_phone"
+}
+[1573437559.412][INFO]: Waiting for pending navigations...
+[1573437559.418][INFO]: Done waiting for pending navigations. Status: ok
+[1573437559.435][INFO]: Waiting for pending navigations...
+[1573437559.437][INFO]: Done waiting for pending navigations. Status: ok
+[1573437559.437][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-5"
+}
+[1573437559.447][INFO]: COMMAND TypeElement {
+   "id": "0.8535545871577679-5",
+   "value": [ "222222222" ]
+}
+[1573437559.447][INFO]: Waiting for pending navigations...
+[1573437559.465][INFO]: Done waiting for pending navigations. Status: ok
+[1573437559.669][INFO]: Waiting for pending navigations...
+[1573437559.671][INFO]: Done waiting for pending navigations. Status: ok
+[1573437559.671][INFO]: RESPONSE TypeElement
+[1573437559.677][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_zip"
+}
+[1573437559.677][INFO]: Waiting for pending navigations...
+[1573437559.678][INFO]: Done waiting for pending navigations. Status: ok
+[1573437559.689][INFO]: Waiting for pending navigations...
+[1573437559.690][INFO]: Done waiting for pending navigations. Status: ok
+[1573437559.691][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-6"
+}
+[1573437559.697][INFO]: COMMAND ClearElement {
+   "id": "0.8535545871577679-6"
+}
+[1573437559.697][INFO]: Waiting for pending navigations...
+[1573437559.698][INFO]: Done waiting for pending navigations. Status: ok
+[1573437559.717][INFO]: Waiting for pending navigations...
+[1573437559.718][INFO]: Done waiting for pending navigations. Status: ok
+[1573437559.718][INFO]: RESPONSE ClearElement
+[1573437559.723][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_zip"
+}
+[1573437559.723][INFO]: Waiting for pending navigations...
+[1573437559.734][INFO]: Done waiting for pending navigations. Status: ok
+[1573437559.746][INFO]: Waiting for pending navigations...
+[1573437559.749][INFO]: Done waiting for pending navigations. Status: ok
+[1573437559.749][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-6"
+}
+[1573437559.757][INFO]: COMMAND TypeElement {
+   "id": "0.8535545871577679-6",
+   "value": [ "22009" ]
+}
+[1573437559.757][INFO]: Waiting for pending navigations...
+[1573437559.758][INFO]: Done waiting for pending navigations. Status: ok
+[1573437559.890][INFO]: Waiting for pending navigations...
+[1573437559.891][INFO]: Done waiting for pending navigations. Status: ok
+[1573437559.891][INFO]: RESPONSE TypeElement
+[1573437559.898][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437559.898][INFO]: Waiting for pending navigations...
+[1573437559.903][INFO]: Done waiting for pending navigations. Status: ok
+[1573437559.922][INFO]: Waiting for pending navigations...
+[1573437559.924][INFO]: Done waiting for pending navigations. Status: ok
+[1573437559.924][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-7"
+}
+[1573437559.932][INFO]: COMMAND ClickElement {
+   "id": "0.8535545871577679-7"
+}
+[1573437559.932][INFO]: Waiting for pending navigations...
+[1573437559.933][INFO]: Done waiting for pending navigations. Status: ok
+[1573437560.117][INFO]: Waiting for pending navigations...
+[1573437560.118][INFO]: Done waiting for pending navigations. Status: ok
+[1573437560.118][INFO]: RESPONSE ClickElement
+[1573437560.149][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_birth_date"
+}
+[1573437560.149][INFO]: Waiting for pending navigations...
+[1573437560.154][INFO]: Done waiting for pending navigations. Status: ok
+[1573437560.524][INFO]: Waiting for pending navigations...
+[1573437560.533][INFO]: Done waiting for pending navigations. Status: ok
+[1573437560.534][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-8"
+}
+[1573437560.541][INFO]: COMMAND ClearElement {
+   "id": "0.8535545871577679-8"
+}
+[1573437560.541][INFO]: Waiting for pending navigations...
+[1573437560.551][INFO]: Done waiting for pending navigations. Status: ok
+[1573437560.598][INFO]: Waiting for pending navigations...
+[1573437560.605][INFO]: Done waiting for pending navigations. Status: ok
+[1573437560.605][INFO]: RESPONSE ClearElement
+[1573437560.670][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_birth_date"
+}
+[1573437560.670][INFO]: Waiting for pending navigations...
+[1573437560.671][INFO]: Done waiting for pending navigations. Status: ok
+[1573437560.687][INFO]: Waiting for pending navigations...
+[1573437560.689][INFO]: Done waiting for pending navigations. Status: ok
+[1573437560.689][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-8"
+}
+[1573437560.701][INFO]: COMMAND TypeElement {
+   "id": "0.8535545871577679-8",
+   "value": [ "02-11-1990" ]
+}
+[1573437560.701][INFO]: Waiting for pending navigations...
+[1573437560.703][INFO]: Done waiting for pending navigations. Status: ok
+[1573437560.847][INFO]: Waiting for pending navigations...
+[1573437560.848][INFO]: Done waiting for pending navigations. Status: ok
+[1573437560.848][INFO]: RESPONSE TypeElement
+[1573437560.855][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437560.855][INFO]: Waiting for pending navigations...
+[1573437560.856][INFO]: Done waiting for pending navigations. Status: ok
+[1573437560.865][INFO]: Waiting for pending navigations...
+[1573437560.866][INFO]: Done waiting for pending navigations. Status: ok
+[1573437560.866][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-9"
+}
+[1573437560.873][INFO]: COMMAND ClickElement {
+   "id": "0.8535545871577679-9"
+}
+[1573437560.873][INFO]: Waiting for pending navigations...
+[1573437560.878][INFO]: Done waiting for pending navigations. Status: ok
+[1573437561.117][INFO]: Waiting for pending navigations...
+[1573437561.918][INFO]: Done waiting for pending navigations. Status: ok
+[1573437561.918][INFO]: RESPONSE ClickElement
+[1573437561.925][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_phone"
+}
+[1573437561.925][INFO]: Waiting for pending navigations...
+[1573437561.926][INFO]: Done waiting for pending navigations. Status: ok
+[1573437561.934][INFO]: Waiting for pending navigations...
+[1573437561.935][INFO]: Done waiting for pending navigations. Status: ok
+[1573437561.935][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-10"
+}
+[1573437561.942][INFO]: COMMAND ClearElement {
+   "id": "0.8535545871577679-10"
+}
+[1573437561.942][INFO]: Waiting for pending navigations...
+[1573437561.943][INFO]: Done waiting for pending navigations. Status: ok
+[1573437561.974][INFO]: Waiting for pending navigations...
+[1573437561.976][INFO]: Done waiting for pending navigations. Status: ok
+[1573437561.976][INFO]: RESPONSE ClearElement
+[1573437561.984][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_phone"
+}
+[1573437561.984][INFO]: Waiting for pending navigations...
+[1573437561.987][INFO]: Done waiting for pending navigations. Status: ok
+[1573437561.994][INFO]: Waiting for pending navigations...
+[1573437561.996][INFO]: Done waiting for pending navigations. Status: ok
+[1573437561.996][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-10"
+}
+[1573437562.001][INFO]: COMMAND TypeElement {
+   "id": "0.8535545871577679-10",
+   "value": [ "(571)-379-0222" ]
+}
+[1573437562.001][INFO]: Waiting for pending navigations...
+[1573437562.002][INFO]: Done waiting for pending navigations. Status: ok
+[1573437562.188][INFO]: Waiting for pending navigations...
+[1573437562.444][INFO]: Done waiting for pending navigations. Status: ok
+[1573437562.444][INFO]: RESPONSE TypeElement
+[1573437562.450][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437562.450][INFO]: Waiting for pending navigations...
+[1573437562.451][INFO]: Done waiting for pending navigations. Status: ok
+[1573437562.457][INFO]: Waiting for pending navigations...
+[1573437562.458][INFO]: Done waiting for pending navigations. Status: ok
+[1573437562.458][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-11"
+}
+[1573437562.466][INFO]: COMMAND ClickElement {
+   "id": "0.8535545871577679-11"
+}
+[1573437562.466][INFO]: Waiting for pending navigations...
+[1573437562.467][INFO]: Done waiting for pending navigations. Status: ok
+[1573437562.553][INFO]: Waiting for pending navigations...
+[1573437562.752][INFO]: Done waiting for pending navigations. Status: ok
+[1573437562.752][INFO]: RESPONSE ClickElement
+[1573437562.756][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='gender_1']"
+}
+[1573437562.756][INFO]: Waiting for pending navigations...
+[1573437562.757][INFO]: Done waiting for pending navigations. Status: ok
+[1573437562.771][INFO]: Waiting for pending navigations...
+[1573437562.772][INFO]: Done waiting for pending navigations. Status: ok
+[1573437562.772][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-12"
+}
+[1573437562.781][INFO]: COMMAND ClickElement {
+   "id": "0.8535545871577679-12"
+}
+[1573437562.781][INFO]: Waiting for pending navigations...
+[1573437562.782][INFO]: Done waiting for pending navigations. Status: ok
+[1573437562.853][INFO]: Waiting for pending navigations...
+[1573437562.857][INFO]: Done waiting for pending navigations. Status: ok
+[1573437562.857][INFO]: RESPONSE ClickElement
+[1573437562.866][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437562.866][INFO]: Waiting for pending navigations...
+[1573437562.867][INFO]: Done waiting for pending navigations. Status: ok
+[1573437562.872][INFO]: Waiting for pending navigations...
+[1573437562.873][INFO]: Done waiting for pending navigations. Status: ok
+[1573437562.873][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-13"
+}
+[1573437562.878][INFO]: COMMAND ClickElement {
+   "id": "0.8535545871577679-13"
+}
+[1573437562.879][INFO]: Waiting for pending navigations...
+[1573437562.880][INFO]: Done waiting for pending navigations. Status: ok
+[1573437562.983][INFO]: Waiting for pending navigations...
+[1573437562.994][INFO]: Done waiting for pending navigations. Status: ok
+[1573437562.994][INFO]: RESPONSE ClickElement
+[1573437563.000][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='military_1']"
+}
+[1573437563.000][INFO]: Waiting for pending navigations...
+[1573437563.001][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.015][INFO]: Waiting for pending navigations...
+[1573437563.016][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.017][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-14"
+}
+[1573437563.021][INFO]: COMMAND ClickElement {
+   "id": "0.8535545871577679-14"
+}
+[1573437563.022][INFO]: Waiting for pending navigations...
+[1573437563.022][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.118][INFO]: Waiting for pending navigations...
+[1573437563.122][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.123][INFO]: RESPONSE ClickElement
+[1573437563.128][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437563.128][INFO]: Waiting for pending navigations...
+[1573437563.132][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.137][INFO]: Waiting for pending navigations...
+[1573437563.138][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.138][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-15"
+}
+[1573437563.144][INFO]: COMMAND ClickElement {
+   "id": "0.8535545871577679-15"
+}
+[1573437563.144][INFO]: Waiting for pending navigations...
+[1573437563.148][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.249][INFO]: Waiting for pending navigations...
+[1573437563.255][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.255][INFO]: RESPONSE ClickElement
+[1573437563.261][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='high_school_0']"
+}
+[1573437563.261][INFO]: Waiting for pending navigations...
+[1573437563.262][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.273][INFO]: Waiting for pending navigations...
+[1573437563.274][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.274][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-16"
+}
+[1573437563.284][INFO]: COMMAND ClickElement {
+   "id": "0.8535545871577679-16"
+}
+[1573437563.284][INFO]: Waiting for pending navigations...
+[1573437563.286][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.355][INFO]: Waiting for pending navigations...
+[1573437563.357][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.357][INFO]: RESPONSE ClickElement
+[1573437563.363][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437563.363][INFO]: Waiting for pending navigations...
+[1573437563.365][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.371][INFO]: Waiting for pending navigations...
+[1573437563.372][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.372][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-17"
+}
+[1573437563.377][INFO]: COMMAND ClickElement {
+   "id": "0.8535545871577679-17"
+}
+[1573437563.377][INFO]: Waiting for pending navigations...
+[1573437563.381][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.482][INFO]: Waiting for pending navigations...
+[1573437563.548][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.548][INFO]: RESPONSE ClickElement
+[1573437563.551][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='college_0']"
+}
+[1573437563.551][INFO]: Waiting for pending navigations...
+[1573437563.552][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.567][INFO]: Waiting for pending navigations...
+[1573437563.573][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.573][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-18"
+}
+[1573437563.580][INFO]: COMMAND ClickElement {
+   "id": "0.8535545871577679-18"
+}
+[1573437563.580][INFO]: Waiting for pending navigations...
+[1573437563.581][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.650][INFO]: Waiting for pending navigations...
+[1573437563.654][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.654][INFO]: RESPONSE ClickElement
+[1573437563.658][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437563.658][INFO]: Waiting for pending navigations...
+[1573437563.665][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.672][INFO]: Waiting for pending navigations...
+[1573437563.672][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.673][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-19"
+}
+[1573437563.681][INFO]: COMMAND ClickElement {
+   "id": "0.8535545871577679-19"
+}
+[1573437563.681][INFO]: Waiting for pending navigations...
+[1573437563.684][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.797][INFO]: Waiting for pending navigations...
+[1573437563.806][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.806][INFO]: RESPONSE ClickElement
+[1573437563.811][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='college_degree_1']"
+}
+[1573437563.811][INFO]: Waiting for pending navigations...
+[1573437563.813][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.826][INFO]: Waiting for pending navigations...
+[1573437563.831][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.831][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-20"
+}
+[1573437563.838][INFO]: COMMAND ClickElement {
+   "id": "0.8535545871577679-20"
+}
+[1573437563.838][INFO]: Waiting for pending navigations...
+[1573437563.839][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.924][INFO]: Waiting for pending navigations...
+[1573437563.928][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.928][INFO]: RESPONSE ClickElement
+[1573437563.934][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437563.934][INFO]: Waiting for pending navigations...
+[1573437563.935][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.944][INFO]: Waiting for pending navigations...
+[1573437563.948][INFO]: Done waiting for pending navigations. Status: ok
+[1573437563.948][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-21"
+}
+[1573437563.957][INFO]: COMMAND ClickElement {
+   "id": "0.8535545871577679-21"
+}
+[1573437563.957][INFO]: Waiting for pending navigations...
+[1573437563.958][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.065][INFO]: Waiting for pending navigations...
+[1573437564.079][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.079][INFO]: RESPONSE ClickElement
+[1573437564.096][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='feet']"
+}
+[1573437564.096][INFO]: Waiting for pending navigations...
+[1573437564.097][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.116][INFO]: Waiting for pending navigations...
+[1573437564.120][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.120][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-22"
+}
+[1573437564.123][INFO]: COMMAND GetElementTagName {
+   "id": "0.8535545871577679-22"
+}
+[1573437564.123][INFO]: Waiting for pending navigations...
+[1573437564.124][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.129][INFO]: Waiting for pending navigations...
+[1573437564.132][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.132][INFO]: RESPONSE GetElementTagName "select"
+[1573437564.136][INFO]: COMMAND GetElementAttribute {
+   "id": "0.8535545871577679-22",
+   "name": "multiple"
+}
+[1573437564.136][INFO]: Waiting for pending navigations...
+[1573437564.137][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.140][INFO]: Waiting for pending navigations...
+[1573437564.141][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.141][INFO]: RESPONSE GetElementAttribute null
+[1573437564.149][INFO]: COMMAND FindChildElements {
+   "id": "0.8535545871577679-22",
+   "using": "xpath",
+   "value": ".//option[normalize-space(.) = \"5\"]"
+}
+[1573437564.149][INFO]: Waiting for pending navigations...
+[1573437564.150][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.163][INFO]: Waiting for pending navigations...
+[1573437564.165][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.165][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.8535545871577679-23"
+} ]
+[1573437564.172][INFO]: COMMAND IsElementSelected {
+   "id": "0.8535545871577679-23"
+}
+[1573437564.172][INFO]: Waiting for pending navigations...
+[1573437564.173][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.181][INFO]: Waiting for pending navigations...
+[1573437564.183][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.183][INFO]: RESPONSE IsElementSelected false
+[1573437564.187][INFO]: COMMAND ClickElement {
+   "id": "0.8535545871577679-23"
+}
+[1573437564.187][INFO]: Waiting for pending navigations...
+[1573437564.188][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.232][INFO]: Waiting for pending navigations...
+[1573437564.236][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.236][INFO]: RESPONSE ClickElement
+[1573437564.240][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='inches']"
+}
+[1573437564.240][INFO]: Waiting for pending navigations...
+[1573437564.241][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.253][INFO]: Waiting for pending navigations...
+[1573437564.299][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.299][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-24"
+}
+[1573437564.312][INFO]: COMMAND GetElementTagName {
+   "id": "0.8535545871577679-24"
+}
+[1573437564.312][INFO]: Waiting for pending navigations...
+[1573437564.331][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.338][INFO]: Waiting for pending navigations...
+[1573437564.339][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.339][INFO]: RESPONSE GetElementTagName "select"
+[1573437564.342][INFO]: COMMAND GetElementAttribute {
+   "id": "0.8535545871577679-24",
+   "name": "multiple"
+}
+[1573437564.342][INFO]: Waiting for pending navigations...
+[1573437564.346][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.349][INFO]: Waiting for pending navigations...
+[1573437564.349][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.349][INFO]: RESPONSE GetElementAttribute null
+[1573437564.354][INFO]: COMMAND FindChildElements {
+   "id": "0.8535545871577679-24",
+   "using": "xpath",
+   "value": ".//option[normalize-space(.) = \"10\"]"
+}
+[1573437564.354][INFO]: Waiting for pending navigations...
+[1573437564.357][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.367][INFO]: Waiting for pending navigations...
+[1573437564.370][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.370][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.8535545871577679-25"
+} ]
+[1573437564.373][INFO]: COMMAND IsElementSelected {
+   "id": "0.8535545871577679-25"
+}
+[1573437564.373][INFO]: Waiting for pending navigations...
+[1573437564.374][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.382][INFO]: Waiting for pending navigations...
+[1573437564.385][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.386][INFO]: RESPONSE IsElementSelected false
+[1573437564.390][INFO]: COMMAND ClickElement {
+   "id": "0.8535545871577679-25"
+}
+[1573437564.390][INFO]: Waiting for pending navigations...
+[1573437564.391][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.437][INFO]: Waiting for pending navigations...
+[1573437564.440][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.441][INFO]: RESPONSE ClickElement
+[1573437564.448][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437564.448][INFO]: Waiting for pending navigations...
+[1573437564.449][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.454][INFO]: Waiting for pending navigations...
+[1573437564.455][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.455][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-26"
+}
+[1573437564.461][INFO]: COMMAND ClickElement {
+   "id": "0.8535545871577679-26"
+}
+[1573437564.462][INFO]: Waiting for pending navigations...
+[1573437564.464][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.572][INFO]: Waiting for pending navigations...
+[1573437564.588][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.588][INFO]: RESPONSE ClickElement
+[1573437564.606][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='weight_1']"
+}
+[1573437564.606][INFO]: Waiting for pending navigations...
+[1573437564.607][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.619][INFO]: Waiting for pending navigations...
+[1573437564.620][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.620][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-27"
+}
+[1573437564.624][INFO]: COMMAND ClickElement {
+   "id": "0.8535545871577679-27"
+}
+[1573437564.624][INFO]: Waiting for pending navigations...
+[1573437564.625][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.702][INFO]: Waiting for pending navigations...
+[1573437564.706][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.706][INFO]: RESPONSE ClickElement
+[1573437564.716][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437564.716][INFO]: Waiting for pending navigations...
+[1573437564.722][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.729][INFO]: Waiting for pending navigations...
+[1573437564.734][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.734][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-28"
+}
+[1573437564.738][INFO]: COMMAND ClickElement {
+   "id": "0.8535545871577679-28"
+}
+[1573437564.738][INFO]: Waiting for pending navigations...
+[1573437564.739][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.853][INFO]: Waiting for pending navigations...
+[1573437564.868][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.868][INFO]: RESPONSE ClickElement
+[1573437564.874][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='motivation_1']"
+}
+[1573437564.874][INFO]: Waiting for pending navigations...
+[1573437564.875][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.887][INFO]: Waiting for pending navigations...
+[1573437564.887][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.888][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-29"
+}
+[1573437564.891][INFO]: COMMAND ClickElement {
+   "id": "0.8535545871577679-29"
+}
+[1573437564.891][INFO]: Waiting for pending navigations...
+[1573437564.892][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.981][INFO]: Waiting for pending navigations...
+[1573437564.985][INFO]: Done waiting for pending navigations. Status: ok
+[1573437564.985][INFO]: RESPONSE ClickElement
+[1573437565.011][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437565.011][INFO]: Waiting for pending navigations...
+[1573437565.022][INFO]: Done waiting for pending navigations. Status: ok
+[1573437565.034][INFO]: Waiting for pending navigations...
+[1573437565.035][INFO]: Done waiting for pending navigations. Status: ok
+[1573437565.035][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-30"
+}
+[1573437565.040][INFO]: COMMAND ClickElement {
+   "id": "0.8535545871577679-30"
+}
+[1573437565.040][INFO]: Waiting for pending navigations...
+[1573437565.047][INFO]: Done waiting for pending navigations. Status: ok
+[1573437565.157][INFO]: Waiting for pending navigations...
+[1573437565.188][INFO]: Done waiting for pending navigations. Status: ok
+[1573437565.188][INFO]: RESPONSE ClickElement
+[1573437565.192][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437565.192][INFO]: Waiting for pending navigations...
+[1573437565.195][INFO]: Done waiting for pending navigations. Status: ok
+[1573437565.200][INFO]: Waiting for pending navigations...
+[1573437565.204][INFO]: Done waiting for pending navigations. Status: ok
+[1573437565.204][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-31"
+}
+[1573437565.211][INFO]: COMMAND ClickElement {
+   "id": "0.8535545871577679-31"
+}
+[1573437565.211][INFO]: Waiting for pending navigations...
+[1573437565.214][INFO]: Done waiting for pending navigations. Status: ok
+[1573437565.284][INFO]: Waiting for pending navigations...
+[1573437565.285][INFO]: Done waiting for pending navigations. Status: ok
+[1573437565.285][INFO]: RESPONSE ClickElement
+[1573437565.291][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='recruiter-contact']/div/h5"
+}
+[1573437565.291][INFO]: Waiting for pending navigations...
+[1573437565.293][INFO]: Done waiting for pending navigations. Status: ok
+[1573437566.378][INFO]: Waiting for pending navigations...
+[1573437566.679][INFO]: Done waiting for pending navigations. Status: ok
+[1573437566.679][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8535545871577679-32"
+}
+[1573437566.682][INFO]: COMMAND GetElementText {
+   "id": "0.8535545871577679-32"
+}
+[1573437566.682][INFO]: Waiting for pending navigations...
+[1573437566.683][INFO]: Done waiting for pending navigations. Status: ok
+[1573437566.698][INFO]: Waiting for pending navigations...
+[1573437566.699][INFO]: Done waiting for pending navigations. Status: ok
+[1573437566.699][INFO]: RESPONSE GetElementText "BRION STONER"
+[1573437566.711][INFO]: COMMAND Navigate {
+   "url": "https://www.nationalguard.com/"
+}
+[1573437566.711][INFO]: Waiting for pending navigations...
+[1573437566.712][INFO]: Done waiting for pending navigations. Status: ok
+[1573437566.748][INFO]: Waiting for pending navigations...
+[1573437566.748][INFO]: Done waiting for pending navigations. Status: unexpected alert open
+[1573437566.748][INFO]: RESPONSE Navigate
+[1573437566.753][INFO]: COMMAND GetAlertMessage {
+
+}
+[1573437566.753][INFO]: Waiting for pending navigations...
+[1573437566.753][INFO]: Done waiting for pending navigations. Status: unexpected alert open
+[1573437566.753][INFO]: RESPONSE GetAlertMessage ""
+[1573437566.766][INFO]: COMMAND AcceptAlert {
+
+}
+[1573437566.766][INFO]: Waiting for pending navigations...
+[1573437566.766][INFO]: Done waiting for pending navigations. Status: unexpected alert open
+[1573437566.772][INFO]: RESPONSE AcceptAlert
+[1573437566.778][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "button"
+}
+[1573437566.778][INFO]: Waiting for pending navigations...
+[1573437569.156][INFO]: Done waiting for pending navigations. Status: ok
+[1573437569.171][INFO]: Waiting for pending navigations...
+[1573437569.172][INFO]: Done waiting for pending navigations. Status: ok
+[1573437569.172][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-1"
+}
+[1573437569.177][INFO]: COMMAND ClickElement {
+   "id": "0.7657688677795591-1"
+}
+[1573437569.177][INFO]: Waiting for pending navigations...
+[1573437569.178][INFO]: Done waiting for pending navigations. Status: ok
+[1573437569.606][INFO]: Waiting for pending navigations...
+[1573437569.788][INFO]: Done waiting for pending navigations. Status: ok
+[1573437569.788][INFO]: RESPONSE ClickElement
+[1573437569.801][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_first_name"
+}
+[1573437569.801][INFO]: Waiting for pending navigations...
+[1573437570.695][INFO]: Done waiting for pending navigations. Status: ok
+[1573437570.707][INFO]: Waiting for pending navigations...
+[1573437570.708][INFO]: Done waiting for pending navigations. Status: ok
+[1573437570.708][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-2"
+}
+[1573437570.713][INFO]: COMMAND ClearElement {
+   "id": "0.7657688677795591-2"
+}
+[1573437570.715][INFO]: Waiting for pending navigations...
+[1573437570.716][INFO]: Done waiting for pending navigations. Status: ok
+[1573437570.744][INFO]: Waiting for pending navigations...
+[1573437570.753][INFO]: Done waiting for pending navigations. Status: ok
+[1573437570.753][INFO]: RESPONSE ClearElement
+[1573437570.757][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_first_name"
+}
+[1573437570.757][INFO]: Waiting for pending navigations...
+[1573437570.758][INFO]: Done waiting for pending navigations. Status: ok
+[1573437570.765][INFO]: Waiting for pending navigations...
+[1573437570.766][INFO]: Done waiting for pending navigations. Status: ok
+[1573437570.766][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-2"
+}
+[1573437570.772][INFO]: COMMAND TypeElement {
+   "id": "0.7657688677795591-2",
+   "value": [ "Hello" ]
+}
+[1573437570.772][INFO]: Waiting for pending navigations...
+[1573437570.773][INFO]: Done waiting for pending navigations. Status: ok
+[1573437570.842][INFO]: Waiting for pending navigations...
+[1573437570.843][INFO]: Done waiting for pending navigations. Status: ok
+[1573437570.843][INFO]: RESPONSE TypeElement
+[1573437570.847][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_last_name"
+}
+[1573437570.847][INFO]: Waiting for pending navigations...
+[1573437570.849][INFO]: Done waiting for pending navigations. Status: ok
+[1573437570.861][INFO]: Waiting for pending navigations...
+[1573437570.862][INFO]: Done waiting for pending navigations. Status: ok
+[1573437570.862][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-3"
+}
+[1573437570.868][INFO]: COMMAND ClearElement {
+   "id": "0.7657688677795591-3"
+}
+[1573437570.868][INFO]: Waiting for pending navigations...
+[1573437570.869][INFO]: Done waiting for pending navigations. Status: ok
+[1573437570.884][INFO]: Waiting for pending navigations...
+[1573437570.887][INFO]: Done waiting for pending navigations. Status: ok
+[1573437570.887][INFO]: RESPONSE ClearElement
+[1573437570.893][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_last_name"
+}
+[1573437570.893][INFO]: Waiting for pending navigations...
+[1573437570.894][INFO]: Done waiting for pending navigations. Status: ok
+[1573437570.900][INFO]: Waiting for pending navigations...
+[1573437570.901][INFO]: Done waiting for pending navigations. Status: ok
+[1573437570.901][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-3"
+}
+[1573437570.906][INFO]: COMMAND TypeElement {
+   "id": "0.7657688677795591-3",
+   "value": [ "Java" ]
+}
+[1573437570.906][INFO]: Waiting for pending navigations...
+[1573437570.907][INFO]: Done waiting for pending navigations. Status: ok
+[1573437570.983][INFO]: Waiting for pending navigations...
+[1573437570.985][INFO]: Done waiting for pending navigations. Status: ok
+[1573437570.985][INFO]: RESPONSE TypeElement
+[1573437570.989][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_email"
+}
+[1573437570.989][INFO]: Waiting for pending navigations...
+[1573437570.990][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.002][INFO]: Waiting for pending navigations...
+[1573437571.005][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.005][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-4"
+}
+[1573437571.010][INFO]: COMMAND ClearElement {
+   "id": "0.7657688677795591-4"
+}
+[1573437571.010][INFO]: Waiting for pending navigations...
+[1573437571.011][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.029][INFO]: Waiting for pending navigations...
+[1573437571.030][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.030][INFO]: RESPONSE ClearElement
+[1573437571.035][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_email"
+}
+[1573437571.035][INFO]: Waiting for pending navigations...
+[1573437571.036][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.044][INFO]: Waiting for pending navigations...
+[1573437571.048][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.048][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-4"
+}
+[1573437571.052][INFO]: COMMAND TypeElement {
+   "id": "0.7657688677795591-4",
+   "value": [ "tom1@ggg.com" ]
+}
+[1573437571.052][INFO]: Waiting for pending navigations...
+[1573437571.053][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.181][INFO]: Waiting for pending navigations...
+[1573437571.182][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.182][INFO]: RESPONSE TypeElement
+[1573437571.187][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_phone"
+}
+[1573437571.187][INFO]: Waiting for pending navigations...
+[1573437571.188][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.197][INFO]: Waiting for pending navigations...
+[1573437571.199][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.199][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-5"
+}
+[1573437571.203][INFO]: COMMAND ClearElement {
+   "id": "0.7657688677795591-5"
+}
+[1573437571.203][INFO]: Waiting for pending navigations...
+[1573437571.204][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.219][INFO]: Waiting for pending navigations...
+[1573437571.221][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.221][INFO]: RESPONSE ClearElement
+[1573437571.232][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_phone"
+}
+[1573437571.232][INFO]: Waiting for pending navigations...
+[1573437571.234][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.239][INFO]: Waiting for pending navigations...
+[1573437571.240][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.240][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-5"
+}
+[1573437571.248][INFO]: COMMAND TypeElement {
+   "id": "0.7657688677795591-5",
+   "value": [ "22222222" ]
+}
+[1573437571.248][INFO]: Waiting for pending navigations...
+[1573437571.249][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.338][INFO]: Waiting for pending navigations...
+[1573437571.339][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.339][INFO]: RESPONSE TypeElement
+[1573437571.342][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_zip"
+}
+[1573437571.342][INFO]: Waiting for pending navigations...
+[1573437571.344][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.356][INFO]: Waiting for pending navigations...
+[1573437571.357][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.357][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-6"
+}
+[1573437571.363][INFO]: COMMAND ClearElement {
+   "id": "0.7657688677795591-6"
+}
+[1573437571.363][INFO]: Waiting for pending navigations...
+[1573437571.364][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.380][INFO]: Waiting for pending navigations...
+[1573437571.382][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.382][INFO]: RESPONSE ClearElement
+[1573437571.386][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_zip"
+}
+[1573437571.387][INFO]: Waiting for pending navigations...
+[1573437571.388][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.393][INFO]: Waiting for pending navigations...
+[1573437571.395][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.395][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-6"
+}
+[1573437571.400][INFO]: COMMAND TypeElement {
+   "id": "0.7657688677795591-6",
+   "value": [ "22003" ]
+}
+[1573437571.400][INFO]: Waiting for pending navigations...
+[1573437571.401][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.466][INFO]: Waiting for pending navigations...
+[1573437571.467][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.467][INFO]: RESPONSE TypeElement
+[1573437571.471][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437571.471][INFO]: Waiting for pending navigations...
+[1573437571.472][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.478][INFO]: Waiting for pending navigations...
+[1573437571.481][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.481][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-7"
+}
+[1573437571.485][INFO]: COMMAND ClickElement {
+   "id": "0.7657688677795591-7"
+}
+[1573437571.485][INFO]: Waiting for pending navigations...
+[1573437571.486][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.556][INFO]: Waiting for pending navigations...
+[1573437571.566][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.566][INFO]: RESPONSE ClickElement
+[1573437571.590][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_birth_date"
+}
+[1573437571.590][INFO]: Waiting for pending navigations...
+[1573437571.591][INFO]: Done waiting for pending navigations. Status: ok
+[1573437571.984][INFO]: Waiting for pending navigations...
+[1573437572.000][INFO]: Done waiting for pending navigations. Status: ok
+[1573437572.000][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-8"
+}
+[1573437572.007][INFO]: COMMAND ClearElement {
+   "id": "0.7657688677795591-8"
+}
+[1573437572.007][INFO]: Waiting for pending navigations...
+[1573437572.008][INFO]: Done waiting for pending navigations. Status: ok
+[1573437572.048][INFO]: Waiting for pending navigations...
+[1573437572.054][INFO]: Done waiting for pending navigations. Status: ok
+[1573437572.054][INFO]: RESPONSE ClearElement
+[1573437572.068][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_birth_date"
+}
+[1573437572.069][INFO]: Waiting for pending navigations...
+[1573437572.069][INFO]: Done waiting for pending navigations. Status: ok
+[1573437572.075][INFO]: Waiting for pending navigations...
+[1573437572.078][INFO]: Done waiting for pending navigations. Status: ok
+[1573437572.078][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-8"
+}
+[1573437572.085][INFO]: COMMAND TypeElement {
+   "id": "0.7657688677795591-8",
+   "value": [ "'02-11-1990" ]
+}
+[1573437572.085][INFO]: Waiting for pending navigations...
+[1573437572.086][INFO]: Done waiting for pending navigations. Status: ok
+[1573437572.239][INFO]: Waiting for pending navigations...
+[1573437572.240][INFO]: Done waiting for pending navigations. Status: ok
+[1573437572.240][INFO]: RESPONSE TypeElement
+[1573437572.247][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437572.247][INFO]: Waiting for pending navigations...
+[1573437572.249][INFO]: Done waiting for pending navigations. Status: ok
+[1573437572.254][INFO]: Waiting for pending navigations...
+[1573437572.255][INFO]: Done waiting for pending navigations. Status: ok
+[1573437572.255][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-9"
+}
+[1573437572.264][INFO]: COMMAND ClickElement {
+   "id": "0.7657688677795591-9"
+}
+[1573437572.264][INFO]: Waiting for pending navigations...
+[1573437572.265][INFO]: Done waiting for pending navigations. Status: ok
+[1573437572.526][INFO]: Waiting for pending navigations...
+[1573437574.091][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.091][INFO]: RESPONSE ClickElement
+[1573437574.097][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_phone"
+}
+[1573437574.097][INFO]: Waiting for pending navigations...
+[1573437574.097][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.104][INFO]: Waiting for pending navigations...
+[1573437574.105][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.105][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-10"
+}
+[1573437574.110][INFO]: COMMAND ClearElement {
+   "id": "0.7657688677795591-10"
+}
+[1573437574.110][INFO]: Waiting for pending navigations...
+[1573437574.112][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.135][INFO]: Waiting for pending navigations...
+[1573437574.136][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.136][INFO]: RESPONSE ClearElement
+[1573437574.142][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_phone"
+}
+[1573437574.142][INFO]: Waiting for pending navigations...
+[1573437574.144][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.150][INFO]: Waiting for pending navigations...
+[1573437574.151][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.151][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-10"
+}
+[1573437574.156][INFO]: COMMAND TypeElement {
+   "id": "0.7657688677795591-10",
+   "value": [ "'(571)-379-0222" ]
+}
+[1573437574.156][INFO]: Waiting for pending navigations...
+[1573437574.157][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.285][INFO]: Waiting for pending navigations...
+[1573437574.286][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.286][INFO]: RESPONSE TypeElement
+[1573437574.291][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437574.291][INFO]: Waiting for pending navigations...
+[1573437574.293][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.299][INFO]: Waiting for pending navigations...
+[1573437574.300][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.300][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-11"
+}
+[1573437574.305][INFO]: COMMAND ClickElement {
+   "id": "0.7657688677795591-11"
+}
+[1573437574.305][INFO]: Waiting for pending navigations...
+[1573437574.306][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.427][INFO]: Waiting for pending navigations...
+[1573437574.435][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.435][INFO]: RESPONSE ClickElement
+[1573437574.439][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='gender_1']"
+}
+[1573437574.439][INFO]: Waiting for pending navigations...
+[1573437574.439][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.446][INFO]: Waiting for pending navigations...
+[1573437574.449][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.449][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-12"
+}
+[1573437574.458][INFO]: COMMAND ClickElement {
+   "id": "0.7657688677795591-12"
+}
+[1573437574.458][INFO]: Waiting for pending navigations...
+[1573437574.459][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.534][INFO]: Waiting for pending navigations...
+[1573437574.538][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.538][INFO]: RESPONSE ClickElement
+[1573437574.542][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437574.545][INFO]: Waiting for pending navigations...
+[1573437574.551][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.561][INFO]: Waiting for pending navigations...
+[1573437574.566][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.566][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-13"
+}
+[1573437574.571][INFO]: COMMAND ClickElement {
+   "id": "0.7657688677795591-13"
+}
+[1573437574.571][INFO]: Waiting for pending navigations...
+[1573437574.572][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.704][INFO]: Waiting for pending navigations...
+[1573437574.719][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.719][INFO]: RESPONSE ClickElement
+[1573437574.724][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='military_1']"
+}
+[1573437574.724][INFO]: Waiting for pending navigations...
+[1573437574.725][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.734][INFO]: Waiting for pending navigations...
+[1573437574.735][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.735][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-14"
+}
+[1573437574.740][INFO]: COMMAND ClickElement {
+   "id": "0.7657688677795591-14"
+}
+[1573437574.740][INFO]: Waiting for pending navigations...
+[1573437574.741][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.821][INFO]: Waiting for pending navigations...
+[1573437574.823][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.824][INFO]: RESPONSE ClickElement
+[1573437574.829][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437574.829][INFO]: Waiting for pending navigations...
+[1573437574.833][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.841][INFO]: Waiting for pending navigations...
+[1573437574.849][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.849][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-15"
+}
+[1573437574.854][INFO]: COMMAND ClickElement {
+   "id": "0.7657688677795591-15"
+}
+[1573437574.854][INFO]: Waiting for pending navigations...
+[1573437574.855][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.959][INFO]: Waiting for pending navigations...
+[1573437574.970][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.970][INFO]: RESPONSE ClickElement
+[1573437574.975][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='high_school_0']"
+}
+[1573437574.978][INFO]: Waiting for pending navigations...
+[1573437574.983][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.989][INFO]: Waiting for pending navigations...
+[1573437574.990][INFO]: Done waiting for pending navigations. Status: ok
+[1573437574.990][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-16"
+}
+[1573437574.997][INFO]: COMMAND ClickElement {
+   "id": "0.7657688677795591-16"
+}
+[1573437574.997][INFO]: Waiting for pending navigations...
+[1573437575.000][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.066][INFO]: Waiting for pending navigations...
+[1573437575.071][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.071][INFO]: RESPONSE ClickElement
+[1573437575.077][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437575.077][INFO]: Waiting for pending navigations...
+[1573437575.085][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.094][INFO]: Waiting for pending navigations...
+[1573437575.100][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.100][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-17"
+}
+[1573437575.109][INFO]: COMMAND ClickElement {
+   "id": "0.7657688677795591-17"
+}
+[1573437575.109][INFO]: Waiting for pending navigations...
+[1573437575.118][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.248][INFO]: Waiting for pending navigations...
+[1573437575.253][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.253][INFO]: RESPONSE ClickElement
+[1573437575.256][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='college_0']"
+}
+[1573437575.256][INFO]: Waiting for pending navigations...
+[1573437575.258][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.270][INFO]: Waiting for pending navigations...
+[1573437575.272][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.272][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-18"
+}
+[1573437575.281][INFO]: COMMAND ClickElement {
+   "id": "0.7657688677795591-18"
+}
+[1573437575.281][INFO]: Waiting for pending navigations...
+[1573437575.282][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.367][INFO]: Waiting for pending navigations...
+[1573437575.370][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.370][INFO]: RESPONSE ClickElement
+[1573437575.377][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437575.378][INFO]: Waiting for pending navigations...
+[1573437575.389][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.394][INFO]: Waiting for pending navigations...
+[1573437575.398][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.398][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-19"
+}
+[1573437575.403][INFO]: COMMAND ClickElement {
+   "id": "0.7657688677795591-19"
+}
+[1573437575.403][INFO]: Waiting for pending navigations...
+[1573437575.404][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.497][INFO]: Waiting for pending navigations...
+[1573437575.514][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.514][INFO]: RESPONSE ClickElement
+[1573437575.519][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='college_degree_1']"
+}
+[1573437575.520][INFO]: Waiting for pending navigations...
+[1573437575.520][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.525][INFO]: Waiting for pending navigations...
+[1573437575.527][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.527][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-20"
+}
+[1573437575.533][INFO]: COMMAND ClickElement {
+   "id": "0.7657688677795591-20"
+}
+[1573437575.533][INFO]: Waiting for pending navigations...
+[1573437575.534][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.599][INFO]: Waiting for pending navigations...
+[1573437575.612][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.612][INFO]: RESPONSE ClickElement
+[1573437575.619][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437575.620][INFO]: Waiting for pending navigations...
+[1573437575.623][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.629][INFO]: Waiting for pending navigations...
+[1573437575.632][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.632][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-21"
+}
+[1573437575.637][INFO]: COMMAND ClickElement {
+   "id": "0.7657688677795591-21"
+}
+[1573437575.637][INFO]: Waiting for pending navigations...
+[1573437575.638][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.763][INFO]: Waiting for pending navigations...
+[1573437575.778][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.778][INFO]: RESPONSE ClickElement
+[1573437575.788][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='feet']"
+}
+[1573437575.788][INFO]: Waiting for pending navigations...
+[1573437575.788][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.796][INFO]: Waiting for pending navigations...
+[1573437575.798][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.798][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-22"
+}
+[1573437575.801][INFO]: COMMAND GetElementTagName {
+   "id": "0.7657688677795591-22"
+}
+[1573437575.802][INFO]: Waiting for pending navigations...
+[1573437575.802][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.804][INFO]: Waiting for pending navigations...
+[1573437575.805][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.805][INFO]: RESPONSE GetElementTagName "select"
+[1573437575.807][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7657688677795591-22",
+   "name": "multiple"
+}
+[1573437575.807][INFO]: Waiting for pending navigations...
+[1573437575.808][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.813][INFO]: Waiting for pending navigations...
+[1573437575.815][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.815][INFO]: RESPONSE GetElementAttribute null
+[1573437575.818][INFO]: COMMAND FindChildElements {
+   "id": "0.7657688677795591-22",
+   "using": "xpath",
+   "value": ".//option[normalize-space(.) = \"5\"]"
+}
+[1573437575.818][INFO]: Waiting for pending navigations...
+[1573437575.819][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.831][INFO]: Waiting for pending navigations...
+[1573437575.834][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.834][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.7657688677795591-23"
+} ]
+[1573437575.836][INFO]: COMMAND IsElementSelected {
+   "id": "0.7657688677795591-23"
+}
+[1573437575.836][INFO]: Waiting for pending navigations...
+[1573437575.837][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.845][INFO]: Waiting for pending navigations...
+[1573437575.845][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.845][INFO]: RESPONSE IsElementSelected false
+[1573437575.849][INFO]: COMMAND ClickElement {
+   "id": "0.7657688677795591-23"
+}
+[1573437575.849][INFO]: Waiting for pending navigations...
+[1573437575.850][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.891][INFO]: Waiting for pending navigations...
+[1573437575.896][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.896][INFO]: RESPONSE ClickElement
+[1573437575.900][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='inches']"
+}
+[1573437575.900][INFO]: Waiting for pending navigations...
+[1573437575.901][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.906][INFO]: Waiting for pending navigations...
+[1573437575.907][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.907][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-24"
+}
+[1573437575.911][INFO]: COMMAND GetElementTagName {
+   "id": "0.7657688677795591-24"
+}
+[1573437575.911][INFO]: Waiting for pending navigations...
+[1573437575.912][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.915][INFO]: Waiting for pending navigations...
+[1573437575.918][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.918][INFO]: RESPONSE GetElementTagName "select"
+[1573437575.921][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7657688677795591-24",
+   "name": "multiple"
+}
+[1573437575.921][INFO]: Waiting for pending navigations...
+[1573437575.922][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.925][INFO]: Waiting for pending navigations...
+[1573437575.926][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.927][INFO]: RESPONSE GetElementAttribute null
+[1573437575.931][INFO]: COMMAND FindChildElements {
+   "id": "0.7657688677795591-24",
+   "using": "xpath",
+   "value": ".//option[normalize-space(.) = \"10\"]"
+}
+[1573437575.931][INFO]: Waiting for pending navigations...
+[1573437575.933][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.942][INFO]: Waiting for pending navigations...
+[1573437575.943][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.943][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.7657688677795591-25"
+} ]
+[1573437575.947][INFO]: COMMAND IsElementSelected {
+   "id": "0.7657688677795591-25"
+}
+[1573437575.948][INFO]: Waiting for pending navigations...
+[1573437575.949][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.957][INFO]: Waiting for pending navigations...
+[1573437575.958][INFO]: Done waiting for pending navigations. Status: ok
+[1573437575.958][INFO]: RESPONSE IsElementSelected false
+[1573437575.963][INFO]: COMMAND ClickElement {
+   "id": "0.7657688677795591-25"
+}
+[1573437575.963][INFO]: Waiting for pending navigations...
+[1573437575.964][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.005][INFO]: Waiting for pending navigations...
+[1573437576.010][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.010][INFO]: RESPONSE ClickElement
+[1573437576.016][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437576.016][INFO]: Waiting for pending navigations...
+[1573437576.017][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.022][INFO]: Waiting for pending navigations...
+[1573437576.022][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.022][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-26"
+}
+[1573437576.027][INFO]: COMMAND ClickElement {
+   "id": "0.7657688677795591-26"
+}
+[1573437576.028][INFO]: Waiting for pending navigations...
+[1573437576.029][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.131][INFO]: Waiting for pending navigations...
+[1573437576.145][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.145][INFO]: RESPONSE ClickElement
+[1573437576.155][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='weight_1']"
+}
+[1573437576.155][INFO]: Waiting for pending navigations...
+[1573437576.156][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.162][INFO]: Waiting for pending navigations...
+[1573437576.167][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.167][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-27"
+}
+[1573437576.172][INFO]: COMMAND ClickElement {
+   "id": "0.7657688677795591-27"
+}
+[1573437576.172][INFO]: Waiting for pending navigations...
+[1573437576.173][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.235][INFO]: Waiting for pending navigations...
+[1573437576.239][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.239][INFO]: RESPONSE ClickElement
+[1573437576.249][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437576.249][INFO]: Waiting for pending navigations...
+[1573437576.257][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.265][INFO]: Waiting for pending navigations...
+[1573437576.266][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.266][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-28"
+}
+[1573437576.269][INFO]: COMMAND ClickElement {
+   "id": "0.7657688677795591-28"
+}
+[1573437576.269][INFO]: Waiting for pending navigations...
+[1573437576.270][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.390][INFO]: Waiting for pending navigations...
+[1573437576.405][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.405][INFO]: RESPONSE ClickElement
+[1573437576.408][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='motivation_1']"
+}
+[1573437576.408][INFO]: Waiting for pending navigations...
+[1573437576.410][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.415][INFO]: Waiting for pending navigations...
+[1573437576.418][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.418][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-29"
+}
+[1573437576.421][INFO]: COMMAND ClickElement {
+   "id": "0.7657688677795591-29"
+}
+[1573437576.421][INFO]: Waiting for pending navigations...
+[1573437576.422][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.485][INFO]: Waiting for pending navigations...
+[1573437576.489][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.489][INFO]: RESPONSE ClickElement
+[1573437576.495][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437576.495][INFO]: Waiting for pending navigations...
+[1573437576.497][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.508][INFO]: Waiting for pending navigations...
+[1573437576.510][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.510][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-30"
+}
+[1573437576.514][INFO]: COMMAND ClickElement {
+   "id": "0.7657688677795591-30"
+}
+[1573437576.514][INFO]: Waiting for pending navigations...
+[1573437576.515][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.612][INFO]: Waiting for pending navigations...
+[1573437576.624][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.624][INFO]: RESPONSE ClickElement
+[1573437576.633][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437576.633][INFO]: Waiting for pending navigations...
+[1573437576.641][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.655][INFO]: Waiting for pending navigations...
+[1573437576.655][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.655][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-31"
+}
+[1573437576.662][INFO]: COMMAND ClickElement {
+   "id": "0.7657688677795591-31"
+}
+[1573437576.662][INFO]: Waiting for pending navigations...
+[1573437576.664][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.752][INFO]: Waiting for pending navigations...
+[1573437576.753][INFO]: Done waiting for pending navigations. Status: ok
+[1573437576.753][INFO]: RESPONSE ClickElement
+[1573437576.757][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='recruiter-contact']/div/h5"
+}
+[1573437576.757][INFO]: Waiting for pending navigations...
+[1573437576.758][INFO]: Done waiting for pending navigations. Status: ok
+[1573437577.720][INFO]: Waiting for pending navigations...
+[1573437578.062][INFO]: Done waiting for pending navigations. Status: ok
+[1573437578.063][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7657688677795591-32"
+}
+[1573437578.065][INFO]: COMMAND GetElementText {
+   "id": "0.7657688677795591-32"
+}
+[1573437578.065][INFO]: Waiting for pending navigations...
+[1573437578.066][INFO]: Done waiting for pending navigations. Status: ok
+[1573437578.079][INFO]: Waiting for pending navigations...
+[1573437578.080][INFO]: Done waiting for pending navigations. Status: ok
+[1573437578.080][INFO]: RESPONSE GetElementText "DAKOTA NIXON"
+[1573437578.083][INFO]: COMMAND Navigate {
+   "url": "https://www.nationalguard.com/"
+}
+[1573437578.083][INFO]: Waiting for pending navigations...
+[1573437578.084][INFO]: Done waiting for pending navigations. Status: ok
+[1573437578.104][INFO]: Waiting for pending navigations...
+[1573437578.105][INFO]: Done waiting for pending navigations. Status: unexpected alert open
+[1573437578.105][INFO]: RESPONSE Navigate
+[1573437578.110][INFO]: COMMAND GetAlertMessage {
+
+}
+[1573437578.110][INFO]: Waiting for pending navigations...
+[1573437578.110][INFO]: Done waiting for pending navigations. Status: unexpected alert open
+[1573437578.110][INFO]: RESPONSE GetAlertMessage ""
+[1573437578.117][INFO]: COMMAND AcceptAlert {
+
+}
+[1573437578.117][INFO]: Waiting for pending navigations...
+[1573437578.118][INFO]: Done waiting for pending navigations. Status: unexpected alert open
+[1573437578.121][INFO]: RESPONSE AcceptAlert
+[1573437578.129][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "button"
+}
+[1573437578.129][INFO]: Waiting for pending navigations...
+[1573437579.976][INFO]: Done waiting for pending navigations. Status: ok
+[1573437579.989][INFO]: Waiting for pending navigations...
+[1573437579.991][INFO]: Done waiting for pending navigations. Status: ok
+[1573437579.991][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-1"
+}
+[1573437579.997][INFO]: COMMAND ClickElement {
+   "id": "0.057099765558932924-1"
+}
+[1573437579.998][INFO]: Waiting for pending navigations...
+[1573437579.999][INFO]: Done waiting for pending navigations. Status: ok
+[1573437580.285][INFO]: Waiting for pending navigations...
+[1573437581.229][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.229][INFO]: RESPONSE ClickElement
+[1573437581.237][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_first_name"
+}
+[1573437581.237][INFO]: Waiting for pending navigations...
+[1573437581.238][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.243][INFO]: Waiting for pending navigations...
+[1573437581.244][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.244][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-2"
+}
+[1573437581.249][INFO]: COMMAND ClearElement {
+   "id": "0.057099765558932924-2"
+}
+[1573437581.249][INFO]: Waiting for pending navigations...
+[1573437581.251][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.283][INFO]: Waiting for pending navigations...
+[1573437581.284][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.284][INFO]: RESPONSE ClearElement
+[1573437581.290][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_first_name"
+}
+[1573437581.290][INFO]: Waiting for pending navigations...
+[1573437581.297][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.303][INFO]: Waiting for pending navigations...
+[1573437581.303][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.303][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-2"
+}
+[1573437581.308][INFO]: COMMAND TypeElement {
+   "id": "0.057099765558932924-2",
+   "value": [ "Ram" ]
+}
+[1573437581.308][INFO]: Waiting for pending navigations...
+[1573437581.312][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.395][INFO]: Waiting for pending navigations...
+[1573437581.397][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.397][INFO]: RESPONSE TypeElement
+[1573437581.402][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_last_name"
+}
+[1573437581.402][INFO]: Waiting for pending navigations...
+[1573437581.403][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.407][INFO]: Waiting for pending navigations...
+[1573437581.408][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.408][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-3"
+}
+[1573437581.415][INFO]: COMMAND ClearElement {
+   "id": "0.057099765558932924-3"
+}
+[1573437581.415][INFO]: Waiting for pending navigations...
+[1573437581.417][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.434][INFO]: Waiting for pending navigations...
+[1573437581.436][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.436][INFO]: RESPONSE ClearElement
+[1573437581.440][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_last_name"
+}
+[1573437581.440][INFO]: Waiting for pending navigations...
+[1573437581.440][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.449][INFO]: Waiting for pending navigations...
+[1573437581.450][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.450][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-3"
+}
+[1573437581.455][INFO]: COMMAND TypeElement {
+   "id": "0.057099765558932924-3",
+   "value": [ "Khan" ]
+}
+[1573437581.455][INFO]: Waiting for pending navigations...
+[1573437581.455][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.525][INFO]: Waiting for pending navigations...
+[1573437581.531][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.531][INFO]: RESPONSE TypeElement
+[1573437581.536][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_email"
+}
+[1573437581.536][INFO]: Waiting for pending navigations...
+[1573437581.536][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.541][INFO]: Waiting for pending navigations...
+[1573437581.546][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.546][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-4"
+}
+[1573437581.551][INFO]: COMMAND ClearElement {
+   "id": "0.057099765558932924-4"
+}
+[1573437581.551][INFO]: Waiting for pending navigations...
+[1573437581.552][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.569][INFO]: Waiting for pending navigations...
+[1573437581.570][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.570][INFO]: RESPONSE ClearElement
+[1573437581.573][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_email"
+}
+[1573437581.573][INFO]: Waiting for pending navigations...
+[1573437581.574][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.582][INFO]: Waiting for pending navigations...
+[1573437581.582][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.582][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-4"
+}
+[1573437581.587][INFO]: COMMAND TypeElement {
+   "id": "0.057099765558932924-4",
+   "value": [ "tom2@ggg.com" ]
+}
+[1573437581.587][INFO]: Waiting for pending navigations...
+[1573437581.588][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.688][INFO]: Waiting for pending navigations...
+[1573437581.689][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.689][INFO]: RESPONSE TypeElement
+[1573437581.692][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_phone"
+}
+[1573437581.692][INFO]: Waiting for pending navigations...
+[1573437581.695][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.700][INFO]: Waiting for pending navigations...
+[1573437581.701][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.701][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-5"
+}
+[1573437581.705][INFO]: COMMAND ClearElement {
+   "id": "0.057099765558932924-5"
+}
+[1573437581.705][INFO]: Waiting for pending navigations...
+[1573437581.706][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.721][INFO]: Waiting for pending navigations...
+[1573437581.724][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.724][INFO]: RESPONSE ClearElement
+[1573437581.733][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_phone"
+}
+[1573437581.733][INFO]: Waiting for pending navigations...
+[1573437581.734][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.739][INFO]: Waiting for pending navigations...
+[1573437581.739][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.740][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-5"
+}
+[1573437581.746][INFO]: COMMAND TypeElement {
+   "id": "0.057099765558932924-5",
+   "value": [ "'22222222" ]
+}
+[1573437581.746][INFO]: Waiting for pending navigations...
+[1573437581.747][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.852][INFO]: Waiting for pending navigations...
+[1573437581.852][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.852][INFO]: RESPONSE TypeElement
+[1573437581.856][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_zip"
+}
+[1573437581.856][INFO]: Waiting for pending navigations...
+[1573437581.857][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.863][INFO]: Waiting for pending navigations...
+[1573437581.865][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.866][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-6"
+}
+[1573437581.870][INFO]: COMMAND ClearElement {
+   "id": "0.057099765558932924-6"
+}
+[1573437581.870][INFO]: Waiting for pending navigations...
+[1573437581.871][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.886][INFO]: Waiting for pending navigations...
+[1573437581.888][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.888][INFO]: RESPONSE ClearElement
+[1573437581.892][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_zip"
+}
+[1573437581.892][INFO]: Waiting for pending navigations...
+[1573437581.895][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.899][INFO]: Waiting for pending navigations...
+[1573437581.900][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.900][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-6"
+}
+[1573437581.903][INFO]: COMMAND TypeElement {
+   "id": "0.057099765558932924-6",
+   "value": [ "22015" ]
+}
+[1573437581.903][INFO]: Waiting for pending navigations...
+[1573437581.904][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.964][INFO]: Waiting for pending navigations...
+[1573437581.966][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.966][INFO]: RESPONSE TypeElement
+[1573437581.970][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437581.970][INFO]: Waiting for pending navigations...
+[1573437581.971][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.979][INFO]: Waiting for pending navigations...
+[1573437581.982][INFO]: Done waiting for pending navigations. Status: ok
+[1573437581.982][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-7"
+}
+[1573437581.987][INFO]: COMMAND ClickElement {
+   "id": "0.057099765558932924-7"
+}
+[1573437581.987][INFO]: Waiting for pending navigations...
+[1573437581.988][INFO]: Done waiting for pending navigations. Status: ok
+[1573437582.058][INFO]: Waiting for pending navigations...
+[1573437582.063][INFO]: Done waiting for pending navigations. Status: ok
+[1573437582.063][INFO]: RESPONSE ClickElement
+[1573437582.071][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_birth_date"
+}
+[1573437582.071][INFO]: Waiting for pending navigations...
+[1573437582.080][INFO]: Done waiting for pending navigations. Status: ok
+[1573437582.445][INFO]: Waiting for pending navigations...
+[1573437582.458][INFO]: Done waiting for pending navigations. Status: ok
+[1573437582.459][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-8"
+}
+[1573437582.466][INFO]: COMMAND ClearElement {
+   "id": "0.057099765558932924-8"
+}
+[1573437582.467][INFO]: Waiting for pending navigations...
+[1573437582.469][INFO]: Done waiting for pending navigations. Status: ok
+[1573437582.505][INFO]: Waiting for pending navigations...
+[1573437582.506][INFO]: Done waiting for pending navigations. Status: ok
+[1573437582.506][INFO]: RESPONSE ClearElement
+[1573437582.512][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_birth_date"
+}
+[1573437582.512][INFO]: Waiting for pending navigations...
+[1573437582.516][INFO]: Done waiting for pending navigations. Status: ok
+[1573437582.523][INFO]: Waiting for pending navigations...
+[1573437582.524][INFO]: Done waiting for pending navigations. Status: ok
+[1573437582.524][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-8"
+}
+[1573437582.535][INFO]: COMMAND TypeElement {
+   "id": "0.057099765558932924-8",
+   "value": [ "'02-11-1990" ]
+}
+[1573437582.535][INFO]: Waiting for pending navigations...
+[1573437582.536][INFO]: Done waiting for pending navigations. Status: ok
+[1573437582.685][INFO]: Waiting for pending navigations...
+[1573437582.685][INFO]: Done waiting for pending navigations. Status: ok
+[1573437582.685][INFO]: RESPONSE TypeElement
+[1573437582.690][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437582.690][INFO]: Waiting for pending navigations...
+[1573437582.691][INFO]: Done waiting for pending navigations. Status: ok
+[1573437582.699][INFO]: Waiting for pending navigations...
+[1573437582.700][INFO]: Done waiting for pending navigations. Status: ok
+[1573437582.700][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-9"
+}
+[1573437582.705][INFO]: COMMAND ClickElement {
+   "id": "0.057099765558932924-9"
+}
+[1573437582.705][INFO]: Waiting for pending navigations...
+[1573437582.706][INFO]: Done waiting for pending navigations. Status: ok
+[1573437582.838][INFO]: Waiting for pending navigations...
+[1573437584.415][INFO]: Done waiting for pending navigations. Status: ok
+[1573437584.415][INFO]: RESPONSE ClickElement
+[1573437584.420][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_phone"
+}
+[1573437584.420][INFO]: Waiting for pending navigations...
+[1573437584.421][INFO]: Done waiting for pending navigations. Status: ok
+[1573437584.426][INFO]: Waiting for pending navigations...
+[1573437584.427][INFO]: Done waiting for pending navigations. Status: ok
+[1573437584.427][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-10"
+}
+[1573437584.432][INFO]: COMMAND ClearElement {
+   "id": "0.057099765558932924-10"
+}
+[1573437584.432][INFO]: Waiting for pending navigations...
+[1573437584.433][INFO]: Done waiting for pending navigations. Status: ok
+[1573437584.470][INFO]: Waiting for pending navigations...
+[1573437584.474][INFO]: Done waiting for pending navigations. Status: ok
+[1573437584.474][INFO]: RESPONSE ClearElement
+[1573437584.482][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_phone"
+}
+[1573437584.482][INFO]: Waiting for pending navigations...
+[1573437584.483][INFO]: Done waiting for pending navigations. Status: ok
+[1573437584.489][INFO]: Waiting for pending navigations...
+[1573437584.490][INFO]: Done waiting for pending navigations. Status: ok
+[1573437584.490][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-10"
+}
+[1573437584.497][INFO]: COMMAND TypeElement {
+   "id": "0.057099765558932924-10",
+   "value": [ "'(571)-379-0222" ]
+}
+[1573437584.497][INFO]: Waiting for pending navigations...
+[1573437584.497][INFO]: Done waiting for pending navigations. Status: ok
+[1573437584.628][INFO]: Waiting for pending navigations...
+[1573437584.631][INFO]: Done waiting for pending navigations. Status: ok
+[1573437584.631][INFO]: RESPONSE TypeElement
+[1573437584.634][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437584.634][INFO]: Waiting for pending navigations...
+[1573437584.635][INFO]: Done waiting for pending navigations. Status: ok
+[1573437584.640][INFO]: Waiting for pending navigations...
+[1573437584.641][INFO]: Done waiting for pending navigations. Status: ok
+[1573437584.641][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-11"
+}
+[1573437584.646][INFO]: COMMAND ClickElement {
+   "id": "0.057099765558932924-11"
+}
+[1573437584.646][INFO]: Waiting for pending navigations...
+[1573437584.648][INFO]: Done waiting for pending navigations. Status: ok
+[1573437584.736][INFO]: Waiting for pending navigations...
+[1573437584.751][INFO]: Done waiting for pending navigations. Status: ok
+[1573437584.751][INFO]: RESPONSE ClickElement
+[1573437584.757][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='gender_1']"
+}
+[1573437584.757][INFO]: Waiting for pending navigations...
+[1573437584.758][INFO]: Done waiting for pending navigations. Status: ok
+[1573437584.766][INFO]: Waiting for pending navigations...
+[1573437584.767][INFO]: Done waiting for pending navigations. Status: ok
+[1573437584.767][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-12"
+}
+[1573437584.771][INFO]: COMMAND ClickElement {
+   "id": "0.057099765558932924-12"
+}
+[1573437584.771][INFO]: Waiting for pending navigations...
+[1573437584.772][INFO]: Done waiting for pending navigations. Status: ok
+[1573437584.856][INFO]: Waiting for pending navigations...
+[1573437584.860][INFO]: Done waiting for pending navigations. Status: ok
+[1573437584.860][INFO]: RESPONSE ClickElement
+[1573437584.866][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437584.866][INFO]: Waiting for pending navigations...
+[1573437584.867][INFO]: Done waiting for pending navigations. Status: ok
+[1573437584.879][INFO]: Waiting for pending navigations...
+[1573437584.883][INFO]: Done waiting for pending navigations. Status: ok
+[1573437584.884][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-13"
+}
+[1573437584.887][INFO]: COMMAND ClickElement {
+   "id": "0.057099765558932924-13"
+}
+[1573437584.887][INFO]: Waiting for pending navigations...
+[1573437584.888][INFO]: Done waiting for pending navigations. Status: ok
+[1573437584.991][INFO]: Waiting for pending navigations...
+[1573437585.020][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.020][INFO]: RESPONSE ClickElement
+[1573437585.025][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='military_1']"
+}
+[1573437585.025][INFO]: Waiting for pending navigations...
+[1573437585.029][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.034][INFO]: Waiting for pending navigations...
+[1573437585.034][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.034][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-14"
+}
+[1573437585.037][INFO]: COMMAND ClickElement {
+   "id": "0.057099765558932924-14"
+}
+[1573437585.037][INFO]: Waiting for pending navigations...
+[1573437585.038][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.123][INFO]: Waiting for pending navigations...
+[1573437585.127][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.127][INFO]: RESPONSE ClickElement
+[1573437585.147][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437585.147][INFO]: Waiting for pending navigations...
+[1573437585.149][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.154][INFO]: Waiting for pending navigations...
+[1573437585.155][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.155][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-15"
+}
+[1573437585.163][INFO]: COMMAND ClickElement {
+   "id": "0.057099765558932924-15"
+}
+[1573437585.164][INFO]: Waiting for pending navigations...
+[1573437585.165][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.280][INFO]: Waiting for pending navigations...
+[1573437585.287][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.287][INFO]: RESPONSE ClickElement
+[1573437585.296][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='high_school_0']"
+}
+[1573437585.296][INFO]: Waiting for pending navigations...
+[1573437585.305][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.311][INFO]: Waiting for pending navigations...
+[1573437585.315][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.315][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-16"
+}
+[1573437585.319][INFO]: COMMAND ClickElement {
+   "id": "0.057099765558932924-16"
+}
+[1573437585.319][INFO]: Waiting for pending navigations...
+[1573437585.320][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.406][INFO]: Waiting for pending navigations...
+[1573437585.410][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.410][INFO]: RESPONSE ClickElement
+[1573437585.415][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437585.415][INFO]: Waiting for pending navigations...
+[1573437585.420][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.432][INFO]: Waiting for pending navigations...
+[1573437585.433][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.433][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-17"
+}
+[1573437585.438][INFO]: COMMAND ClickElement {
+   "id": "0.057099765558932924-17"
+}
+[1573437585.438][INFO]: Waiting for pending navigations...
+[1573437585.439][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.550][INFO]: Waiting for pending navigations...
+[1573437585.553][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.553][INFO]: RESPONSE ClickElement
+[1573437585.559][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='college_0']"
+}
+[1573437585.559][INFO]: Waiting for pending navigations...
+[1573437585.565][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.570][INFO]: Waiting for pending navigations...
+[1573437585.571][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.571][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-18"
+}
+[1573437585.581][INFO]: COMMAND ClickElement {
+   "id": "0.057099765558932924-18"
+}
+[1573437585.581][INFO]: Waiting for pending navigations...
+[1573437585.582][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.655][INFO]: Waiting for pending navigations...
+[1573437585.657][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.657][INFO]: RESPONSE ClickElement
+[1573437585.665][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437585.665][INFO]: Waiting for pending navigations...
+[1573437585.667][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.672][INFO]: Waiting for pending navigations...
+[1573437585.673][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.673][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-19"
+}
+[1573437585.691][INFO]: COMMAND ClickElement {
+   "id": "0.057099765558932924-19"
+}
+[1573437585.691][INFO]: Waiting for pending navigations...
+[1573437585.693][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.806][INFO]: Waiting for pending navigations...
+[1573437585.837][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.837][INFO]: RESPONSE ClickElement
+[1573437585.847][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='college_degree_1']"
+}
+[1573437585.847][INFO]: Waiting for pending navigations...
+[1573437585.847][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.855][INFO]: Waiting for pending navigations...
+[1573437585.858][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.858][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-20"
+}
+[1573437585.870][INFO]: COMMAND ClickElement {
+   "id": "0.057099765558932924-20"
+}
+[1573437585.870][INFO]: Waiting for pending navigations...
+[1573437585.871][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.963][INFO]: Waiting for pending navigations...
+[1573437585.969][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.969][INFO]: RESPONSE ClickElement
+[1573437585.983][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437585.983][INFO]: Waiting for pending navigations...
+[1573437585.984][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.989][INFO]: Waiting for pending navigations...
+[1573437585.990][INFO]: Done waiting for pending navigations. Status: ok
+[1573437585.990][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-21"
+}
+[1573437585.997][INFO]: COMMAND ClickElement {
+   "id": "0.057099765558932924-21"
+}
+[1573437585.997][INFO]: Waiting for pending navigations...
+[1573437585.998][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.121][INFO]: Waiting for pending navigations...
+[1573437586.140][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.141][INFO]: RESPONSE ClickElement
+[1573437586.148][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='feet']"
+}
+[1573437586.148][INFO]: Waiting for pending navigations...
+[1573437586.152][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.156][INFO]: Waiting for pending navigations...
+[1573437586.157][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.157][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-22"
+}
+[1573437586.161][INFO]: COMMAND GetElementTagName {
+   "id": "0.057099765558932924-22"
+}
+[1573437586.161][INFO]: Waiting for pending navigations...
+[1573437586.163][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.166][INFO]: Waiting for pending navigations...
+[1573437586.166][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.166][INFO]: RESPONSE GetElementTagName "select"
+[1573437586.170][INFO]: COMMAND GetElementAttribute {
+   "id": "0.057099765558932924-22",
+   "name": "multiple"
+}
+[1573437586.170][INFO]: Waiting for pending navigations...
+[1573437586.171][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.174][INFO]: Waiting for pending navigations...
+[1573437586.175][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.175][INFO]: RESPONSE GetElementAttribute null
+[1573437586.181][INFO]: COMMAND FindChildElements {
+   "id": "0.057099765558932924-22",
+   "using": "xpath",
+   "value": ".//option[normalize-space(.) = \"5\"]"
+}
+[1573437586.181][INFO]: Waiting for pending navigations...
+[1573437586.182][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.191][INFO]: Waiting for pending navigations...
+[1573437586.196][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.196][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.057099765558932924-23"
+} ]
+[1573437586.200][INFO]: COMMAND IsElementSelected {
+   "id": "0.057099765558932924-23"
+}
+[1573437586.200][INFO]: Waiting for pending navigations...
+[1573437586.200][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.207][INFO]: Waiting for pending navigations...
+[1573437586.208][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.208][INFO]: RESPONSE IsElementSelected false
+[1573437586.213][INFO]: COMMAND ClickElement {
+   "id": "0.057099765558932924-23"
+}
+[1573437586.213][INFO]: Waiting for pending navigations...
+[1573437586.214][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.253][INFO]: Waiting for pending navigations...
+[1573437586.260][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.260][INFO]: RESPONSE ClickElement
+[1573437586.264][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='inches']"
+}
+[1573437586.264][INFO]: Waiting for pending navigations...
+[1573437586.265][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.270][INFO]: Waiting for pending navigations...
+[1573437586.271][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.271][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-24"
+}
+[1573437586.274][INFO]: COMMAND GetElementTagName {
+   "id": "0.057099765558932924-24"
+}
+[1573437586.274][INFO]: Waiting for pending navigations...
+[1573437586.275][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.280][INFO]: Waiting for pending navigations...
+[1573437586.281][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.281][INFO]: RESPONSE GetElementTagName "select"
+[1573437586.283][INFO]: COMMAND GetElementAttribute {
+   "id": "0.057099765558932924-24",
+   "name": "multiple"
+}
+[1573437586.283][INFO]: Waiting for pending navigations...
+[1573437586.284][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.287][INFO]: Waiting for pending navigations...
+[1573437586.288][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.288][INFO]: RESPONSE GetElementAttribute null
+[1573437586.296][INFO]: COMMAND FindChildElements {
+   "id": "0.057099765558932924-24",
+   "using": "xpath",
+   "value": ".//option[normalize-space(.) = \"10\"]"
+}
+[1573437586.296][INFO]: Waiting for pending navigations...
+[1573437586.298][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.311][INFO]: Waiting for pending navigations...
+[1573437586.314][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.314][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.057099765558932924-25"
+} ]
+[1573437586.317][INFO]: COMMAND IsElementSelected {
+   "id": "0.057099765558932924-25"
+}
+[1573437586.317][INFO]: Waiting for pending navigations...
+[1573437586.318][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.326][INFO]: Waiting for pending navigations...
+[1573437586.330][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.330][INFO]: RESPONSE IsElementSelected false
+[1573437586.335][INFO]: COMMAND ClickElement {
+   "id": "0.057099765558932924-25"
+}
+[1573437586.335][INFO]: Waiting for pending navigations...
+[1573437586.336][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.376][INFO]: Waiting for pending navigations...
+[1573437586.382][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.382][INFO]: RESPONSE ClickElement
+[1573437586.386][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437586.386][INFO]: Waiting for pending navigations...
+[1573437586.387][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.392][INFO]: Waiting for pending navigations...
+[1573437586.395][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.395][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-26"
+}
+[1573437586.400][INFO]: COMMAND ClickElement {
+   "id": "0.057099765558932924-26"
+}
+[1573437586.400][INFO]: Waiting for pending navigations...
+[1573437586.401][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.500][INFO]: Waiting for pending navigations...
+[1573437586.516][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.516][INFO]: RESPONSE ClickElement
+[1573437586.523][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='weight_1']"
+}
+[1573437586.523][INFO]: Waiting for pending navigations...
+[1573437586.524][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.536][INFO]: Waiting for pending navigations...
+[1573437586.537][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.537][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-27"
+}
+[1573437586.546][INFO]: COMMAND ClickElement {
+   "id": "0.057099765558932924-27"
+}
+[1573437586.546][INFO]: Waiting for pending navigations...
+[1573437586.547][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.620][INFO]: Waiting for pending navigations...
+[1573437586.625][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.625][INFO]: RESPONSE ClickElement
+[1573437586.628][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437586.629][INFO]: Waiting for pending navigations...
+[1573437586.631][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.636][INFO]: Waiting for pending navigations...
+[1573437586.637][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.637][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-28"
+}
+[1573437586.653][INFO]: COMMAND ClickElement {
+   "id": "0.057099765558932924-28"
+}
+[1573437586.653][INFO]: Waiting for pending navigations...
+[1573437586.655][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.775][INFO]: Waiting for pending navigations...
+[1573437586.787][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.787][INFO]: RESPONSE ClickElement
+[1573437586.790][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='motivation_1']"
+}
+[1573437586.790][INFO]: Waiting for pending navigations...
+[1573437586.795][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.801][INFO]: Waiting for pending navigations...
+[1573437586.801][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.801][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-29"
+}
+[1573437586.806][INFO]: COMMAND ClickElement {
+   "id": "0.057099765558932924-29"
+}
+[1573437586.806][INFO]: Waiting for pending navigations...
+[1573437586.807][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.883][INFO]: Waiting for pending navigations...
+[1573437586.887][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.887][INFO]: RESPONSE ClickElement
+[1573437586.890][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437586.890][INFO]: Waiting for pending navigations...
+[1573437586.891][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.905][INFO]: Waiting for pending navigations...
+[1573437586.906][INFO]: Done waiting for pending navigations. Status: ok
+[1573437586.906][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-30"
+}
+[1573437586.914][INFO]: COMMAND ClickElement {
+   "id": "0.057099765558932924-30"
+}
+[1573437586.914][INFO]: Waiting for pending navigations...
+[1573437586.915][INFO]: Done waiting for pending navigations. Status: ok
+[1573437587.025][INFO]: Waiting for pending navigations...
+[1573437587.049][INFO]: Done waiting for pending navigations. Status: ok
+[1573437587.049][INFO]: RESPONSE ClickElement
+[1573437587.056][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437587.056][INFO]: Waiting for pending navigations...
+[1573437587.057][INFO]: Done waiting for pending navigations. Status: ok
+[1573437587.066][INFO]: Waiting for pending navigations...
+[1573437587.067][INFO]: Done waiting for pending navigations. Status: ok
+[1573437587.067][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-31"
+}
+[1573437587.072][INFO]: COMMAND ClickElement {
+   "id": "0.057099765558932924-31"
+}
+[1573437587.072][INFO]: Waiting for pending navigations...
+[1573437587.073][INFO]: Done waiting for pending navigations. Status: ok
+[1573437587.148][INFO]: Waiting for pending navigations...
+[1573437587.151][INFO]: Done waiting for pending navigations. Status: ok
+[1573437587.151][INFO]: RESPONSE ClickElement
+[1573437587.166][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='recruiter-contact']/div/h5"
+}
+[1573437587.166][INFO]: Waiting for pending navigations...
+[1573437587.168][INFO]: Done waiting for pending navigations. Status: ok
+[1573437588.242][INFO]: Waiting for pending navigations...
+[1573437588.555][INFO]: Done waiting for pending navigations. Status: ok
+[1573437588.555][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.057099765558932924-32"
+}
+[1573437588.564][INFO]: COMMAND GetElementText {
+   "id": "0.057099765558932924-32"
+}
+[1573437588.564][INFO]: Waiting for pending navigations...
+[1573437588.565][INFO]: Done waiting for pending navigations. Status: ok
+[1573437588.580][INFO]: Waiting for pending navigations...
+[1573437588.584][INFO]: Done waiting for pending navigations. Status: ok
+[1573437588.584][INFO]: RESPONSE GetElementText "JAIME ALEXANDER"
+[1573437588.589][INFO]: COMMAND Navigate {
+   "url": "https://www.nationalguard.com/"
+}
+[1573437588.589][INFO]: Waiting for pending navigations...
+[1573437588.590][INFO]: Done waiting for pending navigations. Status: ok
+[1573437588.615][INFO]: Waiting for pending navigations...
+[1573437588.615][INFO]: Done waiting for pending navigations. Status: unexpected alert open
+[1573437588.615][INFO]: RESPONSE Navigate
+[1573437588.619][INFO]: COMMAND GetAlertMessage {
+
+}
+[1573437588.619][INFO]: Waiting for pending navigations...
+[1573437588.620][INFO]: Done waiting for pending navigations. Status: unexpected alert open
+[1573437588.620][INFO]: RESPONSE GetAlertMessage ""
+[1573437588.633][INFO]: COMMAND AcceptAlert {
+
+}
+[1573437588.633][INFO]: Waiting for pending navigations...
+[1573437588.633][INFO]: Done waiting for pending navigations. Status: unexpected alert open
+[1573437588.638][INFO]: RESPONSE AcceptAlert
+[1573437588.651][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "button"
+}
+[1573437588.651][INFO]: Waiting for pending navigations...
+[1573437590.568][INFO]: Done waiting for pending navigations. Status: ok
+[1573437590.577][INFO]: Waiting for pending navigations...
+[1573437590.579][INFO]: Done waiting for pending navigations. Status: ok
+[1573437590.579][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-1"
+}
+[1573437590.584][INFO]: COMMAND ClickElement {
+   "id": "0.7498044087803934-1"
+}
+[1573437590.584][INFO]: Waiting for pending navigations...
+[1573437590.586][INFO]: Done waiting for pending navigations. Status: ok
+[1573437590.897][INFO]: Waiting for pending navigations...
+[1573437591.891][INFO]: Done waiting for pending navigations. Status: ok
+[1573437591.891][INFO]: RESPONSE ClickElement
+[1573437591.898][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_first_name"
+}
+[1573437591.898][INFO]: Waiting for pending navigations...
+[1573437591.899][INFO]: Done waiting for pending navigations. Status: ok
+[1573437591.904][INFO]: Waiting for pending navigations...
+[1573437591.905][INFO]: Done waiting for pending navigations. Status: ok
+[1573437591.905][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-2"
+}
+[1573437591.910][INFO]: COMMAND ClearElement {
+   "id": "0.7498044087803934-2"
+}
+[1573437591.911][INFO]: Waiting for pending navigations...
+[1573437591.912][INFO]: Done waiting for pending navigations. Status: ok
+[1573437591.937][INFO]: Waiting for pending navigations...
+[1573437591.938][INFO]: Done waiting for pending navigations. Status: ok
+[1573437591.939][INFO]: RESPONSE ClearElement
+[1573437591.945][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_first_name"
+}
+[1573437591.945][INFO]: Waiting for pending navigations...
+[1573437591.950][INFO]: Done waiting for pending navigations. Status: ok
+[1573437591.955][INFO]: Waiting for pending navigations...
+[1573437591.956][INFO]: Done waiting for pending navigations. Status: ok
+[1573437591.956][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-2"
+}
+[1573437591.962][INFO]: COMMAND TypeElement {
+   "id": "0.7498044087803934-2",
+   "value": [ "Syam" ]
+}
+[1573437591.962][INFO]: Waiting for pending navigations...
+[1573437591.963][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.030][INFO]: Waiting for pending navigations...
+[1573437592.033][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.033][INFO]: RESPONSE TypeElement
+[1573437592.038][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_last_name"
+}
+[1573437592.038][INFO]: Waiting for pending navigations...
+[1573437592.039][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.048][INFO]: Waiting for pending navigations...
+[1573437592.049][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.050][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-3"
+}
+[1573437592.056][INFO]: COMMAND ClearElement {
+   "id": "0.7498044087803934-3"
+}
+[1573437592.056][INFO]: Waiting for pending navigations...
+[1573437592.057][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.079][INFO]: Waiting for pending navigations...
+[1573437592.080][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.080][INFO]: RESPONSE ClearElement
+[1573437592.087][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_last_name"
+}
+[1573437592.087][INFO]: Waiting for pending navigations...
+[1573437592.088][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.095][INFO]: Waiting for pending navigations...
+[1573437592.096][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.096][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-3"
+}
+[1573437592.101][INFO]: COMMAND TypeElement {
+   "id": "0.7498044087803934-3",
+   "value": [ "Man" ]
+}
+[1573437592.101][INFO]: Waiting for pending navigations...
+[1573437592.102][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.156][INFO]: Waiting for pending navigations...
+[1573437592.157][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.157][INFO]: RESPONSE TypeElement
+[1573437592.171][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_email"
+}
+[1573437592.171][INFO]: Waiting for pending navigations...
+[1573437592.173][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.180][INFO]: Waiting for pending navigations...
+[1573437592.182][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.182][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-4"
+}
+[1573437592.186][INFO]: COMMAND ClearElement {
+   "id": "0.7498044087803934-4"
+}
+[1573437592.186][INFO]: Waiting for pending navigations...
+[1573437592.187][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.204][INFO]: Waiting for pending navigations...
+[1573437592.206][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.206][INFO]: RESPONSE ClearElement
+[1573437592.212][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_email"
+}
+[1573437592.212][INFO]: Waiting for pending navigations...
+[1573437592.214][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.219][INFO]: Waiting for pending navigations...
+[1573437592.220][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.220][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-4"
+}
+[1573437592.224][INFO]: COMMAND TypeElement {
+   "id": "0.7498044087803934-4",
+   "value": [ "tom2@ggg.com" ]
+}
+[1573437592.224][INFO]: Waiting for pending navigations...
+[1573437592.225][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.331][INFO]: Waiting for pending navigations...
+[1573437592.331][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.332][INFO]: RESPONSE TypeElement
+[1573437592.336][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_phone"
+}
+[1573437592.336][INFO]: Waiting for pending navigations...
+[1573437592.337][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.341][INFO]: Waiting for pending navigations...
+[1573437592.342][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.342][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-5"
+}
+[1573437592.347][INFO]: COMMAND ClearElement {
+   "id": "0.7498044087803934-5"
+}
+[1573437592.347][INFO]: Waiting for pending navigations...
+[1573437592.348][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.365][INFO]: Waiting for pending navigations...
+[1573437592.367][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.367][INFO]: RESPONSE ClearElement
+[1573437592.372][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_phone"
+}
+[1573437592.372][INFO]: Waiting for pending navigations...
+[1573437592.372][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.379][INFO]: Waiting for pending navigations...
+[1573437592.380][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.380][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-5"
+}
+[1573437592.386][INFO]: COMMAND TypeElement {
+   "id": "0.7498044087803934-5",
+   "value": [ "'22222222" ]
+}
+[1573437592.386][INFO]: Waiting for pending navigations...
+[1573437592.387][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.491][INFO]: Waiting for pending navigations...
+[1573437592.491][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.491][INFO]: RESPONSE TypeElement
+[1573437592.496][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_zip"
+}
+[1573437592.496][INFO]: Waiting for pending navigations...
+[1573437592.497][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.502][INFO]: Waiting for pending navigations...
+[1573437592.503][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.503][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-6"
+}
+[1573437592.508][INFO]: COMMAND ClearElement {
+   "id": "0.7498044087803934-6"
+}
+[1573437592.508][INFO]: Waiting for pending navigations...
+[1573437592.511][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.530][INFO]: Waiting for pending navigations...
+[1573437592.532][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.532][INFO]: RESPONSE ClearElement
+[1573437592.537][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_zip"
+}
+[1573437592.537][INFO]: Waiting for pending navigations...
+[1573437592.537][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.545][INFO]: Waiting for pending navigations...
+[1573437592.547][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.547][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-6"
+}
+[1573437592.552][INFO]: COMMAND TypeElement {
+   "id": "0.7498044087803934-6",
+   "value": [ "22009" ]
+}
+[1573437592.552][INFO]: Waiting for pending navigations...
+[1573437592.553][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.610][INFO]: Waiting for pending navigations...
+[1573437592.613][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.613][INFO]: RESPONSE TypeElement
+[1573437592.618][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437592.618][INFO]: Waiting for pending navigations...
+[1573437592.619][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.623][INFO]: Waiting for pending navigations...
+[1573437592.624][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.624][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-7"
+}
+[1573437592.630][INFO]: COMMAND ClickElement {
+   "id": "0.7498044087803934-7"
+}
+[1573437592.630][INFO]: Waiting for pending navigations...
+[1573437592.631][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.705][INFO]: Waiting for pending navigations...
+[1573437592.720][INFO]: Done waiting for pending navigations. Status: ok
+[1573437592.720][INFO]: RESPONSE ClickElement
+[1573437592.733][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_birth_date"
+}
+[1573437592.733][INFO]: Waiting for pending navigations...
+[1573437592.734][INFO]: Done waiting for pending navigations. Status: ok
+[1573437593.573][INFO]: Waiting for pending navigations...
+[1573437593.583][INFO]: Done waiting for pending navigations. Status: ok
+[1573437593.583][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-8"
+}
+[1573437593.588][INFO]: COMMAND ClearElement {
+   "id": "0.7498044087803934-8"
+}
+[1573437593.588][INFO]: Waiting for pending navigations...
+[1573437593.589][INFO]: Done waiting for pending navigations. Status: ok
+[1573437593.614][INFO]: Waiting for pending navigations...
+[1573437593.616][INFO]: Done waiting for pending navigations. Status: ok
+[1573437593.616][INFO]: RESPONSE ClearElement
+[1573437593.622][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_birth_date"
+}
+[1573437593.622][INFO]: Waiting for pending navigations...
+[1573437593.623][INFO]: Done waiting for pending navigations. Status: ok
+[1573437593.633][INFO]: Waiting for pending navigations...
+[1573437593.634][INFO]: Done waiting for pending navigations. Status: ok
+[1573437593.634][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-8"
+}
+[1573437593.639][INFO]: COMMAND TypeElement {
+   "id": "0.7498044087803934-8",
+   "value": [ "'02-11-1990" ]
+}
+[1573437593.639][INFO]: Waiting for pending navigations...
+[1573437593.640][INFO]: Done waiting for pending navigations. Status: ok
+[1573437593.807][INFO]: Waiting for pending navigations...
+[1573437593.807][INFO]: Done waiting for pending navigations. Status: ok
+[1573437593.807][INFO]: RESPONSE TypeElement
+[1573437593.811][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437593.811][INFO]: Waiting for pending navigations...
+[1573437593.814][INFO]: Done waiting for pending navigations. Status: ok
+[1573437593.819][INFO]: Waiting for pending navigations...
+[1573437593.820][INFO]: Done waiting for pending navigations. Status: ok
+[1573437593.820][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-9"
+}
+[1573437593.824][INFO]: COMMAND ClickElement {
+   "id": "0.7498044087803934-9"
+}
+[1573437593.824][INFO]: Waiting for pending navigations...
+[1573437593.825][INFO]: Done waiting for pending navigations. Status: ok
+[1573437593.955][INFO]: Waiting for pending navigations...
+[1573437593.976][INFO]: Done waiting for pending navigations. Status: ok
+[1573437593.976][INFO]: RESPONSE ClickElement
+[1573437593.982][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_phone"
+}
+[1573437593.983][INFO]: Waiting for pending navigations...
+[1573437594.878][INFO]: Done waiting for pending navigations. Status: ok
+[1573437594.883][INFO]: Waiting for pending navigations...
+[1573437594.884][INFO]: Done waiting for pending navigations. Status: ok
+[1573437594.884][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-10"
+}
+[1573437594.888][INFO]: COMMAND ClearElement {
+   "id": "0.7498044087803934-10"
+}
+[1573437594.890][INFO]: Waiting for pending navigations...
+[1573437594.891][INFO]: Done waiting for pending navigations. Status: ok
+[1573437594.905][INFO]: Waiting for pending navigations...
+[1573437594.907][INFO]: Done waiting for pending navigations. Status: ok
+[1573437594.907][INFO]: RESPONSE ClearElement
+[1573437594.915][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_phone"
+}
+[1573437594.915][INFO]: Waiting for pending navigations...
+[1573437594.916][INFO]: Done waiting for pending navigations. Status: ok
+[1573437594.926][INFO]: Waiting for pending navigations...
+[1573437594.927][INFO]: Done waiting for pending navigations. Status: ok
+[1573437594.927][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-10"
+}
+[1573437594.937][INFO]: COMMAND TypeElement {
+   "id": "0.7498044087803934-10",
+   "value": [ "'(571)-379-0222" ]
+}
+[1573437594.937][INFO]: Waiting for pending navigations...
+[1573437594.938][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.073][INFO]: Waiting for pending navigations...
+[1573437595.074][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.074][INFO]: RESPONSE TypeElement
+[1573437595.079][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437595.079][INFO]: Waiting for pending navigations...
+[1573437595.081][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.086][INFO]: Waiting for pending navigations...
+[1573437595.087][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.087][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-11"
+}
+[1573437595.091][INFO]: COMMAND ClickElement {
+   "id": "0.7498044087803934-11"
+}
+[1573437595.091][INFO]: Waiting for pending navigations...
+[1573437595.092][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.186][INFO]: Waiting for pending navigations...
+[1573437595.199][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.199][INFO]: RESPONSE ClickElement
+[1573437595.203][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='gender_1']"
+}
+[1573437595.203][INFO]: Waiting for pending navigations...
+[1573437595.205][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.211][INFO]: Waiting for pending navigations...
+[1573437595.215][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.215][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-12"
+}
+[1573437595.219][INFO]: COMMAND ClickElement {
+   "id": "0.7498044087803934-12"
+}
+[1573437595.219][INFO]: Waiting for pending navigations...
+[1573437595.220][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.283][INFO]: Waiting for pending navigations...
+[1573437595.287][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.287][INFO]: RESPONSE ClickElement
+[1573437595.306][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437595.306][INFO]: Waiting for pending navigations...
+[1573437595.307][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.317][INFO]: Waiting for pending navigations...
+[1573437595.318][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.318][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-13"
+}
+[1573437595.324][INFO]: COMMAND ClickElement {
+   "id": "0.7498044087803934-13"
+}
+[1573437595.324][INFO]: Waiting for pending navigations...
+[1573437595.325][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.454][INFO]: Waiting for pending navigations...
+[1573437595.469][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.469][INFO]: RESPONSE ClickElement
+[1573437595.473][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='military_1']"
+}
+[1573437595.473][INFO]: Waiting for pending navigations...
+[1573437595.474][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.484][INFO]: Waiting for pending navigations...
+[1573437595.485][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.485][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-14"
+}
+[1573437595.489][INFO]: COMMAND ClickElement {
+   "id": "0.7498044087803934-14"
+}
+[1573437595.489][INFO]: Waiting for pending navigations...
+[1573437595.489][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.568][INFO]: Waiting for pending navigations...
+[1573437595.576][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.576][INFO]: RESPONSE ClickElement
+[1573437595.584][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437595.584][INFO]: Waiting for pending navigations...
+[1573437595.588][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.594][INFO]: Waiting for pending navigations...
+[1573437595.598][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.599][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-15"
+}
+[1573437595.605][INFO]: COMMAND ClickElement {
+   "id": "0.7498044087803934-15"
+}
+[1573437595.605][INFO]: Waiting for pending navigations...
+[1573437595.606][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.708][INFO]: Waiting for pending navigations...
+[1573437595.716][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.716][INFO]: RESPONSE ClickElement
+[1573437595.721][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='high_school_0']"
+}
+[1573437595.721][INFO]: Waiting for pending navigations...
+[1573437595.721][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.732][INFO]: Waiting for pending navigations...
+[1573437595.734][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.734][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-16"
+}
+[1573437595.738][INFO]: COMMAND ClickElement {
+   "id": "0.7498044087803934-16"
+}
+[1573437595.738][INFO]: Waiting for pending navigations...
+[1573437595.739][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.802][INFO]: Waiting for pending navigations...
+[1573437595.806][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.806][INFO]: RESPONSE ClickElement
+[1573437595.814][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437595.814][INFO]: Waiting for pending navigations...
+[1573437595.822][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.829][INFO]: Waiting for pending navigations...
+[1573437595.832][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.832][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-17"
+}
+[1573437595.838][INFO]: COMMAND ClickElement {
+   "id": "0.7498044087803934-17"
+}
+[1573437595.838][INFO]: Waiting for pending navigations...
+[1573437595.838][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.938][INFO]: Waiting for pending navigations...
+[1573437595.947][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.947][INFO]: RESPONSE ClickElement
+[1573437595.956][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='college_0']"
+}
+[1573437595.956][INFO]: Waiting for pending navigations...
+[1573437595.956][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.965][INFO]: Waiting for pending navigations...
+[1573437595.969][INFO]: Done waiting for pending navigations. Status: ok
+[1573437595.969][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-18"
+}
+[1573437595.972][INFO]: COMMAND ClickElement {
+   "id": "0.7498044087803934-18"
+}
+[1573437595.972][INFO]: Waiting for pending navigations...
+[1573437595.973][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.053][INFO]: Waiting for pending navigations...
+[1573437596.057][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.057][INFO]: RESPONSE ClickElement
+[1573437596.068][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437596.068][INFO]: Waiting for pending navigations...
+[1573437596.069][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.076][INFO]: Waiting for pending navigations...
+[1573437596.080][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.080][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-19"
+}
+[1573437596.084][INFO]: COMMAND ClickElement {
+   "id": "0.7498044087803934-19"
+}
+[1573437596.084][INFO]: Waiting for pending navigations...
+[1573437596.085][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.174][INFO]: Waiting for pending navigations...
+[1573437596.181][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.181][INFO]: RESPONSE ClickElement
+[1573437596.188][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='college_degree_1']"
+}
+[1573437596.188][INFO]: Waiting for pending navigations...
+[1573437596.189][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.197][INFO]: Waiting for pending navigations...
+[1573437596.200][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.200][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-20"
+}
+[1573437596.205][INFO]: COMMAND ClickElement {
+   "id": "0.7498044087803934-20"
+}
+[1573437596.205][INFO]: Waiting for pending navigations...
+[1573437596.206][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.289][INFO]: Waiting for pending navigations...
+[1573437596.291][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.294][INFO]: RESPONSE ClickElement
+[1573437596.305][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437596.306][INFO]: Waiting for pending navigations...
+[1573437596.307][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.314][INFO]: Waiting for pending navigations...
+[1573437596.316][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.316][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-21"
+}
+[1573437596.321][INFO]: COMMAND ClickElement {
+   "id": "0.7498044087803934-21"
+}
+[1573437596.321][INFO]: Waiting for pending navigations...
+[1573437596.322][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.427][INFO]: Waiting for pending navigations...
+[1573437596.449][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.449][INFO]: RESPONSE ClickElement
+[1573437596.452][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='feet']"
+}
+[1573437596.452][INFO]: Waiting for pending navigations...
+[1573437596.453][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.458][INFO]: Waiting for pending navigations...
+[1573437596.458][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.458][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-22"
+}
+[1573437596.467][INFO]: COMMAND GetElementTagName {
+   "id": "0.7498044087803934-22"
+}
+[1573437596.467][INFO]: Waiting for pending navigations...
+[1573437596.468][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.470][INFO]: Waiting for pending navigations...
+[1573437596.471][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.471][INFO]: RESPONSE GetElementTagName "select"
+[1573437596.473][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7498044087803934-22",
+   "name": "multiple"
+}
+[1573437596.473][INFO]: Waiting for pending navigations...
+[1573437596.474][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.486][INFO]: Waiting for pending navigations...
+[1573437596.487][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.488][INFO]: RESPONSE GetElementAttribute null
+[1573437596.496][INFO]: COMMAND FindChildElements {
+   "id": "0.7498044087803934-22",
+   "using": "xpath",
+   "value": ".//option[normalize-space(.) = \"5\"]"
+}
+[1573437596.496][INFO]: Waiting for pending navigations...
+[1573437596.498][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.507][INFO]: Waiting for pending navigations...
+[1573437596.507][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.507][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.7498044087803934-23"
+} ]
+[1573437596.512][INFO]: COMMAND IsElementSelected {
+   "id": "0.7498044087803934-23"
+}
+[1573437596.512][INFO]: Waiting for pending navigations...
+[1573437596.513][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.519][INFO]: Waiting for pending navigations...
+[1573437596.520][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.520][INFO]: RESPONSE IsElementSelected false
+[1573437596.524][INFO]: COMMAND ClickElement {
+   "id": "0.7498044087803934-23"
+}
+[1573437596.524][INFO]: Waiting for pending navigations...
+[1573437596.525][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.565][INFO]: Waiting for pending navigations...
+[1573437596.569][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.569][INFO]: RESPONSE ClickElement
+[1573437596.581][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='inches']"
+}
+[1573437596.581][INFO]: Waiting for pending navigations...
+[1573437596.582][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.587][INFO]: Waiting for pending navigations...
+[1573437596.588][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.588][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-24"
+}
+[1573437596.590][INFO]: COMMAND GetElementTagName {
+   "id": "0.7498044087803934-24"
+}
+[1573437596.590][INFO]: Waiting for pending navigations...
+[1573437596.591][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.596][INFO]: Waiting for pending navigations...
+[1573437596.598][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.598][INFO]: RESPONSE GetElementTagName "select"
+[1573437596.601][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7498044087803934-24",
+   "name": "multiple"
+}
+[1573437596.601][INFO]: Waiting for pending navigations...
+[1573437596.602][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.606][INFO]: Waiting for pending navigations...
+[1573437596.607][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.607][INFO]: RESPONSE GetElementAttribute null
+[1573437596.613][INFO]: COMMAND FindChildElements {
+   "id": "0.7498044087803934-24",
+   "using": "xpath",
+   "value": ".//option[normalize-space(.) = \"10\"]"
+}
+[1573437596.613][INFO]: Waiting for pending navigations...
+[1573437596.614][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.623][INFO]: Waiting for pending navigations...
+[1573437596.624][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.624][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.7498044087803934-25"
+} ]
+[1573437596.628][INFO]: COMMAND IsElementSelected {
+   "id": "0.7498044087803934-25"
+}
+[1573437596.628][INFO]: Waiting for pending navigations...
+[1573437596.630][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.637][INFO]: Waiting for pending navigations...
+[1573437596.638][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.638][INFO]: RESPONSE IsElementSelected false
+[1573437596.642][INFO]: COMMAND ClickElement {
+   "id": "0.7498044087803934-25"
+}
+[1573437596.643][INFO]: Waiting for pending navigations...
+[1573437596.649][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.690][INFO]: Waiting for pending navigations...
+[1573437596.693][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.693][INFO]: RESPONSE ClickElement
+[1573437596.697][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437596.697][INFO]: Waiting for pending navigations...
+[1573437596.699][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.705][INFO]: Waiting for pending navigations...
+[1573437596.705][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.706][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-26"
+}
+[1573437596.712][INFO]: COMMAND ClickElement {
+   "id": "0.7498044087803934-26"
+}
+[1573437596.712][INFO]: Waiting for pending navigations...
+[1573437596.714][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.815][INFO]: Waiting for pending navigations...
+[1573437596.824][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.824][INFO]: RESPONSE ClickElement
+[1573437596.829][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='weight_1']"
+}
+[1573437596.829][INFO]: Waiting for pending navigations...
+[1573437596.837][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.843][INFO]: Waiting for pending navigations...
+[1573437596.847][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.847][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-27"
+}
+[1573437596.851][INFO]: COMMAND ClickElement {
+   "id": "0.7498044087803934-27"
+}
+[1573437596.852][INFO]: Waiting for pending navigations...
+[1573437596.853][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.923][INFO]: Waiting for pending navigations...
+[1573437596.924][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.925][INFO]: RESPONSE ClickElement
+[1573437596.931][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437596.931][INFO]: Waiting for pending navigations...
+[1573437596.934][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.941][INFO]: Waiting for pending navigations...
+[1573437596.943][INFO]: Done waiting for pending navigations. Status: ok
+[1573437596.943][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-28"
+}
+[1573437596.946][INFO]: COMMAND ClickElement {
+   "id": "0.7498044087803934-28"
+}
+[1573437596.947][INFO]: Waiting for pending navigations...
+[1573437596.948][INFO]: Done waiting for pending navigations. Status: ok
+[1573437597.055][INFO]: Waiting for pending navigations...
+[1573437597.072][INFO]: Done waiting for pending navigations. Status: ok
+[1573437597.073][INFO]: RESPONSE ClickElement
+[1573437597.075][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='motivation_1']"
+}
+[1573437597.075][INFO]: Waiting for pending navigations...
+[1573437597.079][INFO]: Done waiting for pending navigations. Status: ok
+[1573437597.085][INFO]: Waiting for pending navigations...
+[1573437597.086][INFO]: Done waiting for pending navigations. Status: ok
+[1573437597.086][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-29"
+}
+[1573437597.090][INFO]: COMMAND ClickElement {
+   "id": "0.7498044087803934-29"
+}
+[1573437597.090][INFO]: Waiting for pending navigations...
+[1573437597.091][INFO]: Done waiting for pending navigations. Status: ok
+[1573437597.168][INFO]: Waiting for pending navigations...
+[1573437597.174][INFO]: Done waiting for pending navigations. Status: ok
+[1573437597.174][INFO]: RESPONSE ClickElement
+[1573437597.176][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437597.176][INFO]: Waiting for pending navigations...
+[1573437597.180][INFO]: Done waiting for pending navigations. Status: ok
+[1573437597.186][INFO]: Waiting for pending navigations...
+[1573437597.186][INFO]: Done waiting for pending navigations. Status: ok
+[1573437597.187][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-30"
+}
+[1573437597.197][INFO]: COMMAND ClickElement {
+   "id": "0.7498044087803934-30"
+}
+[1573437597.197][INFO]: Waiting for pending navigations...
+[1573437597.198][INFO]: Done waiting for pending navigations. Status: ok
+[1573437597.324][INFO]: Waiting for pending navigations...
+[1573437597.337][INFO]: Done waiting for pending navigations. Status: ok
+[1573437597.337][INFO]: RESPONSE ClickElement
+[1573437597.340][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437597.340][INFO]: Waiting for pending navigations...
+[1573437597.341][INFO]: Done waiting for pending navigations. Status: ok
+[1573437597.349][INFO]: Waiting for pending navigations...
+[1573437597.350][INFO]: Done waiting for pending navigations. Status: ok
+[1573437597.350][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-31"
+}
+[1573437597.352][INFO]: COMMAND ClickElement {
+   "id": "0.7498044087803934-31"
+}
+[1573437597.352][INFO]: Waiting for pending navigations...
+[1573437597.354][INFO]: Done waiting for pending navigations. Status: ok
+[1573437597.420][INFO]: Waiting for pending navigations...
+[1573437597.423][INFO]: Done waiting for pending navigations. Status: ok
+[1573437597.423][INFO]: RESPONSE ClickElement
+[1573437597.437][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='recruiter-contact']/div/h5"
+}
+[1573437597.437][INFO]: Waiting for pending navigations...
+[1573437597.438][INFO]: Done waiting for pending navigations. Status: ok
+[1573437598.691][INFO]: Waiting for pending navigations...
+[1573437599.016][INFO]: Done waiting for pending navigations. Status: ok
+[1573437599.016][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7498044087803934-32"
+}
+[1573437599.019][INFO]: COMMAND GetElementText {
+   "id": "0.7498044087803934-32"
+}
+[1573437599.019][INFO]: Waiting for pending navigations...
+[1573437599.020][INFO]: Done waiting for pending navigations. Status: ok
+[1573437599.035][INFO]: Waiting for pending navigations...
+[1573437599.036][INFO]: Done waiting for pending navigations. Status: ok
+[1573437599.036][INFO]: RESPONSE GetElementText "BRION STONER"
+[1573437599.043][INFO]: COMMAND Navigate {
+   "url": "https://www.nationalguard.com/"
+}
+[1573437599.043][INFO]: Waiting for pending navigations...
+[1573437599.044][INFO]: Done waiting for pending navigations. Status: ok
+[1573437599.067][INFO]: Waiting for pending navigations...
+[1573437599.068][INFO]: Done waiting for pending navigations. Status: unexpected alert open
+[1573437599.068][INFO]: RESPONSE Navigate
+[1573437599.071][INFO]: COMMAND GetAlertMessage {
+
+}
+[1573437599.071][INFO]: Waiting for pending navigations...
+[1573437599.071][INFO]: Done waiting for pending navigations. Status: unexpected alert open
+[1573437599.071][INFO]: RESPONSE GetAlertMessage ""
+[1573437599.083][INFO]: COMMAND AcceptAlert {
+
+}
+[1573437599.083][INFO]: Waiting for pending navigations...
+[1573437599.083][INFO]: Done waiting for pending navigations. Status: unexpected alert open
+[1573437599.087][INFO]: RESPONSE AcceptAlert
+[1573437599.098][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "button"
+}
+[1573437599.098][INFO]: Waiting for pending navigations...
+[1573437601.185][INFO]: Done waiting for pending navigations. Status: ok
+[1573437601.196][INFO]: Waiting for pending navigations...
+[1573437601.197][INFO]: Done waiting for pending navigations. Status: ok
+[1573437601.197][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-1"
+}
+[1573437601.202][INFO]: COMMAND ClickElement {
+   "id": "0.782612227761238-1"
+}
+[1573437601.202][INFO]: Waiting for pending navigations...
+[1573437601.203][INFO]: Done waiting for pending navigations. Status: ok
+[1573437601.523][INFO]: Waiting for pending navigations...
+[1573437602.477][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.477][INFO]: RESPONSE ClickElement
+[1573437602.485][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_first_name"
+}
+[1573437602.485][INFO]: Waiting for pending navigations...
+[1573437602.486][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.491][INFO]: Waiting for pending navigations...
+[1573437602.492][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.492][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-2"
+}
+[1573437602.497][INFO]: COMMAND ClearElement {
+   "id": "0.782612227761238-2"
+}
+[1573437602.497][INFO]: Waiting for pending navigations...
+[1573437602.498][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.523][INFO]: Waiting for pending navigations...
+[1573437602.524][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.524][INFO]: RESPONSE ClearElement
+[1573437602.531][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_first_name"
+}
+[1573437602.531][INFO]: Waiting for pending navigations...
+[1573437602.532][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.538][INFO]: Waiting for pending navigations...
+[1573437602.539][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.539][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-2"
+}
+[1573437602.543][INFO]: COMMAND TypeElement {
+   "id": "0.782612227761238-2",
+   "value": [ "Harry" ]
+}
+[1573437602.543][INFO]: Waiting for pending navigations...
+[1573437602.549][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.656][INFO]: Waiting for pending navigations...
+[1573437602.656][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.656][INFO]: RESPONSE TypeElement
+[1573437602.662][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_last_name"
+}
+[1573437602.662][INFO]: Waiting for pending navigations...
+[1573437602.664][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.670][INFO]: Waiting for pending navigations...
+[1573437602.671][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.671][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-3"
+}
+[1573437602.675][INFO]: COMMAND ClearElement {
+   "id": "0.782612227761238-3"
+}
+[1573437602.675][INFO]: Waiting for pending navigations...
+[1573437602.677][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.695][INFO]: Waiting for pending navigations...
+[1573437602.699][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.699][INFO]: RESPONSE ClearElement
+[1573437602.704][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_last_name"
+}
+[1573437602.704][INFO]: Waiting for pending navigations...
+[1573437602.704][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.711][INFO]: Waiting for pending navigations...
+[1573437602.713][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.713][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-3"
+}
+[1573437602.718][INFO]: COMMAND TypeElement {
+   "id": "0.782612227761238-3",
+   "value": [ "Smith" ]
+}
+[1573437602.718][INFO]: Waiting for pending navigations...
+[1573437602.719][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.789][INFO]: Waiting for pending navigations...
+[1573437602.789][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.789][INFO]: RESPONSE TypeElement
+[1573437602.796][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_email"
+}
+[1573437602.796][INFO]: Waiting for pending navigations...
+[1573437602.798][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.803][INFO]: Waiting for pending navigations...
+[1573437602.804][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.804][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-4"
+}
+[1573437602.808][INFO]: COMMAND ClearElement {
+   "id": "0.782612227761238-4"
+}
+[1573437602.808][INFO]: Waiting for pending navigations...
+[1573437602.812][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.834][INFO]: Waiting for pending navigations...
+[1573437602.835][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.835][INFO]: RESPONSE ClearElement
+[1573437602.839][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_email"
+}
+[1573437602.839][INFO]: Waiting for pending navigations...
+[1573437602.839][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.845][INFO]: Waiting for pending navigations...
+[1573437602.848][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.848][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-4"
+}
+[1573437602.853][INFO]: COMMAND TypeElement {
+   "id": "0.782612227761238-4",
+   "value": [ "tom22@ggg.com" ]
+}
+[1573437602.853][INFO]: Waiting for pending navigations...
+[1573437602.857][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.970][INFO]: Waiting for pending navigations...
+[1573437602.971][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.971][INFO]: RESPONSE TypeElement
+[1573437602.975][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_phone"
+}
+[1573437602.975][INFO]: Waiting for pending navigations...
+[1573437602.976][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.984][INFO]: Waiting for pending navigations...
+[1573437602.985][INFO]: Done waiting for pending navigations. Status: ok
+[1573437602.985][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-5"
+}
+[1573437602.989][INFO]: COMMAND ClearElement {
+   "id": "0.782612227761238-5"
+}
+[1573437602.989][INFO]: Waiting for pending navigations...
+[1573437602.990][INFO]: Done waiting for pending navigations. Status: ok
+[1573437603.011][INFO]: Waiting for pending navigations...
+[1573437603.013][INFO]: Done waiting for pending navigations. Status: ok
+[1573437603.013][INFO]: RESPONSE ClearElement
+[1573437603.020][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_phone"
+}
+[1573437603.020][INFO]: Waiting for pending navigations...
+[1573437603.021][INFO]: Done waiting for pending navigations. Status: ok
+[1573437603.028][INFO]: Waiting for pending navigations...
+[1573437603.030][INFO]: Done waiting for pending navigations. Status: ok
+[1573437603.030][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-5"
+}
+[1573437603.035][INFO]: COMMAND TypeElement {
+   "id": "0.782612227761238-5",
+   "value": [ "'22222222" ]
+}
+[1573437603.035][INFO]: Waiting for pending navigations...
+[1573437603.036][INFO]: Done waiting for pending navigations. Status: ok
+[1573437603.135][INFO]: Waiting for pending navigations...
+[1573437603.136][INFO]: Done waiting for pending navigations. Status: ok
+[1573437603.136][INFO]: RESPONSE TypeElement
+[1573437603.139][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_zip"
+}
+[1573437603.139][INFO]: Waiting for pending navigations...
+[1573437603.140][INFO]: Done waiting for pending navigations. Status: ok
+[1573437603.145][INFO]: Waiting for pending navigations...
+[1573437603.147][INFO]: Done waiting for pending navigations. Status: ok
+[1573437603.148][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-6"
+}
+[1573437603.151][INFO]: COMMAND ClearElement {
+   "id": "0.782612227761238-6"
+}
+[1573437603.151][INFO]: Waiting for pending navigations...
+[1573437603.152][INFO]: Done waiting for pending navigations. Status: ok
+[1573437603.169][INFO]: Waiting for pending navigations...
+[1573437603.170][INFO]: Done waiting for pending navigations. Status: ok
+[1573437603.171][INFO]: RESPONSE ClearElement
+[1573437603.174][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_zip"
+}
+[1573437603.174][INFO]: Waiting for pending navigations...
+[1573437603.175][INFO]: Done waiting for pending navigations. Status: ok
+[1573437603.182][INFO]: Waiting for pending navigations...
+[1573437603.183][INFO]: Done waiting for pending navigations. Status: ok
+[1573437603.183][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-6"
+}
+[1573437603.188][INFO]: COMMAND TypeElement {
+   "id": "0.782612227761238-6",
+   "value": [ "22009" ]
+}
+[1573437603.188][INFO]: Waiting for pending navigations...
+[1573437603.189][INFO]: Done waiting for pending navigations. Status: ok
+[1573437603.257][INFO]: Waiting for pending navigations...
+[1573437603.257][INFO]: Done waiting for pending navigations. Status: ok
+[1573437603.257][INFO]: RESPONSE TypeElement
+[1573437603.261][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437603.261][INFO]: Waiting for pending navigations...
+[1573437603.263][INFO]: Done waiting for pending navigations. Status: ok
+[1573437603.268][INFO]: Waiting for pending navigations...
+[1573437603.269][INFO]: Done waiting for pending navigations. Status: ok
+[1573437603.269][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-7"
+}
+[1573437603.272][INFO]: COMMAND ClickElement {
+   "id": "0.782612227761238-7"
+}
+[1573437603.272][INFO]: Waiting for pending navigations...
+[1573437603.273][INFO]: Done waiting for pending navigations. Status: ok
+[1573437603.339][INFO]: Waiting for pending navigations...
+[1573437603.344][INFO]: Done waiting for pending navigations. Status: ok
+[1573437603.344][INFO]: RESPONSE ClickElement
+[1573437603.348][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_birth_date"
+}
+[1573437603.348][INFO]: Waiting for pending navigations...
+[1573437603.350][INFO]: Done waiting for pending navigations. Status: ok
+[1573437603.932][INFO]: Waiting for pending navigations...
+[1573437603.942][INFO]: Done waiting for pending navigations. Status: ok
+[1573437603.942][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-8"
+}
+[1573437603.951][INFO]: COMMAND ClearElement {
+   "id": "0.782612227761238-8"
+}
+[1573437603.951][INFO]: Waiting for pending navigations...
+[1573437603.955][INFO]: Done waiting for pending navigations. Status: ok
+[1573437603.974][INFO]: Waiting for pending navigations...
+[1573437603.986][INFO]: Done waiting for pending navigations. Status: ok
+[1573437603.986][INFO]: RESPONSE ClearElement
+[1573437603.991][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_birth_date"
+}
+[1573437603.992][INFO]: Waiting for pending navigations...
+[1573437604.000][INFO]: Done waiting for pending navigations. Status: ok
+[1573437604.008][INFO]: Waiting for pending navigations...
+[1573437604.010][INFO]: Done waiting for pending navigations. Status: ok
+[1573437604.010][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-8"
+}
+[1573437604.017][INFO]: COMMAND TypeElement {
+   "id": "0.782612227761238-8",
+   "value": [ "'02-11-1990" ]
+}
+[1573437604.017][INFO]: Waiting for pending navigations...
+[1573437604.019][INFO]: Done waiting for pending navigations. Status: ok
+[1573437604.193][INFO]: Waiting for pending navigations...
+[1573437604.197][INFO]: Done waiting for pending navigations. Status: ok
+[1573437604.197][INFO]: RESPONSE TypeElement
+[1573437604.200][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437604.200][INFO]: Waiting for pending navigations...
+[1573437604.201][INFO]: Done waiting for pending navigations. Status: ok
+[1573437604.206][INFO]: Waiting for pending navigations...
+[1573437604.206][INFO]: Done waiting for pending navigations. Status: ok
+[1573437604.206][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-9"
+}
+[1573437604.211][INFO]: COMMAND ClickElement {
+   "id": "0.782612227761238-9"
+}
+[1573437604.211][INFO]: Waiting for pending navigations...
+[1573437604.213][INFO]: Done waiting for pending navigations. Status: ok
+[1573437604.351][INFO]: Waiting for pending navigations...
+[1573437605.243][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.243][INFO]: RESPONSE ClickElement
+[1573437605.248][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_phone"
+}
+[1573437605.248][INFO]: Waiting for pending navigations...
+[1573437605.249][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.255][INFO]: Waiting for pending navigations...
+[1573437605.256][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.256][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-10"
+}
+[1573437605.259][INFO]: COMMAND ClearElement {
+   "id": "0.782612227761238-10"
+}
+[1573437605.259][INFO]: Waiting for pending navigations...
+[1573437605.260][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.283][INFO]: Waiting for pending navigations...
+[1573437605.284][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.284][INFO]: RESPONSE ClearElement
+[1573437605.288][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_phone"
+}
+[1573437605.289][INFO]: Waiting for pending navigations...
+[1573437605.290][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.300][INFO]: Waiting for pending navigations...
+[1573437605.300][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.300][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-10"
+}
+[1573437605.305][INFO]: COMMAND TypeElement {
+   "id": "0.782612227761238-10",
+   "value": [ "'(571)-379-0222" ]
+}
+[1573437605.305][INFO]: Waiting for pending navigations...
+[1573437605.305][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.431][INFO]: Waiting for pending navigations...
+[1573437605.432][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.432][INFO]: RESPONSE TypeElement
+[1573437605.436][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437605.436][INFO]: Waiting for pending navigations...
+[1573437605.437][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.442][INFO]: Waiting for pending navigations...
+[1573437605.443][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.443][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-11"
+}
+[1573437605.447][INFO]: COMMAND ClickElement {
+   "id": "0.782612227761238-11"
+}
+[1573437605.448][INFO]: Waiting for pending navigations...
+[1573437605.448][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.542][INFO]: Waiting for pending navigations...
+[1573437605.554][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.554][INFO]: RESPONSE ClickElement
+[1573437605.564][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='gender_1']"
+}
+[1573437605.564][INFO]: Waiting for pending navigations...
+[1573437605.565][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.570][INFO]: Waiting for pending navigations...
+[1573437605.571][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.571][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-12"
+}
+[1573437605.578][INFO]: COMMAND ClickElement {
+   "id": "0.782612227761238-12"
+}
+[1573437605.578][INFO]: Waiting for pending navigations...
+[1573437605.581][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.653][INFO]: Waiting for pending navigations...
+[1573437605.656][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.656][INFO]: RESPONSE ClickElement
+[1573437605.666][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437605.666][INFO]: Waiting for pending navigations...
+[1573437605.669][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.685][INFO]: Waiting for pending navigations...
+[1573437605.688][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.688][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-13"
+}
+[1573437605.699][INFO]: COMMAND ClickElement {
+   "id": "0.782612227761238-13"
+}
+[1573437605.699][INFO]: Waiting for pending navigations...
+[1573437605.700][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.859][INFO]: Waiting for pending navigations...
+[1573437605.874][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.874][INFO]: RESPONSE ClickElement
+[1573437605.878][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='military_1']"
+}
+[1573437605.878][INFO]: Waiting for pending navigations...
+[1573437605.882][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.887][INFO]: Waiting for pending navigations...
+[1573437605.888][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.888][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-14"
+}
+[1573437605.893][INFO]: COMMAND ClickElement {
+   "id": "0.782612227761238-14"
+}
+[1573437605.894][INFO]: Waiting for pending navigations...
+[1573437605.897][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.966][INFO]: Waiting for pending navigations...
+[1573437605.970][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.970][INFO]: RESPONSE ClickElement
+[1573437605.975][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437605.975][INFO]: Waiting for pending navigations...
+[1573437605.977][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.986][INFO]: Waiting for pending navigations...
+[1573437605.994][INFO]: Done waiting for pending navigations. Status: ok
+[1573437605.994][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-15"
+}
+[1573437605.999][INFO]: COMMAND ClickElement {
+   "id": "0.782612227761238-15"
+}
+[1573437605.999][INFO]: Waiting for pending navigations...
+[1573437606.000][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.109][INFO]: Waiting for pending navigations...
+[1573437606.116][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.116][INFO]: RESPONSE ClickElement
+[1573437606.122][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='high_school_0']"
+}
+[1573437606.122][INFO]: Waiting for pending navigations...
+[1573437606.123][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.128][INFO]: Waiting for pending navigations...
+[1573437606.134][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.134][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-16"
+}
+[1573437606.139][INFO]: COMMAND ClickElement {
+   "id": "0.782612227761238-16"
+}
+[1573437606.139][INFO]: Waiting for pending navigations...
+[1573437606.139][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.224][INFO]: Waiting for pending navigations...
+[1573437606.238][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.238][INFO]: RESPONSE ClickElement
+[1573437606.243][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437606.243][INFO]: Waiting for pending navigations...
+[1573437606.246][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.251][INFO]: Waiting for pending navigations...
+[1573437606.252][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.252][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-17"
+}
+[1573437606.256][INFO]: COMMAND ClickElement {
+   "id": "0.782612227761238-17"
+}
+[1573437606.256][INFO]: Waiting for pending navigations...
+[1573437606.257][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.360][INFO]: Waiting for pending navigations...
+[1573437606.374][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.374][INFO]: RESPONSE ClickElement
+[1573437606.379][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='college_0']"
+}
+[1573437606.379][INFO]: Waiting for pending navigations...
+[1573437606.380][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.386][INFO]: Waiting for pending navigations...
+[1573437606.387][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.387][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-18"
+}
+[1573437606.391][INFO]: COMMAND ClickElement {
+   "id": "0.782612227761238-18"
+}
+[1573437606.391][INFO]: Waiting for pending navigations...
+[1573437606.391][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.468][INFO]: Waiting for pending navigations...
+[1573437606.474][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.474][INFO]: RESPONSE ClickElement
+[1573437606.488][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437606.488][INFO]: Waiting for pending navigations...
+[1573437606.490][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.495][INFO]: Waiting for pending navigations...
+[1573437606.499][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.499][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-19"
+}
+[1573437606.503][INFO]: COMMAND ClickElement {
+   "id": "0.782612227761238-19"
+}
+[1573437606.503][INFO]: Waiting for pending navigations...
+[1573437606.504][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.608][INFO]: Waiting for pending navigations...
+[1573437606.629][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.629][INFO]: RESPONSE ClickElement
+[1573437606.634][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='college_degree_1']"
+}
+[1573437606.634][INFO]: Waiting for pending navigations...
+[1573437606.635][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.640][INFO]: Waiting for pending navigations...
+[1573437606.640][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.640][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-20"
+}
+[1573437606.646][INFO]: COMMAND ClickElement {
+   "id": "0.782612227761238-20"
+}
+[1573437606.646][INFO]: Waiting for pending navigations...
+[1573437606.648][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.724][INFO]: Waiting for pending navigations...
+[1573437606.734][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.734][INFO]: RESPONSE ClickElement
+[1573437606.737][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437606.737][INFO]: Waiting for pending navigations...
+[1573437606.738][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.745][INFO]: Waiting for pending navigations...
+[1573437606.748][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.748][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-21"
+}
+[1573437606.757][INFO]: COMMAND ClickElement {
+   "id": "0.782612227761238-21"
+}
+[1573437606.757][INFO]: Waiting for pending navigations...
+[1573437606.758][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.861][INFO]: Waiting for pending navigations...
+[1573437606.883][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.883][INFO]: RESPONSE ClickElement
+[1573437606.888][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='feet']"
+}
+[1573437606.888][INFO]: Waiting for pending navigations...
+[1573437606.890][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.898][INFO]: Waiting for pending navigations...
+[1573437606.900][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.900][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-22"
+}
+[1573437606.902][INFO]: COMMAND GetElementTagName {
+   "id": "0.782612227761238-22"
+}
+[1573437606.902][INFO]: Waiting for pending navigations...
+[1573437606.903][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.905][INFO]: Waiting for pending navigations...
+[1573437606.906][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.906][INFO]: RESPONSE GetElementTagName "select"
+[1573437606.908][INFO]: COMMAND GetElementAttribute {
+   "id": "0.782612227761238-22",
+   "name": "multiple"
+}
+[1573437606.908][INFO]: Waiting for pending navigations...
+[1573437606.912][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.917][INFO]: Waiting for pending navigations...
+[1573437606.918][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.918][INFO]: RESPONSE GetElementAttribute null
+[1573437606.922][INFO]: COMMAND FindChildElements {
+   "id": "0.782612227761238-22",
+   "using": "xpath",
+   "value": ".//option[normalize-space(.) = \"5\"]"
+}
+[1573437606.922][INFO]: Waiting for pending navigations...
+[1573437606.923][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.934][INFO]: Waiting for pending navigations...
+[1573437606.936][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.936][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.782612227761238-23"
+} ]
+[1573437606.939][INFO]: COMMAND IsElementSelected {
+   "id": "0.782612227761238-23"
+}
+[1573437606.939][INFO]: Waiting for pending navigations...
+[1573437606.940][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.947][INFO]: Waiting for pending navigations...
+[1573437606.950][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.950][INFO]: RESPONSE IsElementSelected false
+[1573437606.953][INFO]: COMMAND ClickElement {
+   "id": "0.782612227761238-23"
+}
+[1573437606.953][INFO]: Waiting for pending navigations...
+[1573437606.953][INFO]: Done waiting for pending navigations. Status: ok
+[1573437606.997][INFO]: Waiting for pending navigations...
+[1573437607.003][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.003][INFO]: RESPONSE ClickElement
+[1573437607.008][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='inches']"
+}
+[1573437607.008][INFO]: Waiting for pending navigations...
+[1573437607.010][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.018][INFO]: Waiting for pending navigations...
+[1573437607.019][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.019][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-24"
+}
+[1573437607.021][INFO]: COMMAND GetElementTagName {
+   "id": "0.782612227761238-24"
+}
+[1573437607.021][INFO]: Waiting for pending navigations...
+[1573437607.022][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.024][INFO]: Waiting for pending navigations...
+[1573437607.025][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.025][INFO]: RESPONSE GetElementTagName "select"
+[1573437607.029][INFO]: COMMAND GetElementAttribute {
+   "id": "0.782612227761238-24",
+   "name": "multiple"
+}
+[1573437607.029][INFO]: Waiting for pending navigations...
+[1573437607.031][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.034][INFO]: Waiting for pending navigations...
+[1573437607.035][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.035][INFO]: RESPONSE GetElementAttribute null
+[1573437607.039][INFO]: COMMAND FindChildElements {
+   "id": "0.782612227761238-24",
+   "using": "xpath",
+   "value": ".//option[normalize-space(.) = \"10\"]"
+}
+[1573437607.039][INFO]: Waiting for pending navigations...
+[1573437607.040][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.054][INFO]: Waiting for pending navigations...
+[1573437607.055][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.055][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.782612227761238-25"
+} ]
+[1573437607.057][INFO]: COMMAND IsElementSelected {
+   "id": "0.782612227761238-25"
+}
+[1573437607.057][INFO]: Waiting for pending navigations...
+[1573437607.058][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.068][INFO]: Waiting for pending navigations...
+[1573437607.069][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.069][INFO]: RESPONSE IsElementSelected false
+[1573437607.072][INFO]: COMMAND ClickElement {
+   "id": "0.782612227761238-25"
+}
+[1573437607.072][INFO]: Waiting for pending navigations...
+[1573437607.072][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.116][INFO]: Waiting for pending navigations...
+[1573437607.119][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.119][INFO]: RESPONSE ClickElement
+[1573437607.125][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437607.125][INFO]: Waiting for pending navigations...
+[1573437607.127][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.135][INFO]: Waiting for pending navigations...
+[1573437607.135][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.135][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-26"
+}
+[1573437607.140][INFO]: COMMAND ClickElement {
+   "id": "0.782612227761238-26"
+}
+[1573437607.140][INFO]: Waiting for pending navigations...
+[1573437607.141][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.251][INFO]: Waiting for pending navigations...
+[1573437607.261][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.261][INFO]: RESPONSE ClickElement
+[1573437607.271][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='weight_1']"
+}
+[1573437607.271][INFO]: Waiting for pending navigations...
+[1573437607.274][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.282][INFO]: Waiting for pending navigations...
+[1573437607.283][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.283][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-27"
+}
+[1573437607.286][INFO]: COMMAND ClickElement {
+   "id": "0.782612227761238-27"
+}
+[1573437607.287][INFO]: Waiting for pending navigations...
+[1573437607.287][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.369][INFO]: Waiting for pending navigations...
+[1573437607.373][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.373][INFO]: RESPONSE ClickElement
+[1573437607.382][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437607.382][INFO]: Waiting for pending navigations...
+[1573437607.389][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.395][INFO]: Waiting for pending navigations...
+[1573437607.397][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.398][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-28"
+}
+[1573437607.402][INFO]: COMMAND ClickElement {
+   "id": "0.782612227761238-28"
+}
+[1573437607.402][INFO]: Waiting for pending navigations...
+[1573437607.403][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.499][INFO]: Waiting for pending navigations...
+[1573437607.515][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.515][INFO]: RESPONSE ClickElement
+[1573437607.520][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for='motivation_1']"
+}
+[1573437607.520][INFO]: Waiting for pending navigations...
+[1573437607.521][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.529][INFO]: Waiting for pending navigations...
+[1573437607.530][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.530][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-29"
+}
+[1573437607.536][INFO]: COMMAND ClickElement {
+   "id": "0.782612227761238-29"
+}
+[1573437607.536][INFO]: Waiting for pending navigations...
+[1573437607.537][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.620][INFO]: Waiting for pending navigations...
+[1573437607.624][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.624][INFO]: RESPONSE ClickElement
+[1573437607.630][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437607.630][INFO]: Waiting for pending navigations...
+[1573437607.631][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.641][INFO]: Waiting for pending navigations...
+[1573437607.645][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.645][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-30"
+}
+[1573437607.650][INFO]: COMMAND ClickElement {
+   "id": "0.782612227761238-30"
+}
+[1573437607.650][INFO]: Waiting for pending navigations...
+[1573437607.651][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.747][INFO]: Waiting for pending navigations...
+[1573437607.771][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.772][INFO]: RESPONSE ClickElement
+[1573437607.776][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "get-started_submit"
+}
+[1573437607.776][INFO]: Waiting for pending navigations...
+[1573437607.781][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.786][INFO]: Waiting for pending navigations...
+[1573437607.787][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.787][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-31"
+}
+[1573437607.790][INFO]: COMMAND ClickElement {
+   "id": "0.782612227761238-31"
+}
+[1573437607.790][INFO]: Waiting for pending navigations...
+[1573437607.791][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.866][INFO]: Waiting for pending navigations...
+[1573437607.869][INFO]: Done waiting for pending navigations. Status: ok
+[1573437607.869][INFO]: RESPONSE ClickElement
+[1573437607.872][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='recruiter-contact']/div/h5"
+}
+[1573437607.872][INFO]: Waiting for pending navigations...
+[1573437607.872][INFO]: Done waiting for pending navigations. Status: ok
+[1573437608.831][INFO]: Waiting for pending navigations...
+[1573437609.139][INFO]: Done waiting for pending navigations. Status: ok
+[1573437609.139][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.782612227761238-32"
+}
+[1573437609.145][INFO]: COMMAND GetElementText {
+   "id": "0.782612227761238-32"
+}
+[1573437609.145][INFO]: Waiting for pending navigations...
+[1573437609.146][INFO]: Done waiting for pending navigations. Status: ok
+[1573437609.160][INFO]: Waiting for pending navigations...
+[1573437609.161][INFO]: Done waiting for pending navigations. Status: ok
+[1573437609.161][INFO]: RESPONSE GetElementText "BRION STONER"
+[1573437609.168][INFO]: COMMAND Navigate {
+   "url": "https://www.nationalguard.com/"
+}
+[1573437609.168][INFO]: Waiting for pending navigations...
+[1573437609.170][INFO]: Done waiting for pending navigations. Status: ok
+[1573437609.191][INFO]: Waiting for pending navigations...
+[1573437609.191][INFO]: Done waiting for pending navigations. Status: unexpected alert open
+[1573437609.192][INFO]: RESPONSE Navigate
+[1573437609.200][INFO]: COMMAND GetAlertMessage {
+
+}
+[1573437609.200][INFO]: Waiting for pending navigations...
+[1573437609.200][INFO]: Done waiting for pending navigations. Status: unexpected alert open
+[1573437609.200][INFO]: RESPONSE GetAlertMessage ""
+[1573437609.210][INFO]: COMMAND AcceptAlert {
+
+}
+[1573437609.210][INFO]: Waiting for pending navigations...
+[1573437609.210][INFO]: Done waiting for pending navigations. Status: unexpected alert open
+[1573437609.217][INFO]: RESPONSE AcceptAlert
+[1573437609.224][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "button"
+}
+[1573437609.224][INFO]: Waiting for pending navigations...
+[1573437611.128][INFO]: Done waiting for pending navigations. Status: ok
+[1573437611.133][INFO]: Waiting for pending navigations...
+[1573437611.134][INFO]: Done waiting for pending navigations. Status: ok
+[1573437611.134][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.4793316732741941-1"
+}
+[1573437611.137][INFO]: COMMAND ClickElement {
+   "id": "0.4793316732741941-1"
+}
+[1573437611.137][INFO]: Waiting for pending navigations...
+[1573437611.138][INFO]: Done waiting for pending navigations. Status: ok
+[1573437611.466][INFO]: Waiting for pending navigations...
+[1573437613.780][INFO]: Done waiting for pending navigations. Status: ok
+[1573437613.780][INFO]: RESPONSE ClickElement
+[1573437613.794][INFO]: COMMAND Screenshot {
+
+}
+[1573437613.794][INFO]: Waiting for pending navigations...
+[1573437613.795][INFO]: Done waiting for pending navigations. Status: ok
+[1573437614.203][INFO]: Waiting for pending navigations...
+[1573437614.204][INFO]: Done waiting for pending navigations. Status: ok
+[1573437614.204][INFO]: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB4AAAAOdCAYAAABkpX+QAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XlYlWX+x/HPAQ7LYRFFFgFXxF00xF1z10pzydJK02ydlqlpfmXOVlPTNFYz7Zstmi2TU5llmqm45IIbmnuuuOICCsgOBzi/P9CjJ0BAgQeO79d1cc15nudev..."
+[1573437614.239][INFO]: COMMAND DeleteAllCookies {
+
+}
+[1573437614.239][INFO]: Waiting for pending navigations...
+[1573437614.239][INFO]: Done waiting for pending navigations. Status: ok
+[1573437614.448][INFO]: Waiting for pending navigations...
+[1573437614.449][INFO]: Done waiting for pending navigations. Status: ok
+[1573437614.449][INFO]: RESPONSE DeleteAllCookies
+[1573437614.453][INFO]: COMMAND Quit {
+
+}
+[1573437614.604][INFO]: RESPONSE Quit

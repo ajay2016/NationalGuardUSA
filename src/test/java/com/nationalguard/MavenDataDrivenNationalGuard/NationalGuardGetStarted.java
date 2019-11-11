@@ -1,62 +1,24 @@
 package com.nationalguard.MavenDataDrivenNationalGuard;
 
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeDriverService;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.edge.EdgeDriverService;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.Status;
 import com.nationalguard.MavenDataDrivenNationalGuard.ExcelUtility.Xls_Reader;
+import com.nationalguard.base.BaseTest;
 
-public class NationalGuardGetStarted {
-
-	WebDriver driver;
-	String browser = "Chrome";
-
-	// hooks with tags
-	@BeforeMethod
-	public void setup() {
-		if (browser.equals("Mozilla")) {
-			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "null");
-			driver = new FirefoxDriver();
-
-		} else if (browser.equals("Chrome")) {
-			System.setProperty(ChromeDriverService.CHROME_DRIVER_LOG_PROPERTY, "null");
-			driver = new ChromeDriver();
-
-		} else if (browser.equals("IE")) {
-			System.setProperty(InternetExplorerDriver.LOG_FILE, "null");
-			driver = new InternetExplorerDriver();
-
-		} else if (browser.equals("Edge")) {
-			System.setProperty(EdgeDriverService.EDGE_DRIVER_EXE_PROPERTY, "null");
-			driver = new EdgeDriver();
-		}
-
-		driver.manage().window().maximize();
-		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-		driver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		
-		// URL
-		driver.get("https://www.nationalguard.com/");
-
-	}
+public class NationalGuardGetStarted extends BaseTest {
 
 	@Test
 	public void getStartedForm() {
+		
+		test = extent.createTest("Get Started Form");
+		test.log(Status.INFO, "Get Started Form");
 		driver.findElement(By.name("button")).click();
 
-		Xls_Reader xls = new Xls_Reader(System.getProperty("user.dir") + "\\src\\main\\java\\com\\testdata\\testdata.xlsx");
+		Xls_Reader xls = new Xls_Reader(
+				System.getProperty("user.dir") + "\\src\\main\\java\\com\\testdata\\testdata.xlsx");
 
 		// get row count
 		int rowCount = xls.getRowCount("RegTestData");
@@ -147,9 +109,10 @@ public class NationalGuardGetStarted {
 			String recruiter = driver.findElement(By.xpath("//*[@class='recruiter-contact']/div/h5")).getText();
 			if (recruiter.isEmpty()) {
 				System.out.println("There is no Recruiter appointed on   " + zipcode);
+				test.log(Status.FAIL, "There is no Recruiter appointed on" + zipcode);
 			}
 			System.out.println("The Recruiter appointed to the " + zipcode + " is " + recruiter);
-
+			test.log(Status.INFO, "The Recruiter appointed to the " + zipcode + " is " + recruiter);
 			// check Recruiter
 			// write the data in the cell
 			// xls.setCellData("RegTestData", "Status", rowNum, "Pass");
@@ -161,15 +124,8 @@ public class NationalGuardGetStarted {
 			driver.findElement(By.name("button")).click();
 
 		}
+		//test.log(Status.PASS, "Recruiter is appointed");
+		// check Recruiter
 	}
-	
-	
 
-	@AfterMethod
-	public void closeBrowser() {
-		driver.manage().deleteAllCookies();
-		driver.quit();
-		driver = null;
-
-	}
 }
