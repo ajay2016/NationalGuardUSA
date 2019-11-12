@@ -1,6 +1,5 @@
 package com.nationalguard.base;
 
-
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
@@ -12,9 +11,13 @@ import org.openqa.selenium.edge.EdgeDriverService;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.ITestResult;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -29,10 +32,12 @@ public class BaseTest {
 	public static WebDriver driver;
 	public String browser = "Chrome";
 
-	@BeforeSuite
+	@BeforeTest
+
 	public void setupSuite() {
 
-		ExtentHtmlReporter reporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "\\Reports\\"+Helper.getCurrentDateTime()+".html");
+		ExtentHtmlReporter reporter = new ExtentHtmlReporter(
+				System.getProperty("user.dir") + "\\Reports\\" + Helper.getCurrentDateTime() + ".html");
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
 
@@ -40,6 +45,14 @@ public class BaseTest {
 
 	@BeforeMethod
 	public void setup() {
+
+		/*
+		 * ExtentHtmlReporter reporter = new ExtentHtmlReporter(
+		 * System.getProperty("user.dir") +
+		 * "\\Reports\\" + Helper.getCurrentDateTime() + ".html"); extent = new
+		 * ExtentReports(); extent.attachReporter(reporter);
+		 */
+
 		if (browser.equals("Mozilla")) {
 			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "null");
 			driver = new FirefoxDriver();
@@ -66,39 +79,34 @@ public class BaseTest {
 		driver.get("https://www.nationalguard.com/");
 
 	}
+
 	
-	
-	
-	/*
-	 * @AfterMethod public void closeBrowser() {
-	 * 
-	 * driver.manage().deleteAllCookies(); driver.quit(); driver = null;
-	 * //extent.flush(); }
-	 */
 	@AfterMethod
-	//runs after every testcases
-	//after test is finished ItestResults has all the information
+	// runs after every testcases
+	// after test is finished ItestResults has all the information
 	public void tearDownMethod(ITestResult result) throws IOException {
-		
-		
-		//caputure screenshot on failure
-		if(result.getStatus()==ITestResult.FAILURE) {
-			//Helper.captureScreenshot(driver);
-			test.fail("Test Failed", MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshot(driver)).build());
-			
-		}
-		else if(result.getStatus()==ITestResult.SUCCESS) {
-			//Helper.captureScreenshot(driver);
-			test.pass("Test Passed", MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshot(driver)).build());
-			
-		}
-		
+
+		// caputure screenshot on failure
+		if (result.getStatus() == ITestResult.FAILURE) {
+			// Helper.captureScreenshot(driver);
+			test.fail("Test Failed",
+					MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshot(driver)).build());
+
+		} /*
+			 * else if (result.getStatus() == ITestResult.SUCCESS) { //
+			 * Helper.captureScreenshot(driver); test.pass("Test Passed",
+			 * MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshot(
+			 * driver)).build());
+			 * 
+			 * }
+			 */
+
 		driver.manage().deleteAllCookies();
 		driver.quit();
 		driver = null;
-		extent.flush();
-		
-	}
 
+		extent.flush();
+
+	}
 
 }

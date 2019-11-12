@@ -1,18 +1,23 @@
-package com.nationalguard.MavenDataDrivenNationalGuard;
+package com.nationalguard.guardpay;
+
+import java.io.IOException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.nationalguard.base.BaseTest;
+import com.nationalguard.utility.Helper;
 
 public class GuardPayTest extends BaseTest {
 
 	// Enlistment type : Enlisted
-	@Test
-	public void guardpayEnlisted() {
+	@Test(priority = 1)
+	public void guardpayEnlisted() throws IOException {
 
 		test = extent.createTest("Guard Pay Enlisted");
 		test.log(Status.INFO, "Guard Pay Enlisted");
@@ -41,13 +46,12 @@ public class GuardPayTest extends BaseTest {
 		driver.findElement(By.xpath("//*[text()=\"Annual Total:\"]")).getText();
 		System.out.println("Annual total is displayed on the page");
 		test.log(Status.PASS, "Annual total is displayed on the page");
-		// takeScreenShots();
-
+		test.pass("Test Passed", MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshot(driver)).build());
 	}
 
 	// Enlistment type : Officer
-	@Test
-	public void guardpayOfficer() {
+	@Test(priority = 2)
+	public void guardpayOfficer() throws IOException {
 
 		test = extent.createTest("Guard Pay Officer");
 		test.log(Status.INFO, "Guard Pay Officer");
@@ -76,7 +80,7 @@ public class GuardPayTest extends BaseTest {
 		driver.findElement(By.xpath("//*[text()=\"Annual Total:\"]")).getText();
 		System.out.println("Annual total is displayed on the page");
 		test.log(Status.PASS, "Annual total is displayed on the page");
-		// takeScreenShots();
+		test.pass("Test Passed", MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshot(driver)).build());
 
 	}
 

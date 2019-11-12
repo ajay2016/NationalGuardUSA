@@ -2,27 +2,27 @@
 
 <suite thread-count="1" verbose="1" name="National Guard Suite" annotations="JDK" >
          
-  <test name="GetStarted">
+  <test name="GetStarted" parallel= "tests">
 	 <classes>
 	   <class name="com.nationalguard.MavenDataDrivenNationalGuard.NationalGuardGetStarted"/>
 	 </classes>
    </test>
    
- <test name="FiltnessCalculator">
+ <test name="FiltnessCalculator" parallel= "tests">
 	 <classes>
-	   <class name="com.nationalguard.MavenDataDrivenNationalGuard.FitnessCal"/>
+	   <class name="com.nationalguard.fitness.FitnessCal"/>
 	 </classes>
    </test>
    
-   <test name="GuardPay">
+   <test name="GuardPay" parallel= "tests">
 	 <classes>
-	   <class name="com.nationalguard.MavenDataDrivenNationalGuard.GuardPayTest"/>
+	   <class name="com.nationalguard.guardpay.GuardPayTest"/>
 	 </classes>
    </test>
    
-   <test name="WeightCalculator">
+   <test name="WeightCalculator" parallel= "tests">
 	 <classes>
-	   <class name="com.nationalguard.MavenDataDrivenNationalGuard.WeightCalculatorTest"/>
+	   <class name="com.nationalguard.weightcal.WeightCalculatorTest"/>
 	 </classes>
    </test> 
 </suite>

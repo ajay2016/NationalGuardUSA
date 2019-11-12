@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.nationalguard.MavenDataDrivenNationalGuard.WeightCalculatorTest">
+      <class name="com.nationalguard.fitness.FitnessCal">
         <methods>
           <include name="setupSuite"/>
           <include name="setup"/>
+          <include name="fitnessCalculatorFemale"/>
           <include name="tearDownMethod"/>
-          <include name="weightCalculatorMale"/>
         </methods>
-      </class> <!-- com.nationalguard.MavenDataDrivenNationalGuard.WeightCalculatorTest -->
+      </class> <!-- com.nationalguard.fitness.FitnessCal -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

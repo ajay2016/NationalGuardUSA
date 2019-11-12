@@ -1,16 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [National Guard Suite]">
+  <test name="FiltnessCalculator(failed)" parallel="tests">
     <classes>
-      <class name="com.nationalguard.MavenDataDrivenNationalGuard.WeightCalculatorTest">
+      <class name="com.nationalguard.weightcal.WeightCalculatorTest">
         <methods>
           <include name="setupSuite"/>
           <include name="setup"/>
           <include name="tearDownMethod"/>
-          <include name="weightCalculatorMale"/>
         </methods>
-      </class> <!-- com.nationalguard.MavenDataDrivenNationalGuard.WeightCalculatorTest -->
+      </class> <!-- com.nationalguard.weightcal.WeightCalculatorTest -->
+      <class name="com.nationalguard.MavenDataDrivenNationalGuard.NationalGuardGetStarted">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="setup"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.nationalguard.MavenDataDrivenNationalGuard.NationalGuardGetStarted -->
+      <class name="com.nationalguard.guardpay.GuardPayTest">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="setup"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.nationalguard.guardpay.GuardPayTest -->
+      <class name="com.nationalguard.fitness.FitnessCal">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="setup"/>
+          <include name="tearDownMethod"/>
+          <include name="fitnessCalculatorMale"/>
+        </methods>
+      </class> <!-- com.nationalguard.fitness.FitnessCal -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- FiltnessCalculator(failed) -->
+</suite> <!-- Failed suite [National Guard Suite] -->

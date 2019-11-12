@@ -1,4 +1,4 @@
-package com.nationalguard.MavenDataDrivenNationalGuard;
+package com.nationalguard.fitness;
 
 
 import java.io.IOException;
@@ -6,8 +6,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.nationalguard.base.BaseTest;
+import com.nationalguard.utility.Helper;
 
 
 public class FitnessCal extends BaseTest {
@@ -39,12 +42,7 @@ public class FitnessCal extends BaseTest {
 
 		driver.findElement(By.xpath("//button[contains(., 'Confirm') ]")).click();
 		test.log(Status.PASS, "Fitness result is displayed");
-		//takeScreenShots();
-
-		// adding screenshots to log
-		//test.pass("Fitness result is displayed", MediaEntityBuilder
-				//.createScreenCaptureFromPath(System.getProperty("user.dir") + "\\screenshotsFitnessCal\\"+Helper.getCurrentDateTime()+".png")
-				//.build());
+		test.pass("Test Passed", MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshot(driver)).build());
 
 		System.out.println("Fitness result is displayed");
 
@@ -78,30 +76,12 @@ public class FitnessCal extends BaseTest {
 		// click confirm
 		driver.findElement(By.xpath("//button[contains(., 'Confirm') ]")).click();
 		test.log(Status.PASS, "Fitness result is displayed");
-		//takeScreenShots();
-		// adding screenshots to log
-		//test.pass("Result is displayed", MediaEntityBuilder
-				//.createScreenCaptureFromPath(System.getProperty("user.dir") + "\\screenshotsFitnessCal\\"+Helper.getCurrentDateTime()+".png")
-				//.build());
+		test.pass("Test Passed", MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshot(driver)).build());
 
 		System.out.println("Fitness result is displayed");
 
 	}
 
-	/*
-	 * public static String takeScreenShots() {
-	 * 
-	 * String timeStamp;
-	 * 
-	 * TakesScreenshot scrShot = (TakesScreenshot) driver; File SrcFile =
-	 * scrShot.getScreenshotAs(OutputType.FILE); timeStamp = new
-	 * SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
-	 * String screenshotpath = System.getProperty("user.dir") +
-	 * "\\screenshotsFitnessCal\\" + timeStamp + ".png";
-	 * 
-	 * File DestFile = new File(screenshotpath); try { FileHandler.copy(SrcFile,
-	 * DestFile); } catch (IOException e) { // TODO Auto-generated catch block
-	 * e.printStackTrace(); } return screenshotpath; }
-	 */
+	
 
 }

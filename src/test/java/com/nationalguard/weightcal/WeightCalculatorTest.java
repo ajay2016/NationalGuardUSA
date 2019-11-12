@@ -1,17 +1,22 @@
-package com.nationalguard.MavenDataDrivenNationalGuard;
+package com.nationalguard.weightcal;
+
+import java.io.IOException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.nationalguard.base.BaseTest;
+import com.nationalguard.utility.Helper;
 
 public class WeightCalculatorTest extends BaseTest {
 
-	@Test
-	public void weightCalculatorMale() {
+	@Test(priority = 1)
+	public void weightCalculatorMale() throws IOException {
 
 		test = extent.createTest("Weight CaLculator Test Male");
 		test.log(Status.INFO, "Weight CaLculator Test Male");
@@ -44,16 +49,15 @@ public class WeightCalculatorTest extends BaseTest {
 		// click confirm
 		driver.findElement(By.xpath("//button[contains(., 'Confirm') ]")).click();
 
-		// takescreenshot
-		// takeScreenShots();
+		
 
 		System.out.println("Weight calculator result is displayed");
 		test.log(Status.PASS, "Weight calculator result is displayed");
-
+		test.pass("Test Passed", MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshot(driver)).build());
 	}
 
-	@Test
-	public void weightCalculatorFemale() {
+	@Test(priority = 2)
+	public void weightCalculatorFemale() throws IOException {
 		test = extent.createTest("Weight CaLculator Test Female");
 		test.log(Status.INFO, "Weight CaLculator Test Female");
 		driver.findElement(By.xpath("//button[@class='hamburger tab-focus']")).click();
@@ -85,11 +89,11 @@ public class WeightCalculatorTest extends BaseTest {
 		// click confirm
 		driver.findElement(By.xpath("//button[contains(., 'Confirm') ]")).click();
 
-		// takescreenshot
-		// takeScreenShots();
+		
 
 		System.out.println("Weight calculator result is displayed");
 		test.log(Status.PASS, "Weight calculator result is displayed");
+		test.pass("Test Passed", MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshot(driver)).build());
 
 	}
 
