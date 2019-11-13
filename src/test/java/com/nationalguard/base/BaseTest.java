@@ -46,12 +46,7 @@ public class BaseTest {
 	@BeforeMethod
 	public void setup() {
 
-		/*
-		 * ExtentHtmlReporter reporter = new ExtentHtmlReporter(
-		 * System.getProperty("user.dir") +
-		 * "\\Reports\\" + Helper.getCurrentDateTime() + ".html"); extent = new
-		 * ExtentReports(); extent.attachReporter(reporter);
-		 */
+		
 
 		if (browser.equals("Mozilla")) {
 			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "null");
