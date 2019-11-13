@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-National_Guard_Suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-National_Guard_Suite" title="com.nationalguard.fitness.FitnessCal" hash-for-method="fitnessCalculatorMale">fitnessCalculatorMale</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-National_Guard_Suite" title="com.nationalguard.fitness.FitnessCal" hash-for-method="fitnessCalculatorFemale">fitnessCalculatorFemale</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-National_Guard_Suite -->
@@ -116,12 +116,12 @@
                     <div class="method-list-content passed suite-National_Guard_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-National_Guard_Suite" title="com.nationalguard.fitness.FitnessCal" hash-for-method="fitnessCalculatorFemale">fitnessCalculatorFemale</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-National_Guard_Suite" title="com.nationalguard.fitness.FitnessCal" hash-for-method="fitnessCalculatorMale">fitnessCalculatorMale</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-National_Guard_Suite" title="com.nationalguard.MavenDataDrivenNationalGuard.NationalGuardGetStarted" hash-for-method="getStartedForm">getStartedForm</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-National_Guard_Suite" title="com.nationalguard.getstarted.NationalGuardGetStarted" hash-for-method="getStartedForm">getStartedForm</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -164,10 +164,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="fitnessCalculatorMale">
-                  </a> <!-- fitnessCalculatorMale -->
-                  <span class="method-name">fitnessCalculatorMale</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;label for=&quot;gender_0&quot; class=&quot;btn-outline&quot;&gt;...&lt;/label&gt; is not clickable at point (646, 471). Other element would receive the click: &lt;div id=&quot;loader&quot; class=&quot;align-self-middle text-center&quot;&gt;...&lt;/div&gt;
+                  <a name="fitnessCalculatorFemale">
+                  </a> <!-- fitnessCalculatorFemale -->
+                  <span class="method-name">fitnessCalculatorFemale</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;label for=&quot;gender_1&quot; class=&quot;btn-outline&quot;&gt;...&lt;/label&gt; is not clickable at point (1255, 471). Other element would receive the click: &lt;div id=&quot;loader&quot; class=&quot;align-self-middle text-center&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=78.0.3904.97)
   (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -175,7 +175,7 @@ Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &a
 System info: host: &apos;AJAY-PC&apos;, ip: &apos;192.168.0.131&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_05&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\ajay\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.97, webStorageEnabled: true}
-Session ID: e26a751888527e4843c307fc0e69d26a
+Session ID: d911c6d907974b0b70513c7588b4a48c
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
@@ -186,7 +186,7 @@ Session ID: e26a751888527e4843c307fc0e69d26a
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at com.nationalguard.fitness.FitnessCal.fitnessCalculatorMale(FitnessCal.java:32)
+	at com.nationalguard.fitness.FitnessCal.fitnessCalculatorFemale(FitnessCal.java:65)
 ... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -218,7 +218,7 @@ Session ID: e26a751888527e4843c307fc0e69d26a
           <div class="suite-National_Guard_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.nationalguard.MavenDataDrivenNationalGuard.NationalGuardGetStarted</span>
+              <span class="class-name">com.nationalguard.getstarted.NationalGuardGetStarted</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -260,9 +260,9 @@ Session ID: e26a751888527e4843c307fc0e69d26a
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="fitnessCalculatorFemale">
-                  </a> <!-- fitnessCalculatorFemale -->
-                  <span class="method-name">fitnessCalculatorFemale</span>
+                  <a name="fitnessCalculatorMale">
+                  </a> <!-- fitnessCalculatorMale -->
+                  <span class="method-name">fitnessCalculatorMale</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -277,22 +277,22 @@ Session ID: e26a751888527e4843c307fc0e69d26a
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;National Guard Suite&quot;&gt;
-  &lt;test name=&quot;GetStarted&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;GetStarted&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.nationalguard.MavenDataDrivenNationalGuard.NationalGuardGetStarted&quot;/&gt;
+      &lt;class name=&quot;com.nationalguard.getstarted.NationalGuardGetStarted&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- GetStarted --&gt;
-  &lt;test name=&quot;FiltnessCalculator&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;FiltnessCalculator&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.nationalguard.fitness.FitnessCal&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- FiltnessCalculator --&gt;
-  &lt;test name=&quot;GuardPay&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;GuardPay&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.nationalguard.guardpay.GuardPayTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- GuardPay --&gt;
-  &lt;test name=&quot;WeightCalculator&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;WeightCalculator&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.nationalguard.weightcal.WeightCalculatorTest&quot;/&gt;
     &lt;/classes&gt;
@@ -346,32 +346,32 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'getStartedForm')
-data.setCell(0, 2, 'com.nationalguard.MavenDataDrivenNationalGuard.NationalGuardGetStarted')
-data.setCell(0, 3, 67136);
+data.setCell(0, 2, 'com.nationalguard.getstarted.NationalGuardGetStarted')
+data.setCell(0, 3, 62004);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'fitnessCalculatorFemale')
+data.setCell(1, 1, 'fitnessCalculatorMale')
 data.setCell(1, 2, 'com.nationalguard.fitness.FitnessCal')
-data.setCell(1, 3, 3942);
+data.setCell(1, 3, 4261);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'weightCalculatorMale')
+data.setCell(2, 1, 'weightCalculatorFemale')
 data.setCell(2, 2, 'com.nationalguard.weightcal.WeightCalculatorTest')
-data.setCell(2, 3, 3522);
+data.setCell(2, 3, 4177);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'weightCalculatorFemale')
+data.setCell(3, 1, 'weightCalculatorMale')
 data.setCell(3, 2, 'com.nationalguard.weightcal.WeightCalculatorTest')
-data.setCell(3, 3, 3378);
+data.setCell(3, 3, 2932);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'guardpayEnlisted')
 data.setCell(4, 2, 'com.nationalguard.guardpay.GuardPayTest')
-data.setCell(4, 3, 2402);
+data.setCell(4, 3, 2677);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'guardpayOfficer')
 data.setCell(5, 2, 'com.nationalguard.guardpay.GuardPayTest')
-data.setCell(5, 3, 2333);
+data.setCell(5, 3, 2161);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'fitnessCalculatorMale')
+data.setCell(6, 1, 'fitnessCalculatorFemale')
 data.setCell(6, 2, 'com.nationalguard.fitness.FitnessCal')
-data.setCell(6, 3, 1541);
+data.setCell(6, 3, 1142);
 window.suiteTableData['National_Guard_Suite']= { tableData: data, tableDiv: 'times-div-National_Guard_Suite'}
 return data;
 }
@@ -402,117 +402,117 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.nationalguard.MavenDataDrivenNationalGuard.NationalGuardGetStarted</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.nationalguard.getstarted.NationalGuardGetStarted</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setupSuite</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">273 ms</span>
+                <span class="method-start">283 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getStartedForm</span>
-                <span class="method-start">12817 ms</span>
+                <span class="method-start">13304 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDownMethod([TestResult name=getStartedForm status=SUCCESS method=NationalGuardGetStarted.getStartedForm()[pri:0...)</span>
-                <span class="method-start">79957 ms</span>
+                <span class="method-start">75314 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.nationalguard.fitness.FitnessCal</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setupSuite</span>
-                <span class="method-start">81572 ms</span>
+                <span class="method-start">77204 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">81578 ms</span>
+                <span class="method-start">77208 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fitnessCalculatorMale</span>
+                <span class="method-start">90227 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=fitnessCalculatorMale status=SUCCESS method=FitnessCal.fitnessCalculatorMale()[pri:...)</span>
+                <span class="method-start">94500 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">95687 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">fitnessCalculatorMale</span>
-                <span class="method-start">92980 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDownMethod([TestResult name=fitnessCalculatorMale status=FAILURE method=FitnessCal.fitnessCalculatorMale()[pri:...)</span>
-                <span class="method-start">94528 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">96108 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
                 <span class="method-name">fitnessCalculatorFemale</span>
-                <span class="method-start">109034 ms</span>
+                <span class="method-start">106565 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDownMethod([TestResult name=fitnessCalculatorFemale status=SUCCESS method=FitnessCal.fitnessCalculatorFemale()[...)</span>
-                <span class="method-start">112981 ms</span>
+                <span class="method-name">tearDownMethod([TestResult name=fitnessCalculatorFemale status=FAILURE method=FitnessCal.fitnessCalculatorFemale()[...)</span>
+                <span class="method-start">107717 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.nationalguard.guardpay.GuardPayTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setupSuite</span>
-                <span class="method-start">114129 ms</span>
+                <span class="method-start">109309 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">114129 ms</span>
+                <span class="method-start">109312 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">guardpayEnlisted</span>
-                <span class="method-start">130053 ms</span>
+                <span class="method-start">123632 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDownMethod([TestResult name=guardpayEnlisted status=SUCCESS method=GuardPayTest.guardpayEnlisted()[pri:1, insta...)</span>
-                <span class="method-start">132455 ms</span>
+                <span class="method-start">126311 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">133592 ms</span>
+                <span class="method-start">127398 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">guardpayOfficer</span>
-                <span class="method-start">149933 ms</span>
+                <span class="method-start">140820 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDownMethod([TestResult name=guardpayOfficer status=SUCCESS method=GuardPayTest.guardpayOfficer()[pri:2, instanc...)</span>
-                <span class="method-start">152268 ms</span>
+                <span class="method-start">142983 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.nationalguard.weightcal.WeightCalculatorTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setupSuite</span>
-                <span class="method-start">153417 ms</span>
+                <span class="method-start">144155 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">153422 ms</span>
+                <span class="method-start">144158 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">weightCalculatorMale</span>
-                <span class="method-start">166429 ms</span>
+                <span class="method-start">156299 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDownMethod([TestResult name=weightCalculatorMale status=SUCCESS method=WeightCalculatorTest.weightCalculatorMal...)</span>
-                <span class="method-start">169955 ms</span>
+                <span class="method-start">159233 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">171063 ms</span>
+                <span class="method-start">160410 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">weightCalculatorFemale</span>
-                <span class="method-start">182376 ms</span>
+                <span class="method-start">172070 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDownMethod([TestResult name=weightCalculatorFemale status=SUCCESS method=WeightCalculatorTest.weightCalculatorF...)</span>
-                <span class="method-start">185757 ms</span>
+                <span class="method-start">176260 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

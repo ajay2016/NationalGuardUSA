@@ -1,4 +1,4 @@
-package com.nationalguard.MavenDataDrivenNationalGuard;
+package com.nationalguard.getstarted;
 
 import java.io.IOException;
 
