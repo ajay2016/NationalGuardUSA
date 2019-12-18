@@ -71,18 +71,22 @@ shortly before the first test method that belongs to any of these groups is invo
 		
 
 		if (browser.equals("Mozilla")) {
+			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\drivers\\geckodriver.exe");
 			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "null");
 			driver = new FirefoxDriver();
 
 		} else if (browser.equals("Chrome")) {
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
 			System.setProperty(ChromeDriverService.CHROME_DRIVER_LOG_PROPERTY, "null");
 			driver = new ChromeDriver();
 
 		} else if (browser.equals("IE")) {
+			System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+"\\drivers\\IEDriverServer.exe");
 			System.setProperty(InternetExplorerDriver.LOG_FILE, "null");
 			driver = new InternetExplorerDriver();
 
 		} else if (browser.equals("Edge")) {
+			
 			System.setProperty(EdgeDriverService.EDGE_DRIVER_EXE_PROPERTY, "null");
 			driver = new EdgeDriver();
 		}
