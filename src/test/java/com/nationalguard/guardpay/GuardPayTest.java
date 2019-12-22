@@ -27,7 +27,7 @@ public class GuardPayTest extends BaseTest {
 		driver.findElement(By.xpath("//a[@href='/pay/calculator']")).click();
 
 		// WebDriver wait
-		WebDriverWait wait = new WebDriverWait(driver, 20);
+		WebDriverWait wait = new WebDriverWait(driver, 30);
 		wait.until(ExpectedConditions
 				.visibilityOfElementLocated(By.xpath("//label[@for='current_status_1' and @class='btn-outline']")));
 
@@ -62,7 +62,7 @@ public class GuardPayTest extends BaseTest {
 		driver.findElement(By.xpath("//a[@href='/pay/calculator']")).click();
 
 		// WebDriver wait
-		WebDriverWait wait = new WebDriverWait(driver, 20);
+		WebDriverWait wait = new WebDriverWait(driver, 30);
 		wait.until(ExpectedConditions
 				.visibilityOfElementLocated(By.xpath("//label[@for='current_status_2' and @class='btn-outline']")));
 		// select enlisted
