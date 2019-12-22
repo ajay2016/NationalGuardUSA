@@ -2,38 +2,57 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="57338" started-at="2019-12-21T22:23:06Z" finished-at="2019-12-21T22:24:03Z">
+  <suite name="Default suite" duration-ms="59688" started-at="2019-12-22T01:32:14Z" finished-at="2019-12-22T01:33:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="57338" started-at="2019-12-21T22:23:06Z" finished-at="2019-12-21T22:24:03Z">
-      <class name="com.nationalguard.guardpay.GuardPayTest">
-        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.nationalguard.guardpay.GuardPayTest@5e5792a0]" name="setupSuite" is-config="true" duration-ms="339" started-at="2019-12-22T09:23:06Z" finished-at="2019-12-22T09:23:06Z">
+    <test name="Default test" duration-ms="59688" started-at="2019-12-22T01:32:14Z" finished-at="2019-12-22T01:33:14Z">
+      <class name="com.nationalguard.fitness.FitnessCal">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.nationalguard.fitness.FitnessCal@5e5792a0]" name="setupSuite" is-config="true" duration-ms="255" started-at="2019-12-22T12:32:14Z" finished-at="2019-12-22T12:32:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.nationalguard.guardpay.GuardPayTest@5e5792a0]" name="setup" is-config="true" duration-ms="19093" started-at="2019-12-22T09:23:06Z" finished-at="2019-12-22T09:23:25Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nationalguard.fitness.FitnessCal@5e5792a0]" name="setup" is-config="true" duration-ms="16619" started-at="2019-12-22T12:32:14Z" finished-at="2019-12-22T12:32:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="guardpayEnlisted()[pri:1, instance:com.nationalguard.guardpay.GuardPayTest@5e5792a0]" name="guardpayEnlisted" duration-ms="2823" started-at="2019-12-22T09:23:25Z" finished-at="2019-12-22T09:23:28Z">
+        <test-method status="PASS" signature="fitnessCalculatorMale()[pri:1, instance:com.nationalguard.fitness.FitnessCal@5e5792a0]" name="fitnessCalculatorMale" duration-ms="20240" started-at="2019-12-22T12:32:31Z" finished-at="2019-12-22T12:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fitnessCalculatorMale -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.nationalguard.fitness.FitnessCal@5e5792a0]" name="tearDownMethod" is-config="true" duration-ms="1513" started-at="2019-12-22T12:32:51Z" finished-at="2019-12-22T12:32:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fitnessCalculatorMale status=SUCCESS method=FitnessCal.fitnessCalculatorMale()[pri:1, instance:com.nationalguard.fitness.FitnessCal@5e5792a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nationalguard.fitness.FitnessCal@5e5792a0]" name="setup" is-config="true" duration-ms="16960" started-at="2019-12-22T12:32:53Z" finished-at="2019-12-22T12:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="fitnessCalculatorFemale()[pri:2, instance:com.nationalguard.fitness.FitnessCal@5e5792a0]" name="fitnessCalculatorFemale" duration-ms="2106" started-at="2019-12-22T12:33:09Z" finished-at="2019-12-22T12:33:12Z">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element <label for="current_status_1" class="btn-outline">...</label> is not clickable at point (646, 471). Other element would receive the click: <p class="description">...</p>
+              <![CDATA[element click intercepted: Element <label for="gender_1" class="btn-outline">...</label> is not clickable at point (1255, 471). Other element would receive the click: <p class="description">...</p>
   (Session info: chrome=79.0.3945.88)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'AJAY-PC', ip: '192.168.0.131', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_05'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\ajay\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c15c7be7dd8a8de95588286018d9afeb]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\ajay\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8a56a01d839e9bf60bbb9abb820c6e47]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <label for="current_status_1" class="btn-outline">...</label> is not clickable at point (646, 471). Other element would receive the click: <p class="description">...</p>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <label for="gender_1" class="btn-outline">...</label> is not clickable at point (1255, 471). Other element would receive the click: <p class="description">...</p>
   (Session info: chrome=79.0.3945.88)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'AJAY-PC', ip: '192.168.0.131', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_05'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\ajay\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c15c7be7dd8a8de95588286018d9afeb
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\ajay\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8a56a01d839e9bf60bbb9abb820c6e47
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -46,7 +65,7 @@ Session ID: c15c7be7dd8a8de95588286018d9afeb
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.nationalguard.guardpay.GuardPayTest.guardpayEnlisted(GuardPayTest.java:35)
+	at com.nationalguard.fitness.FitnessCal.fitnessCalculatorFemale(FitnessCal.java:65)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -77,38 +96,19 @@ Session ID: c15c7be7dd8a8de95588286018d9afeb
           </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- guardpayEnlisted -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.nationalguard.guardpay.GuardPayTest@5e5792a0]" name="tearDownMethod" is-config="true" duration-ms="2283" started-at="2019-12-22T09:23:28Z" finished-at="2019-12-22T09:23:30Z">
+        </test-method> <!-- fitnessCalculatorFemale -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.nationalguard.fitness.FitnessCal@5e5792a0]" name="tearDownMethod" is-config="true" duration-ms="1948" started-at="2019-12-22T12:33:12Z" finished-at="2019-12-22T12:33:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=guardpayEnlisted status=FAILURE method=GuardPayTest.guardpayEnlisted()[pri:1, instance:com.nationalguard.guardpay.GuardPayTest@5e5792a0] output={null}]]]>
+                <![CDATA[[TestResult name=fitnessCalculatorFemale status=FAILURE method=FitnessCal.fitnessCalculatorFemale()[pri:2, instance:com.nationalguard.fitness.FitnessCal@5e5792a0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.nationalguard.guardpay.GuardPayTest@5e5792a0]" name="setup" is-config="true" duration-ms="28491" started-at="2019-12-22T09:23:30Z" finished-at="2019-12-22T09:23:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="guardpayOfficer()[pri:2, instance:com.nationalguard.guardpay.GuardPayTest@5e5792a0]" name="guardpayOfficer" duration-ms="2992" started-at="2019-12-22T09:23:59Z" finished-at="2019-12-22T09:24:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- guardpayOfficer -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.nationalguard.guardpay.GuardPayTest@5e5792a0]" name="tearDownMethod" is-config="true" duration-ms="1248" started-at="2019-12-22T09:24:02Z" finished-at="2019-12-22T09:24:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=guardpayOfficer status=SUCCESS method=GuardPayTest.guardpayOfficer()[pri:2, instance:com.nationalguard.guardpay.GuardPayTest@5e5792a0] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-      </class> <!-- com.nationalguard.guardpay.GuardPayTest -->
+      </class> <!-- com.nationalguard.fitness.FitnessCal -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
