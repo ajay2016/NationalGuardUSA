@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [National Guard Suite]">
-  <test name="FiltnessCalculator(failed)">
+  <test name="WeightCalculator(failed)">
     <classes>
       <class name="com.nationalguard.weightcal.WeightCalculatorTest">
         <methods>
           <include name="setupSuite"/>
           <include name="setup"/>
+          <include name="weightCalculatorFemale"/>
           <include name="tearDownMethod"/>
         </methods>
       </class> <!-- com.nationalguard.weightcal.WeightCalculatorTest -->
@@ -28,10 +29,9 @@
         <methods>
           <include name="setupSuite"/>
           <include name="setup"/>
-          <include name="fitnessCalculatorFemale"/>
           <include name="tearDownMethod"/>
         </methods>
       </class> <!-- com.nationalguard.fitness.FitnessCal -->
     </classes>
-  </test> <!-- FiltnessCalculator(failed) -->
+  </test> <!-- WeightCalculator(failed) -->
 </suite> <!-- Failed suite [National Guard Suite] -->
