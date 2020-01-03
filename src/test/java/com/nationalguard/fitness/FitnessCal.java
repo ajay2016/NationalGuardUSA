@@ -3,14 +3,11 @@ package com.nationalguard.fitness;
 
 import java.io.IOException;
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
-
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.nationalguard.base.BaseTest;
-import com.nationalguard.utility.Helper;
+
 
 
 public class FitnessCal extends BaseTest {
@@ -24,10 +21,8 @@ public class FitnessCal extends BaseTest {
 		driver.findElement(By.xpath("//button[@class='hamburger tab-focus']")).click();
 		driver.findElement(By.xpath("//a[@href='/fitness/calculator']")).click();
 
-		// WebDriver wait
-		WebDriverWait wait = new WebDriverWait(driver, 20);
-		wait.until(ExpectedConditions
-				.visibilityOfElementLocated(By.xpath("//label[@for='gender_0' and @class='btn-outline']")));
+		// wait
+		wait(3);
 
 		driver.findElement(By.xpath("//label[@for='gender_0' and @class='btn-outline']")).click();
 		driver.findElement(By.xpath("//button[text()=\"Continue\"]")).click();
@@ -42,7 +37,7 @@ public class FitnessCal extends BaseTest {
 
 		driver.findElement(By.xpath("//button[contains(., 'Confirm') ]")).click();
 		test.log(Status.PASS, "Fitness result is displayed");
-		test.pass("Test Passed", MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshot(driver)).build());
+		test.pass("Test Passed", MediaEntityBuilder.createScreenCaptureFromPath(captureScreenshot(driver)).build());
 
 		System.out.println("Fitness result is displayed");
 
@@ -56,10 +51,8 @@ public class FitnessCal extends BaseTest {
 		driver.findElement(By.xpath("//button[@class='hamburger tab-focus']")).click();
 		driver.findElement(By.xpath("//a[@href='/fitness/calculator']")).click();
 
-		// WebDriver wait
-		WebDriverWait wait = new WebDriverWait(driver, 20);
-		wait.until(ExpectedConditions
-				.visibilityOfElementLocated(By.xpath("//label[@for='gender_1' and @class='btn-outline']")));
+		//  wait
+		wait(3);
 
 		// female
 		driver.findElement(By.xpath("//label[@for='gender_1' and @class='btn-outline']")).click();
@@ -76,7 +69,7 @@ public class FitnessCal extends BaseTest {
 		// click confirm
 		driver.findElement(By.xpath("//button[contains(., 'Confirm') ]")).click();
 		test.log(Status.PASS, "Fitness result is displayed");
-		test.pass("Test Passed", MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshot(driver)).build());
+		test.pass("Test Passed", MediaEntityBuilder.createScreenCaptureFromPath(captureScreenshot(driver)).build());
 
 		System.out.println("Fitness result is displayed");
 

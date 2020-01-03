@@ -1,6 +1,6 @@
-[1576978373.082][INFO]: Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614})
-[1576978373.082][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1576978373.569][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] COMMAND InitSession {
+[1578013200.302][INFO]: Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614})
+[1578013200.302][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1578013201.145][INFO]: [0284148729ee07fd368436c87bc5d848] COMMAND InitSession {
    "capabilities": {
       "firstMatch": [ {
          "browserName": "chrome",
@@ -18,7 +18,7 @@
       }
    }
 }
-[1576978373.574][INFO]: Populating Preferences file: {
+[1578013201.149][INFO]: Populating Preferences file: {
    "alternate_error_pages": {
       "enabled": false
    },
@@ -71,7 +71,7 @@
       "enabled": false
    }
 }
-[1576978373.575][INFO]: Populating Local State file: {
+[1578013201.151][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -81,19 +81,19 @@
       }
    }
 }
-[1576978373.583][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\ajay\AppData\Local\Temp\scoped_dir14032_1951197204\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\ajay\AppData\Local\Temp\scoped_dir14032_1576928196" data:,
-[1576978374.565][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1576978375.585][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] RESPONSE InitSession {
+[1578013201.158][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\ajay\AppData\Local\Temp\scoped_dir16060_369698935\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\ajay\AppData\Local\Temp\scoped_dir16060_1500436060" data:,
+[1578013202.446][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1578013203.504][INFO]: [0284148729ee07fd368436c87bc5d848] RESPONSE InitSession {
    "capabilities": {
       "acceptInsecureCerts": false,
       "browserName": "chrome",
       "browserVersion": "79.0.3945.88",
       "chrome": {
          "chromedriverVersion": "79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614})",
-         "userDataDir": "C:\\Users\\ajay\\AppData\\Local\\Temp\\scoped_dir14032_1576928196"
+         "userDataDir": "C:\\Users\\ajay\\AppData\\Local\\Temp\\scoped_dir16060_1500436060"
       },
       "goog:chromeOptions": {
-         "debuggerAddress": "localhost:60143"
+         "debuggerAddress": "localhost:56567"
       },
       "networkConnectionEnabled": false,
       "pageLoadStrategy": "normal",
@@ -110,139 +110,37 @@
       },
       "unhandledPromptBehavior": "dismiss and notify"
    },
-   "sessionId": "8a56a01d839e9bf60bbb9abb820c6e47"
+   "sessionId": "0284148729ee07fd368436c87bc5d848"
 }
-[1576978375.597][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] COMMAND MaximizeWindow {
+[1578013203.578][INFO]: [0284148729ee07fd368436c87bc5d848] COMMAND MaximizeWindow {
 
 }
-[1576978375.597][INFO]: Waiting for pending navigations...
-[1576978375.607][INFO]: Done waiting for pending navigations. Status: ok
-[1576978375.608][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1576978376.748][INFO]: Waiting for pending navigations...
-[1576978376.750][INFO]: Done waiting for pending navigations. Status: ok
-[1576978376.750][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] RESPONSE MaximizeWindow {
+[1578013203.579][INFO]: Waiting for pending navigations...
+[1578013203.589][INFO]: Done waiting for pending navigations. Status: ok
+[1578013203.590][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1578013204.966][INFO]: Waiting for pending navigations...
+[1578013204.968][INFO]: Done waiting for pending navigations. Status: ok
+[1578013204.968][INFO]: [0284148729ee07fd368436c87bc5d848] RESPONSE MaximizeWindow {
    "height": 1056,
    "width": 1936,
    "x": -8,
    "y": -8
 }
-[1576978376.757][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] COMMAND SetTimeouts {
+[1578013204.978][INFO]: [0284148729ee07fd368436c87bc5d848] COMMAND SetTimeouts {
    "pageLoad": 30000
 }
-[1576978376.757][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] RESPONSE SetTimeouts
-[1576978376.767][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] COMMAND SetTimeouts {
+[1578013204.978][INFO]: [0284148729ee07fd368436c87bc5d848] RESPONSE SetTimeouts
+[1578013204.984][INFO]: [0284148729ee07fd368436c87bc5d848] COMMAND SetTimeouts {
    "script": 30000
 }
-[1576978376.767][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] RESPONSE SetTimeouts
-[1576978376.772][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] COMMAND SetTimeouts {
+[1578013204.984][INFO]: [0284148729ee07fd368436c87bc5d848] RESPONSE SetTimeouts
+[1578013204.991][INFO]: [0284148729ee07fd368436c87bc5d848] COMMAND SetTimeouts {
    "implicit": 30000
 }
-[1576978376.772][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] RESPONSE SetTimeouts
-[1576978376.778][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] COMMAND Navigate {
+[1578013204.991][INFO]: [0284148729ee07fd368436c87bc5d848] RESPONSE SetTimeouts
+[1578013204.998][INFO]: [0284148729ee07fd368436c87bc5d848] COMMAND Navigate {
    "url": "https://www.nationalguard.com/"
 }
-[1576978376.779][INFO]: Waiting for pending navigations...
-[1576978376.784][INFO]: Done waiting for pending navigations. Status: ok
-[1576978377.957][INFO]: Waiting for pending navigations...
-[1576978389.957][INFO]: Done waiting for pending navigations. Status: ok
-[1576978389.957][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] RESPONSE Navigate
-[1576978389.973][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] COMMAND FindElement {
-   "using": "xpath",
-   "value": "//button[@class='hamburger tab-focus']"
-}
-[1576978389.973][INFO]: Waiting for pending navigations...
-[1576978389.979][INFO]: Done waiting for pending navigations. Status: ok
-[1576978390.029][INFO]: Waiting for pending navigations...
-[1576978390.030][INFO]: Done waiting for pending navigations. Status: ok
-[1576978390.030][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] RESPONSE FindElement {
-   "element-6066-11e4-a52e-4f735466cecf": "281b2568-4d60-4e67-88ec-0b45b3b4bf1d"
-}
-[1576978390.036][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] COMMAND ClickElement {
-   "id": "281b2568-4d60-4e67-88ec-0b45b3b4bf1d"
-}
-[1576978390.036][INFO]: Waiting for pending navigations...
-[1576978390.037][INFO]: Done waiting for pending navigations. Status: ok
-[1576978390.218][INFO]: Waiting for pending navigations...
-[1576978390.250][INFO]: Done waiting for pending navigations. Status: ok
-[1576978390.250][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] RESPONSE ClickElement
-[1576978390.258][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] COMMAND FindElement {
-   "using": "xpath",
-   "value": "//a[@href='/fitness/calculator']"
-}
-[1576978390.258][INFO]: Waiting for pending navigations...
-[1576978390.267][INFO]: Done waiting for pending navigations. Status: ok
-[1576978390.291][INFO]: Waiting for pending navigations...
-[1576978390.292][INFO]: Done waiting for pending navigations. Status: ok
-[1576978390.292][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] RESPONSE FindElement {
-   "element-6066-11e4-a52e-4f735466cecf": "c057979f-45d0-4552-8e1a-c83eb98305a0"
-}
-[1576978390.301][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] COMMAND ClickElement {
-   "id": "c057979f-45d0-4552-8e1a-c83eb98305a0"
-}
-[1576978390.301][INFO]: Waiting for pending navigations...
-[1576978390.303][INFO]: Done waiting for pending navigations. Status: ok
-[1576978390.702][INFO]: Waiting for pending navigations...
-[1576978390.751][INFO]: Done waiting for pending navigations. Status: ok
-[1576978390.751][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] RESPONSE ClickElement
-[1576978390.777][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] COMMAND FindElement {
-   "using": "xpath",
-   "value": "//label[@for='gender_1' and @class='btn-outline']"
-}
-[1576978390.777][INFO]: Waiting for pending navigations...
-[1576978390.793][INFO]: Done waiting for pending navigations. Status: ok
-[1576978390.830][INFO]: Waiting for pending navigations...
-[1576978390.832][INFO]: Done waiting for pending navigations. Status: ok
-[1576978390.833][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] RESPONSE FindElement {
-   "element-6066-11e4-a52e-4f735466cecf": "55027806-3761-4a6d-a678-3656bd6ef8e8"
-}
-[1576978390.858][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] COMMAND ExecuteScript {
-   "args": [ {
-      "element-6066-11e4-a52e-4f735466cecf": "55027806-3761-4a6d-a678-3656bd6ef8e8"
-   } ],
-   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
-}
-[1576978390.858][INFO]: Waiting for pending navigations...
-[1576978390.864][INFO]: Done waiting for pending navigations. Status: ok
-[1576978390.896][INFO]: Waiting for pending navigations...
-[1576978390.897][INFO]: Done waiting for pending navigations. Status: ok
-[1576978390.897][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] RESPONSE ExecuteScript true
-[1576978390.903][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] COMMAND FindElement {
-   "using": "xpath",
-   "value": "//label[@for='gender_1' and @class='btn-outline']"
-}
-[1576978390.903][INFO]: Waiting for pending navigations...
-[1576978390.905][INFO]: Done waiting for pending navigations. Status: ok
-[1576978390.928][INFO]: Waiting for pending navigations...
-[1576978390.934][INFO]: Done waiting for pending navigations. Status: ok
-[1576978390.934][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] RESPONSE FindElement {
-   "element-6066-11e4-a52e-4f735466cecf": "55027806-3761-4a6d-a678-3656bd6ef8e8"
-}
-[1576978390.938][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] COMMAND ClickElement {
-   "id": "55027806-3761-4a6d-a678-3656bd6ef8e8"
-}
-[1576978390.939][INFO]: Waiting for pending navigations...
-[1576978390.940][INFO]: Done waiting for pending navigations. Status: ok
-[1576978392.037][INFO]: Waiting for pending navigations...
-[1576978392.038][INFO]: Done waiting for pending navigations. Status: ok
-[1576978392.039][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] RESPONSE ClickElement ERROR element click intercepted: Element <label for="gender_1" class="btn-outline">...</label> is not clickable at point (1255, 471). Other element would receive the click: <p class="description">...</p>
-  (Session info: chrome=79.0.3945.88)
-[1576978392.084][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] COMMAND Screenshot {
-
-}
-[1576978392.084][INFO]: Waiting for pending navigations...
-[1576978392.085][INFO]: Done waiting for pending navigations. Status: ok
-[1576978392.773][INFO]: Waiting for pending navigations...
-[1576978392.774][INFO]: Done waiting for pending navigations. Status: ok
-[1576978392.774][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB4AAAAOdCAYAAABkpX+QAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xd8VFX+//HXvdPSCYSEEAgt9CYLCIIFLGDBVRDFxtqVtaxusa27q7uu3/2xuuvaFbuurqyKqAsWRFFRQJoUBQsgEEILgfQ2M/f+/piSDIQUSDIhvJ8+Rmbun..."
-[1576978392.923][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] COMMAND DeleteAllCookies {
-
-}
-[1576978392.923][INFO]: Waiting for pending navigations...
-[1576978392.923][INFO]: Done waiting for pending navigations. Status: ok
-[1576978393.137][INFO]: Waiting for pending navigations...
-[1576978393.138][INFO]: Done waiting for pending navigations. Status: ok
-[1576978393.138][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] RESPONSE DeleteAllCookies
-[1576978393.145][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] COMMAND Quit {
-
-}
-[1576978393.255][INFO]: [8a56a01d839e9bf60bbb9abb820c6e47] RESPONSE Quit
+[1578013204.999][INFO]: Waiting for pending navigations...
+[1578013205.000][INFO]: Done waiting for pending navigations. Status: ok
+[1578013206.078][INFO]: Waiting for pending navigations...

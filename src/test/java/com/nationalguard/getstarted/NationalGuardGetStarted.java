@@ -8,9 +8,10 @@ import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
-import com.nationalguard.MavenDataDrivenNationalGuard.ExcelUtility.Xls_Reader;
+
 import com.nationalguard.base.BaseTest;
-import com.nationalguard.utility.Helper;
+import com.nationalguard.utility.Xls_Reader;
+
 
 public class NationalGuardGetStarted extends BaseTest {
 
@@ -117,7 +118,7 @@ public class NationalGuardGetStarted extends BaseTest {
 			}
 			System.out.println("The Recruiter appointed to the " + zipcode + " is " + recruiter);
 			test.log(Status.INFO, "The Recruiter appointed to the " + zipcode + " is " + recruiter);
-			test.pass("Test Passed", MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshot(driver)).build());
+			test.pass("Test Passed", MediaEntityBuilder.createScreenCaptureFromPath(captureScreenshot(driver)).build());
 			
 			// check Recruiter
 			// write the data in the cell

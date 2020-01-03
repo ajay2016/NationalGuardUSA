@@ -1,19 +1,13 @@
 package com.nationalguard.guardpay;
 
 import java.io.IOException;
-
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
-
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.nationalguard.base.BaseTest;
-import com.nationalguard.utility.Helper;
+
 
 public class GuardPayTest extends BaseTest {
 
@@ -23,13 +17,12 @@ public class GuardPayTest extends BaseTest {
 
 		test = extent.createTest("Guard Pay Enlisted");
 		test.log(Status.INFO, "Guard Pay Enlisted");
+		
 		driver.findElement(By.xpath("//button[@class='hamburger tab-focus']")).click();
 		driver.findElement(By.xpath("//a[@href='/pay/calculator']")).click();
 
-		// WebDriver wait
-		WebDriverWait wait = new WebDriverWait(driver, 30);
-		wait.until(ExpectedConditions
-				.visibilityOfElementLocated(By.xpath("//label[@for='current_status_1' and @class='btn-outline']")));
+		// wait
+		wait(3);
 
 		// select enlisted
 		driver.findElement(By.xpath("//label[@for='current_status_1' and @class='btn-outline']")).click();
@@ -48,7 +41,7 @@ public class GuardPayTest extends BaseTest {
 		driver.findElement(By.xpath("//*[text()=\"Annual Total:\"]")).getText();
 		System.out.println("Annual total is displayed on the page");
 		test.log(Status.PASS, "Annual total is displayed on the page");
-		test.pass("Test Passed", MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshot(driver)).build());
+		test.pass("Test Passed", MediaEntityBuilder.createScreenCaptureFromPath(captureScreenshot(driver)).build());
 	}
 
 	// Enlistment type : Officer
@@ -61,10 +54,8 @@ public class GuardPayTest extends BaseTest {
 		driver.findElement(By.xpath("//button[@class='hamburger tab-focus']")).click();
 		driver.findElement(By.xpath("//a[@href='/pay/calculator']")).click();
 
-		// WebDriver wait
-		WebDriverWait wait = new WebDriverWait(driver, 30);
-		wait.until(ExpectedConditions
-				.visibilityOfElementLocated(By.xpath("//label[@for='current_status_2' and @class='btn-outline']")));
+		//  wait
+		wait(3);
 		// select enlisted
 		driver.findElement(By.xpath("//label[@for='current_status_2' and @class='btn-outline']")).click();
 		driver.findElement(By.xpath("//button[text()=\"Continue\"]")).click();
@@ -82,7 +73,7 @@ public class GuardPayTest extends BaseTest {
 		driver.findElement(By.xpath("//*[text()=\"Annual Total:\"]")).getText();
 		System.out.println("Annual total is displayed on the page");
 		test.log(Status.PASS, "Annual total is displayed on the page");
-		test.pass("Test Passed", MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshot(driver)).build());
+		test.pass("Test Passed", MediaEntityBuilder.createScreenCaptureFromPath(captureScreenshot(driver)).build());
 
 	}
 

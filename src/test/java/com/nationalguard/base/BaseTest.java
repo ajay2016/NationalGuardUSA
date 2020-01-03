@@ -1,8 +1,14 @@
 package com.nationalguard.base;
 
+import java.io.File;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
@@ -10,20 +16,18 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeDriverService;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.io.FileHandler;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-import com.nationalguard.utility.Helper;
+
+
 
 public class BaseTest {
 
@@ -59,7 +63,7 @@ shortly before the first test method that belongs to any of these groups is invo
 	public void setupSuite() {
 
 		ExtentHtmlReporter reporter = new ExtentHtmlReporter(
-				System.getProperty("user.dir") + "\\Reports\\" + Helper.getCurrentDateTime() + ".html");
+				System.getProperty("user.dir") + "\\Reports\\" +getCurrentDateTime() + ".html");
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
 
@@ -111,7 +115,7 @@ shortly before the first test method that belongs to any of these groups is invo
 		if (result.getStatus() == ITestResult.FAILURE) {
 			// Helper.captureScreenshot(driver);
 			test.fail("Test Failed",
-					MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshot(driver)).build());
+					MediaEntityBuilder.createScreenCaptureFromPath(captureScreenshot(driver)).build());
 
 		} /*
 			 * else if (result.getStatus() == ITestResult.SUCCESS) { //
@@ -129,5 +133,40 @@ shortly before the first test method that belongs to any of these groups is invo
 		extent.flush();
 
 	}
+	//screenshot
+	
+		public static String captureScreenshot(WebDriver driver) {
+			
+			
+		String screenshotpath = System.getProperty("user.dir") + "\\Screenshots\\"+getCurrentDateTime()+".png";	
+		File srecFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		File DestFile = new File(screenshotpath);
+		try {
+			FileHandler.copy(srecFile, DestFile);
+		} catch (IOException e) {
+			System.out.println("Unable to capture screenshot"+e.getMessage());
+			e.printStackTrace();
+		}
+		return screenshotpath;
+			
+		}
+		
+		public static String getCurrentDateTime() {
+			
+			DateFormat customFormat = new SimpleDateFormat("yyyy_MM_dd_HHmmss");
+			Date currentDate = new Date();
+			return customFormat.format(currentDate);
+			
+		}
+		
+		public void wait(int time) {
+			try {
+				Thread.sleep(time * 1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+
 
 }
