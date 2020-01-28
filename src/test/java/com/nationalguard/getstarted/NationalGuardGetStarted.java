@@ -18,9 +18,8 @@ public class NationalGuardGetStarted extends BaseTest {
 	@Test
 	public void getStartedForm() throws IOException {
 		
-		test = extent.createTest("Get Started Form");
-		test.log(Status.INFO, "Get Started Form");
-		driver.findElement(By.name("button")).click();
+		
+		
 
 		Xls_Reader xls = new Xls_Reader(
 				System.getProperty("user.dir") + "\\src\\main\\java\\com\\testdata\\testdata.xlsx");
@@ -50,9 +49,21 @@ public class NationalGuardGetStarted extends BaseTest {
 			// System.out.println(birthdate);
 			String phone = xls.getCellData("RegTestData", "Phone", rowNum);
 			// System.out.println(phone);
+			String browser = xls.getCellData("RegTestData", "Browser", rowNum);
 			System.out.println("**********************");
+			
+			
+			
+			  openBrowser(browser); 
+			  // URL 
+			  driver.get("https://www.nationalguard.com/");
+			 
+			test = extent.createTest("Get Started Form");
+			test.log(Status.INFO, "Get Started Form");
+			
+			driver.findElement(By.name("button")).click();
 
-			// pass data to rego form
+			// pass data to rego form					
 
 			driver.findElement(By.name("get-started_first_name")).clear();
 			driver.findElement(By.name("get-started_first_name")).sendKeys(firstName);
@@ -70,6 +81,8 @@ public class NationalGuardGetStarted extends BaseTest {
 			driver.findElement(By.name("get-started_zip")).sendKeys(zipcode);
 
 			driver.findElement(By.name("get-started_submit")).click();
+			
+		
 
 			driver.findElement(By.name("get-started_birth_date")).clear();
 			driver.findElement(By.name("get-started_birth_date")).sendKeys(birthdate);
@@ -119,16 +132,21 @@ public class NationalGuardGetStarted extends BaseTest {
 			System.out.println("The Recruiter appointed to the " + zipcode + " is " + recruiter);
 			test.log(Status.INFO, "The Recruiter appointed to the " + zipcode + " is " + recruiter);
 			test.pass("Test Passed", MediaEntityBuilder.createScreenCaptureFromPath(captureScreenshot(driver)).build());
-			
+		
+		
+			//driver.close();
 			// check Recruiter
 			// write the data in the cell
 			// xls.setCellData("RegTestData", "Status", rowNum, "Pass");
 
-			// URL
-			driver.get("https://www.nationalguard.com/");
+			
+			  
+			//
+			 driver.get("https://www.nationalguard.com/");
 			driver.switchTo().alert().accept();
-
-			driver.findElement(By.name("button")).click();
+			 
+			// driver.findElement(By.name("button")).click();
+			 
 
 		}
 		//test.log(Status.PASS, "Recruiter is appointed");

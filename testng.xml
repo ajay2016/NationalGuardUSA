@@ -8,21 +8,5 @@
 	 </classes>
    </test>
    
- <test name="FiltnessCalculator" >
-	 <classes>
-	   <class name="com.nationalguard.fitness.FitnessCal"/>
-	 </classes>
-   </test>
-   
-   <test name="GuardPay" >
-	 <classes>
-	   <class name="com.nationalguard.guardpay.GuardPayTest"/>
-	 </classes>
-   </test>
-   
-   <test name="WeightCalculator" >
-	 <classes>
-	   <class name="com.nationalguard.weightcal.WeightCalculatorTest"/>
-	 </classes>
-   </test> 
+ 
 </suite>
