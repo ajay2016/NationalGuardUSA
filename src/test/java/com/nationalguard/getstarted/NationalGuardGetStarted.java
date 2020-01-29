@@ -36,19 +36,19 @@ public class NationalGuardGetStarted extends BaseTest {
 
 			// store variables
 			String firstName = xls.getCellData("RegTestData", "FirstName", rowNum);
-			// System.out.println(firstName);
+			 System.out.println(firstName);
 			String lastName = xls.getCellData("RegTestData", "LastName", rowNum);
-			// System.out.println(lastName);
+			 System.out.println(lastName);
 			String email = xls.getCellData("RegTestData", "Email", rowNum);
-			// System.out.println(email);
+			 System.out.println(email);
 			String phonenumber = xls.getCellData("RegTestData", "PhoneNumber", rowNum);
-			// System.out.println(phonenumber);
+			System.out.println(phonenumber);
 			String zipcode = xls.getCellData("RegTestData", "ZipCode", rowNum);
-			// System.out.println(zipcode);
+			 System.out.println(zipcode);
 			String birthdate = xls.getCellData("RegTestData", "Birthdate", rowNum);
-			// System.out.println(birthdate);
+			 System.out.println(birthdate);
 			String phone = xls.getCellData("RegTestData", "Phone", rowNum);
-			// System.out.println(phone);
+			 System.out.println(phone);
 			String browser = xls.getCellData("RegTestData", "Browser", rowNum);
 			System.out.println("**********************");
 			
@@ -65,31 +65,35 @@ public class NationalGuardGetStarted extends BaseTest {
 
 			// pass data to rego form					
 
-			driver.findElement(By.name("get-started_first_name")).clear();
+			//driver.findElement(By.name("get-started_first_name")).clear();
 			driver.findElement(By.name("get-started_first_name")).sendKeys(firstName);
 
-			driver.findElement(By.name("get-started_last_name")).clear();
+			//driver.findElement(By.name("get-started_last_name")).clear();
 			driver.findElement(By.name("get-started_last_name")).sendKeys(lastName);
 
-			driver.findElement(By.name("get-started_email")).clear();
+			//driver.findElement(By.name("get-started_email")).clear();
 			driver.findElement(By.name("get-started_email")).sendKeys(email);
 
-			driver.findElement(By.name("get-started_phone")).clear();
+			//driver.findElement(By.name("get-started_phone")).clear();
 			driver.findElement(By.name("get-started_phone")).sendKeys(phonenumber);
 
-			driver.findElement(By.name("get-started_zip")).clear();
+			//driver.findElement(By.name("get-started_zip")).clear();
 			driver.findElement(By.name("get-started_zip")).sendKeys(zipcode);
+			
+			//waitForElement("get-started_submit");
 
 			driver.findElement(By.name("get-started_submit")).click();
 			
 		
 
-			driver.findElement(By.name("get-started_birth_date")).clear();
+			//driver.findElement(By.name("get-started_birth_date")).clear();
+			//waitForElementToInputData("get-started_birth_date", birthdate);
 			driver.findElement(By.name("get-started_birth_date")).sendKeys(birthdate);
 
 			driver.findElement(By.name("get-started_submit")).click();
 
-			driver.findElement(By.name("get-started_phone")).clear();
+			//driver.findElement(By.name("get-started_phone")).clear();
+			
 			driver.findElement(By.name("get-started_phone")).sendKeys(phone);
 
 			driver.findElement(By.name("get-started_submit")).click();
@@ -142,8 +146,11 @@ public class NationalGuardGetStarted extends BaseTest {
 			
 			  
 			//
-			 driver.get("https://www.nationalguard.com/");
-			driver.switchTo().alert().accept();
+			/*
+			 * driver.get("https://www.nationalguard.com/");
+			 * driver.switchTo().alert().accept();
+			 */
+			closeBrowser();
 			 
 			// driver.findElement(By.name("button")).click();
 			 

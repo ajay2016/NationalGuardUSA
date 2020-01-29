@@ -7,9 +7,11 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -17,6 +19,8 @@ import org.openqa.selenium.edge.EdgeDriverService;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.io.FileHandler;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -35,7 +39,7 @@ public class BaseTest {
 	public ExtentTest test;
 	public ExtentReports extent;
 	public static WebDriver driver;
-	public String browser = "Chrome";
+	//public String browser = "Chrome";
 
 	/*
 	 * @BeforeSuite: The annotated method will be run before all tests in this suite
@@ -136,12 +140,13 @@ public class BaseTest {
 			 * 
 			 * }
 			 */
-		driver.manage().deleteAllCookies();
+		//driver.manage().deleteAllCookies();
 
-		if (driver != null) {
-			driver.quit();
-
-		}
+		/*
+		 * if (driver != null) { driver.quit();
+		 * 
+		 * }
+		 */
 
 		extent.flush();
 
@@ -150,7 +155,7 @@ public class BaseTest {
 
 	public void openBrowser(String browserType) {
 
-		test.log(Status.INFO, "Opening browser  " + browserType);
+		//test.log(Status.INFO, "Opening browser  " + browserType);
 
 		/*
 		 * if (prop == null) { prop = new Properties(); FileInputStream file = new
@@ -189,7 +194,7 @@ public class BaseTest {
 	}
 
 	public void closeBrowser() {
-		test.log(Status.INFO, "Closing Browser");
+		//test.log(Status.INFO, "Closing Browser");
 		driver.close();
 	}
 
@@ -226,6 +231,24 @@ public class BaseTest {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+	
+	public void waitForElement(String locator) {
+		
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		WebElement element = driver.findElement(By.name(locator));
+		wait.until(ExpectedConditions.visibilityOf(element));
+		element.click();
+		
+	}
+	
+public void waitForElementToInputData(String locator, String data) {
+		
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		WebElement element = driver.findElement(By.name(locator));
+		wait.until(ExpectedConditions.visibilityOf(element));
+		element.sendKeys(data);
+		
 	}
 
 }
