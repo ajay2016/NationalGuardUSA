@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="169010" started-at="2020-01-29T05:00:37Z" finished-at="2020-01-29T05:03:26Z">
+  <suite name="Default suite" duration-ms="141795" started-at="2020-01-30T23:18:29Z" finished-at="2020-01-30T23:20:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="169010" started-at="2020-01-29T05:00:37Z" finished-at="2020-01-29T05:03:26Z">
+    <test name="Default test" duration-ms="141795" started-at="2020-01-30T23:18:29Z" finished-at="2020-01-30T23:20:50Z">
       <class name="com.nationalguard.getstarted.NationalGuardGetStarted">
-        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.nationalguard.getstarted.NationalGuardGetStarted@29774679]" name="setupSuite" is-config="true" duration-ms="255" started-at="2020-01-29T16:00:37Z" finished-at="2020-01-29T16:00:37Z">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.nationalguard.getstarted.NationalGuardGetStarted@29774679]" name="setupSuite" is-config="true" duration-ms="214" started-at="2020-01-31T10:18:29Z" finished-at="2020-01-31T10:18:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method status="PASS" signature="getStartedForm()[pri:0, instance:com.nationalguard.getstarted.NationalGuardGetStarted@29774679]" name="getStartedForm" duration-ms="168222" started-at="2020-01-29T16:00:37Z" finished-at="2020-01-29T16:03:25Z">
+        <test-method status="PASS" signature="getStartedForm()[pri:0, instance:com.nationalguard.getstarted.NationalGuardGetStarted@29774679]" name="getStartedForm" duration-ms="141032" started-at="2020-01-31T10:18:29Z" finished-at="2020-01-31T10:20:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedForm -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.nationalguard.getstarted.NationalGuardGetStarted@29774679]" name="tearDownMethod" is-config="true" duration-ms="505" started-at="2020-01-29T16:03:26Z" finished-at="2020-01-29T16:03:26Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.nationalguard.getstarted.NationalGuardGetStarted@29774679]" name="tearDownMethod" is-config="true" duration-ms="514" started-at="2020-01-31T10:20:50Z" finished-at="2020-01-31T10:20:50Z">
           <params>
             <param index="0">
               <value>

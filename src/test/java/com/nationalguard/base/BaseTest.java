@@ -73,7 +73,7 @@ public class BaseTest {
 	 * @AfterMethod: The annotated method will be run after each test method.
 	 */
 
-	@BeforeTest
+	@BeforeMethod
 
 	public void setupSuite() {
 
@@ -142,11 +142,11 @@ public class BaseTest {
 			 */
 		//driver.manage().deleteAllCookies();
 
+		
 		/*
-		 * if (driver != null) { driver.quit();
-		 * 
-		 * }
+		 * if (driver != null) { driver.quit(); }
 		 */
+		 
 
 		extent.flush();
 
@@ -194,7 +194,7 @@ public class BaseTest {
 	}
 
 	public void closeBrowser() {
-		//test.log(Status.INFO, "Closing Browser");
+		test.log(Status.INFO, "Closing Browser");
 		driver.close();
 	}
 
